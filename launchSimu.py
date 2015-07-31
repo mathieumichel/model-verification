@@ -160,15 +160,15 @@ def baseline(ratio):
 	#computeStatsTotal("umons",ratio+1)
 	#computeStatsTotal("sics",ratio+1)
 ########################################################
-list=[1,2,9]
-for value in list:
-	startB(value)
-########################################################
 #list=[1,2,9]
 #for value in list:
-	#computeStatsTotal("umons",value)
-	#computeStatsTotal("sics",value)
-#print t.draw()
+#	startB(value)
+########################################################
+list=[1,9]
+for value in list:
+	computeStatsTotal("umons",value)
+	computeStatsTotal("sics",value)
+print t.draw()
 ########################################################
 #regenerateStats()
 ########################################################
