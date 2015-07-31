@@ -1012,7 +1012,11 @@ cc2420_interrupt(void)
 
       strobe(CC2420_SFLUSHTX); /* Flush Tx fifo */
     }
-    if(!code==SOFTACK_ACK){// hack to keep acknowledgement because of a footer issue
+    if(!code==SOFTACK_ACK){
+      printf("plopa\n");
+    }
+    if(code!=SOFTACK_ACK){// hack to keep acknowledgement because of a footer issue
+      printf("plopb\n");
       list_chop(rf_list);
       memb_free(&rf_memb, rf);
     }

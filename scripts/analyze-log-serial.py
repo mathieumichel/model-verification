@@ -48,8 +48,10 @@ with open(log_file_name, "r") as log_file:
                 rx_id = int(line_vector[4])
                 if rx_id > max_msg_id:
                     print "RX id ", rx_id, "is too high"
-                    sys.exit(1)
-                RX_Times.insert(rx_id, timestamp)
+                    print line
+                    #sys.exit(1)
+                else:
+                    RX_Times.insert(rx_id, timestamp)
 #                print "RX id:", rx_id, "time:", RX_Times[rx_id]
             except ValueError:
                 print "Failed to parse RX id", line_vector[4]

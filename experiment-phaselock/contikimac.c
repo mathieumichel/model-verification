@@ -902,7 +902,7 @@ send_packet(mac_callback_t mac_callback, void *mac_callback_ptr,
   }
 
   if(!is_broadcast) {
-#if 0//WITH_ADVANCED_PHASELOCK
+#if WITH_ADVANCED_PHASELOCK
     if(collisions == 0 && is_receiver_awake == 0) {
       phase_update(packetbuf_addr(PACKETBUF_ADDR_RECEIVER),
        encounter_time-phaselock_target, ret);

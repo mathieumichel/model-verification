@@ -5,10 +5,10 @@ FILES=(setup.txt merged-log.txt sender.txt receiver.txt \
 
 rm -rf ${FILES[*]}
 
-INTERFERER_PORT=14
+INTERFERER_PORT=3
 #SCANNER_PORT=13
-RECEIVER_PORT=15
-SENDER_PORT=16
+RECEIVER_PORT=2
+SENDER_PORT=1
 
 DIR=`date +"experiment_%F_%T"`
 

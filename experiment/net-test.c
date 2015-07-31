@@ -82,7 +82,7 @@ PROCESS_THREAD(net_test_process, ev, data)
       len = snprintf(buf, sizeof(buf),
                      "MSG %u 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890",
                      msg_counter++);
-      PRINTF("TX %s (len  = %d)\n", buf, len);
+      PRINTF("TX %s (len  = %d) \n", buf, len);
       packetbuf_copyfrom(buf, len);
 
       unicast_send(&uc, &addr);

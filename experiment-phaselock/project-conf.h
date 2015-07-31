@@ -18,28 +18,38 @@
 #undef RF_CHANNEL
 #define RF_CHANNEL 26
 
-#define WITH_NULLMAC 1
+#define WITH_NULLMAC 0
 #ifndef WITH_NULLMAC
 #define WITH_NULLMAC 0
 #endif
 
 
-#if WITH_NULLMAC
+#if !WITH_NULLMAC
 #undef NETSTACK_CONF_MAC
 #define NETSTACK_CONF_MAC csma_driver
-
 #undef NETSTACK_CONF_RDC
 #define NETSTACK_CONF_RDC contikimac_driver
-
 #undef NETSTACK_CONF_FRAMER
 #define NETSTACK_CONF_FRAMER framer_802154
-
-/* Contiki netstack: RADIO */
 #undef NETSTACK_CONF_RADIO
 #define NETSTACK_CONF_RADIO   cc2420_softack_driver
-
 #undef CC2420_CONF_AUTOACK
 #define CC2420_CONF_AUTOACK 0
+
+#else
+
+#undef NETSTACK_CONF_MAC
+#define NETSTACK_CONF_MAC csma_driver
+#undef NETSTACK_CONF_RDC
+#define NETSTACK_CONF_RDC contikimac_driver
+#undef NETSTACK_CONF_FRAMER
+#define NETSTACK_CONF_FRAMER framer_802154
+#undef NETSTACK_CONF_RADIO
+#define NETSTACK_CONF_RADIO   cc2420_softack_driver
+#undef CC2420_CONF_AUTOACK
+#define CC2420_CONF_AUTOACK 0
+
+#endif
 
 
 /* Our softack implementation for cc2420 requires to disable DCO synch */
@@ -58,7 +68,7 @@
 /* Enable ContikiMAC header for MAC padding */
 #undef CONTIKIMAC_CONF_WITH_CONTIKIMAC_HEADER
 #define CONTIKIMAC_CONF_WITH_CONTIKIMAC_HEADER 0
-#endif
+
 
 #undef CONTIKIMAC_CONF_WITH_PHASE_OPTIMIZATION
 #define CONTIKIMAC_CONF_WITH_PHASE_OPTIMIZATION 1

@@ -2,7 +2,7 @@ import os, numpy, re
 from texttable import Texttable
 t = Texttable()
 t.add_row(["Ratio", "XP (#)", "Avg PDR (%)", "Avg latency (ms)", "Avg strobes (#)", "ACKS (%)"])
-count=20
+count=1
 from pylab import *
 
 
@@ -39,7 +39,7 @@ def start(ratio):
 
 
 #launch umons and sics xps in an alternate way
-def startB(ratio):
+def startB(ratio, mode):
 	
 	#change the ratio for interferer
 	os.chdir("experiment")
@@ -48,23 +48,54 @@ def startB(ratio):
 	os.system("chmod 777 project-conf.h")
 	os.system("make interferer.upload TARGET=z1 MOTE=3")
 	os.chdir("..")
-
+	#os.system("rm -rf experiment-phaselock/tests/umons-"+str(ratio)+"-xp*")
+	#os.system("rm -rf experiment-phaselock/tests/sics-"+str(ratio)+"-xp*")
 	i=1
+	
+	if mode==0:
+		module="nullmac"
+	elif mode==1:
+		module="csma"
+	elif mode==2:
+		module="nullmac"
+		
+	os.chdir("experiment")
+	os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
+	os.system("mv temp.h project-conf.h")
+	os.system("chmod 777 project-conf.h")
+	os.chdir("../experiment-phaselock")
+	os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
+	os.system("mv temp.h project-conf.h")
+	os.system("chmod 777 project-conf.h")
+	os.chdir("..")
+	
 	while i<=count:
 		#umons code
 		os.chdir("experiment-phaselock")
 		os.system("make net-test.upload TARGET=z1 MOTE=1")
 		os.system("make net-test.upload TARGET=z1 MOTE=2")
-		os.system("./umons-experiment.sh tests/umons-"+str(ratio)+"-xp"+str(i))
+		os.system("./umons-experiment.sh tests/umons-"+module+"-"+str(ratio)+"-xp"+str(i))
 		os.chdir("..")
 		#sics code
 		os.chdir("experiment")
 		os.system("make net-test.upload TARGET=z1 MOTE=1")
 		os.system("make net-test.upload TARGET=z1 MOTE=2")
 		os.chdir("../experiment-phaselock")
-		os.system("./umons-experiment.sh tests/sics-"+str(ratio)+"-xp"+str(i))
+		os.system("./umons-experiment.sh tests/sics-"+module+"-"+str(ratio)+"-xp"+str(i))
 		os.chdir("..")
 		i+=1
+		if(i>count and mode==2): #we test now with csma_driver
+			i=1
+			module="csma"
+			os.chdir("experiment")
+			os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
+			os.system("mv temp.h project-conf.h")
+			os.system("chmod 777 project-conf.h")
+			os.chdir("../experiment-phaselock")
+			os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
+			os.system("mv temp.h project-conf.h")
+			os.system("chmod 777 project-conf.h")
+			os.chdir("..")
 
 def regenerateStats():
 	ratios=[1,2,4,9]
@@ -77,7 +108,7 @@ def regenerateStats():
 			os.system("python scripts/analyze-log-serial.py "+dir2+"/merged-log.txt | tee "+dir2+"/stats.txt")
 			i+=1
 
-def computeStatsTotal(xpname,ratio):
+def computeStatsTotal(xpname,ratio, module):
 	i=1
 	pdr=0
 	latencies=[]
@@ -86,7 +117,7 @@ def computeStatsTotal(xpname,ratio):
 	acks=[]
 	xpcount=0;
 	while i<=count:
-		file="experiment-phaselock/tests/"+xpname+"-"+str(ratio)+"-xp"+str(i)+"/stats.txt"
+		file="experiment-phaselock/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)+"/stats.txt"
 		for line in open(file, 'r').readlines():
 			res1=re.compile('(Mean latency: )(\d*.\d*)( ms)').match(line)
 			res2=re.compile('(PRR: )(\d*.\d*)').match(line)
@@ -160,15 +191,17 @@ def baseline(ratio):
 	#computeStatsTotal("umons",ratio+1)
 	#computeStatsTotal("sics",ratio+1)
 ########################################################
+list=[1,2]
+for value in list:
+	startB(value,2)
+########################################################
 #list=[1,2,9]
 #for value in list:
-#	startB(value)
-########################################################
-list=[1,9]
-for value in list:
-	computeStatsTotal("umons",value)
-	computeStatsTotal("sics",value)
-print t.draw()
+	#computeStatsTotal("umons",value,"csma")
+	#computeStatsTotal("umons",value,"nullmac")
+	#computeStatsTotal("sics",value,"csma")
+	#computeStatsTotal("sics",value,"nullmac")
+#print t.draw()
 ########################################################
 #regenerateStats()
 ########################################################

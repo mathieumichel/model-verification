@@ -1,52 +1,52 @@
-09:27:11.668 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB2
+10:06:07.126 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB2
 
-09:27:12.156 yo˘èÂRime started with address 3.0
+10:06:07.612 Rime started with address 3.0
 
-09:27:12.167 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+10:06:07.623 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
 
-09:27:12.167 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+10:06:07.623 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
 
-09:27:12.182 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+10:06:07.638 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
 
-09:27:12.182 Starting 'Interference generator'
+10:06:07.638 Starting 'Interference generator'
 
-09:27:12.186 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
+10:06:07.642 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
 
-09:27:12.186 Interferer tx power 15 rf channel 26
+10:06:07.642 Interferer tx power 15 rf channel 26
 
-09:27:13.185 0
+10:06:08.640 0
 
-09:27:13.607 1
+10:06:09.063 1
 
-09:27:14.107 0
+10:06:09.563 0
 
-09:27:14.537 1
+10:06:09.992 1
 
-09:27:15.037 0
+10:06:10.492 0
 
-09:27:15.568 1
+10:06:11.023 1
 
-09:27:16.068 0
+10:06:11.523 0
 
-09:27:16.669 1
+10:06:12.125 1
 
-09:27:17.169 0
+10:06:12.625 0
 
-09:27:17.685 1
+10:06:13.141 1
 
-09:27:18.185 0
+10:06:13.640 0
 
-09:27:18.584 1
+10:06:14.039 1
 
-09:27:19.084 0
+10:06:14.539 0
 
-09:27:19.459 1
+10:06:14.914 1
 
-09:27:19.959 0
+10:06:15.414 0
 
-09:27:20.568 1
+10:06:15.984 1
 
-09:27:21.068 0
+10:06:16.484 0
 
-09:27:21.607 1
+10:06:17.094 1
 
