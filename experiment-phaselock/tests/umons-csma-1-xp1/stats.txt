@@ -1,0 +1,8 @@
+Analyzing the log tests/umons-csma-1-xp1/merged-log.txt ...
+Mean latency: 118.930232558 ms
+St.dev of latencies: 120.66220297
+Sent packets: 86
+Received packets: 86
+PRR: 1.0
+Received acks: 1.01162790698
+Strobes: 1.19540229885

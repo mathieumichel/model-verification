@@ -1,0 +1,12 @@
+Analyzing the log tests/umons-nullmac-1-xp1/merged-log.txt ...
+Packet 0 was lost!
+Packet 10 was lost!
+Packet 13 was lost!
+Packet 80 was lost!
+Mean latency: 85.6463414634 ms
+St.dev of latencies: 34.9509663327
+Sent packets: 86
+Received packets: 82
+PRR: 0.953488372093
+Received acks: 0.96511627907
+Strobes: 1.13253012048
