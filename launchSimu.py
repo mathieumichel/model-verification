@@ -1,10 +1,15 @@
 import os, numpy, re
 from texttable import Texttable
 t = Texttable()
-t.add_row(["Ratio", "XP (#)", "Avg PDR (%)", "Avg latency (ms)", "Avg strobes (#)", "ACKS (%)"])
-count=1
+t.add_row(["Ratio", "XP (#)", "MAC", "Avg PDR (%)", "Avg latency (ms)", "Avg strobes (#)", "ACKS (%)"])
+count=15
 from pylab import *
 
+
+def changeMacLayer(module):
+	os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
+	os.system("mv temp.h project-conf.h")
+	os.system("chmod 777 project-conf.h")
 
 #launch all umons xp than all sics xp
 def start(ratio):
@@ -17,24 +22,50 @@ def start(ratio):
 	os.chdir("..")
 
 	#umons code
-	i=0
+	
 	os.chdir("experiment-phaselock")
+	
+	i=0
+	module="nullmac"
+	changeMacLayer(module)
 	os.system("make net-test.upload TARGET=z1 MOTE=1")
 	os.system("make net-test.upload TARGET=z1 MOTE=2")
 	while i<count:
-		os.system("./umons-experiment.sh tests/umons-"+str(ratio)+"-xp"+str(i+1))
+		os.system("./umons-experiment.sh tests/umons-"+module+"-"+str(ratio)+"-xp"+str(i+1))
 		i+=1
+	i=0
+	module="csma"
+	changeMacLayer(module)
+	os.system("make net-test.upload TARGET=z1 MOTE=1")
+	os.system("make net-test.upload TARGET=z1 MOTE=2")
+	while i<count:
+		os.system("./umons-experiment.sh tests/umons-"+module+"-"+str(ratio)+"-xp"+str(i+1))
+		i+=1
+		
 	os.chdir("..")
 	
 	#sics code
-	i=0
 	os.chdir("experiment")
+	i=0
+	module="nullmac"
+	changeMacLayer(module)
 	os.system("make net-test.upload TARGET=z1 MOTE=1")
 	os.system("make net-test.upload TARGET=z1 MOTE=2")
 	os.chdir("../experiment-phaselock")
 	while i<count:
-		os.system("./umons-experiment.sh tests/sics-"+str(ratio)+"-xp"+str(i+1))
+		os.system("./umons-experiment.sh tests/sics-"+module+"-"+str(ratio)+"-xp"+str(i+1))
 		i+=1
+	i=0
+	module="csma"
+	os.chdir("../experiment")
+	changeMacLayer(module)
+	os.system("make net-test.upload TARGET=z1 MOTE=1")
+	os.system("make net-test.upload TARGET=z1 MOTE=2")
+	os.chdir("../experiment-phaselock")
+	while i<count:
+		os.system("./umons-experiment.sh tests/sics-"+module+"-"+str(ratio)+"-xp"+str(i+1))
+		i+=1
+	i=0
 	os.chdir("..")
 
 
@@ -138,7 +169,7 @@ def computeStatsTotal(xpname,ratio, module):
 			elif res4:
 				acks.append(float(res4.group(2)))
 		i+=1
-	t.add_row([str(ratio), xpname.upper()+" ("+str(xpcount)+")", "%.2f" % (numpy.mean(pdrs)*100)+" ( +/- "+"%.2f" % (numpy.std(pdrs)*100)+ ")" , "%.2f" % (numpy.mean(latencies)) +" ( +/- "+"%.2f" % (numpy.std(latencies))+ ")", "%.2f" % (numpy.mean(strobes)) +" ( +/- "+"%.2f" % (numpy.std(strobes))+ ")","%.2f" % (numpy.mean(acks)*100) +" ( +/- "+"%.2f" % (numpy.std(acks)*100)+ ")"])
+	t.add_row([str(ratio), xpname.upper()+" ("+str(xpcount)+")", module, "%.2f" % (numpy.mean(pdrs)*100)+" ( +/- "+"%.2f" % (numpy.std(pdrs)*100)+ ")" , "%.2f" % (numpy.mean(latencies)) +" ( +/- "+"%.2f" % (numpy.std(latencies))+ ")", "%.2f" % (numpy.mean(strobes)) +" ( +/- "+"%.2f" % (numpy.std(strobes))+ ")","%.2f" % (numpy.mean(acks)*100) +" ( +/- "+"%.2f" % (numpy.std(acks)*100)+ ")"])
 
 def computeStrobesStats(xpname,ratio,index):
 	filename="experiment-phaselock/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
@@ -191,17 +222,17 @@ def baseline(ratio):
 	#computeStatsTotal("umons",ratio+1)
 	#computeStatsTotal("sics",ratio+1)
 ########################################################
-list=[1,2]
-for value in list:
-	startB(value,2)
-########################################################
 #list=[1,2,9]
 #for value in list:
-	#computeStatsTotal("umons",value,"csma")
-	#computeStatsTotal("umons",value,"nullmac")
-	#computeStatsTotal("sics",value,"csma")
-	#computeStatsTotal("sics",value,"nullmac")
-#print t.draw()
+#	start(value)
+########################################################
+list=[1,2,9]
+for value in list:
+	computeStatsTotal("umons",value,"csma")
+	computeStatsTotal("umons",value,"nullmac")
+	computeStatsTotal("sics",value,"csma")
+	computeStatsTotal("sics",value,"nullmac")
+print t.draw()
 ########################################################
 #regenerateStats()
 ########################################################

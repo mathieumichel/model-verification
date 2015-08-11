@@ -1,54 +1,54 @@
-08:55:09.308 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB2
+16:16:02.537 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB2
 
-08:55:09.822 Rime started with address 3.0
+16:16:02.961 Rime started with address 3.0
 
-08:55:09.832 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+16:16:02.970 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
 
-08:55:09.832 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+16:16:02.970 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
 
-08:55:09.847 nullmac ContikiMAC, channel check rate 8 Hz, radio channel 26
+16:16:02.985 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
 
-08:55:09.847 Starting 'Interference generator'
+16:16:02.985 Starting 'Interference generator'
 
-08:55:09.851 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
+16:16:02.989 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
 
-08:55:09.851 Interferer tx power 15 rf channel 26
+16:16:02.989 Interferer tx power 15 rf channel 26
 
-08:55:10.850 0
+16:16:03.988 0
 
-08:55:11.271 1
+16:16:04.410 1
 
-08:55:11.771 0
+16:16:04.910 0
 
-08:55:12.201 1
+16:16:05.340 1
 
-08:55:12.701 0
+16:16:05.840 0
 
-08:55:13.232 1
+16:16:06.371 1
 
-08:55:13.732 0
+16:16:06.871 0
 
-08:55:14.334 1
+16:16:07.472 1
 
-08:55:14.834 0
+16:16:07.972 0
 
-08:55:15.350 1
+16:16:08.488 1
 
-08:55:15.850 0
+16:16:08.988 0
 
-08:55:16.248 1
+16:16:09.386 1
 
-08:55:16.748 0
+16:16:09.886 0
 
-08:55:17.123 1
+16:16:10.261 1
 
-08:55:17.623 0
+16:16:10.761 0
 
-08:55:18.193 1
+16:16:11.332 1
 
-08:55:18.693 0
+16:16:11.832 0
 
-08:55:19.303 1
+16:16:12.418 1
 
-08:58:21.256 _ÿÿÿÿÿÿÿ¿ûÿÿ?ûûÿ?ûתÿÿ?ûûÿ¿ûת?נתÿÿÿÿ?ûתÿÿÿÿ¿ûÿ?נÿÿÿÿÿ?ûתÿÿÿÿ¿ûÿÿ¿נÿÿÿ?ûתÿ¿נתÿÿÿÿנתÿÿ׃ûÿÿÿÿׂתÿׂüÿ/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+16:46:14.765 _}}}ÿ?ûת?}ÿנÿ¿}ÿ?}ÿ¿נÿ¿ûÿ?נת¿נת?נÿ?נûÿנûÿנתÿ׃תÿׂתÿׂÿׂüÿׂÿ׃‎ÿנתÿנתÿׂûÿנÿנüÿׂüÿׂתÿנתÿׂתÿ׃תÿÿׂתÿׂתÿׂÿׂÿנüÿנתÿׂûÿנתÿנÿׂÿ׃üÿנתÿׂתÿׂתÿׂûÿנתÿׂתÿׂûÿנüÿנÿ׃ÿנתÿנתÿׂתÿנüÿ׃‎ÿׂü‏ׂתÿׂûÿנת/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
 

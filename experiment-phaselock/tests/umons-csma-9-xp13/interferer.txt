@@ -1,0 +1,24 @@
+18:31:33.200 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB3
+
+18:31:33.656 Rime started with address 3.0
+
+18:31:33.667 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+
+18:31:33.667 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+
+18:31:33.678 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+
+18:31:33.679 Starting 'Interference generator'
+
+18:31:33.686 Interferer off-time 576 ticks, on-time 64 ticks, CLOCK_SECOND 128
+
+18:31:33.686 Interferer tx power 15 rf channel 26
+
+18:31:34.685 0
+
+18:31:39.357 1
+
+18:31:39.857 0
+
+19:01:45.460 ן?ÿÿÿÿ_ÿüÿÿÿÿ_ÿ‎ÿÿÿ_üÿÿÿÿ_‏ÿÿÿ_ÿÿÿÿ‏ÿÿ}ÿÿÿÿ?נתÿÿ¿ûתÿÿ¿נÿÿÿÿ?תתÿÿÿ¿נûÿÿÿ¿נ‎ÿÿÿÿ?ûüÿÿÿÿ?נתÿÿÿ?תûÿÿ¿נתÿÿ¿נ‏ÿÿÿ?û‏ÿ¿נתÿÿÿ¿תתÿ?נüÿÿÿ?נüÿÿÿÿ?ûתÿÿ¿נתÿÿ¿תתÿÿÿ?נüÿÿÿ¿נüÿÿÿÿ¿ûתÿÿÿÿÿÿ?נüÿÿ?û‎ÿÿ¿נתÿ¿נתÿÿÿ~נתÿ?נתÿÿÿÿ¿û‏ÿÿ?נüÿÿÿÿ?נתÿÿÿÿ?ש‏ÿÿÿÿ?נüÿÿÿ¿תûÿÿ?נתÿÿÿ?נתÿÿÿ¿ûüÿ?נ‏ÿÿ¿שתÿÿÿ?נתÿÿÿÿ¿נ‏ÿÿÿÿ¿ûתÿÿ?נתÿÿÿ?ûתÿÿÿÿ¿נתÿ?נüÿÿ?ת‏ÿÿÿÿÿ?נûÿ¿תתÿÿÿ¿נ‏ÿÿ?נתÿÿ¿ûתÿÿÿ¿נתÿÿÿ?שתÿÿÿ?נ‎ÿÿÿÿÿ?נתÿÿÿ¿ûûÿÿÿÿ¿נ‏ÿÿÿ?ת‏ÿÿ?ûתÿÿÿÿ¿נתÿÿÿ?תתÿÿÿ?נüÿÿ?נüÿÿÿ¿ûתÿÿÿ¿שתÿÿ?שüÿÿÿ¿נתÿÿÿÿ¿נתÿÿÿ?ûתÿÿÿ?נתÿÿÿÿÿׂüÿÿÿÿהüÿÿÿÿÿהûÿÿÿÿÿ׃‎ÿÿÿÿÿנüÿÿÿתüÿÿÿÿׂתÿÿÿÿׂעÿÿׂעÿÿÿÿנעÿÿÿûעÿÿÿׂעÿÿÿÿÿנעÿÿÿÿÿûעÿÿÿÿÿׂףÿÿÿÿÿׂעÿÿ׃עÿÿÿÿÿÿנעÿÿÿÿׂעÿÿÿÿÿׂעÿÿÿÿÿûעÿÿׂעÿÿÿÿׂעÿÿÿÿׂףÿÿÿÿ׃פÿÿÿהנÿÿÿÿÿׂנÿÿÿÿׂנÿÿÿûנÿÿÿנÿÿÿÿÿÿׂנÿÿÿ׃תÿÿהעÿÿÿûפÿÿÿÿÿׂתÿÿÿ׃ÿÿÿÿÿÿנעÿÿÿÿׂנÿÿÿÿÿׂעÿÿÿÿׂנÿÿÿÿÿûעÿÿÿהעÿÿÿÿÿ׃עÿÿÿÿÿûעÿÿÿÿנעÿÿÿÿׂעÿÿÿÿÿׂעÿÿÿׂעÿÿÿÿÿûעÿÿÿהףÿÿÿÿׂעÿÿÿÿנעÿÿÿÿנעÿÿÿ׃עÿÿÿÿׂעÿÿÿÿÿׂעÿÿÿÿנעÿÿÿׂףÿÿÿÿÿנףÿÿÿנ‏ÿÿÿÿÿûתÿÿÿÿׂÿÿÿÿÿÿׂûÿÿÿÿׂ‏ÿÿÿÿהתÿÿÿÿׂûÿÿÿÿ׃תÿÿÿנתÿÿÿÿûÿÿÿÿÿ׃תÿÿÿÿׂתÿÿׂ‏ÿÿÿÿÿהתÿÿÿÿÿהÿÿÿÿÿׂÿÿÿÿנתÿÿÿûתÿÿÿׂעÿÿÿׂעÿÿÿÿÿÿנעÿÿÿÿנעÿÿÿÿÿׂעÿÿÿÿׂעÿÿÿÿÿתףÿÿÿÿׂףÿÿÿׂעÿÿÿÿÿׂעÿÿÿÿÿהעÿÿÿהעÿÿÿׂעÿÿÿׂעÿÿÿÿûעÿÿÿÿׂףÿÿÿׂףÿÿÿÿ׃עÿÿÿÿהעÿÿÿÿÿהעÿÿÿÿÿׂעÿÿÿÿÿ׃עÿÿÿנעÿÿׂעÿÿÿÿÿׂף/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+

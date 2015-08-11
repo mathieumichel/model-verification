@@ -1,0 +1,42 @@
+23:50:02.920 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB3
+
+23:50:03.378 Rime started with address 3.0
+
+23:50:03.389 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+
+23:50:03.389 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+
+23:50:03.400 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+
+23:50:03.400 Starting 'Interference generator'
+
+23:50:03.408 Interferer off-time 128 ticks, on-time 64 ticks, CLOCK_SECOND 128
+
+23:50:03.408 Interferer tx power 15 rf channel 26
+
+23:50:04.407 0
+
+23:50:05.454 1
+
+23:50:05.954 0
+
+23:50:07.008 1
+
+23:50:07.508 0
+
+23:50:08.415 1
+
+23:50:08.915 0
+
+23:50:10.141 1
+
+23:50:10.641 0
+
+23:50:11.782 1
+
+23:50:12.282 0
+
+23:50:13.032 1
+
+00:20:15.038 _½_}ÿ¿ûתÿנת?נÿÿ?ûû?נû¿נת¿ûÿ¿נû¿נת?ûת?נת?נû¿‎ü¿נ?נת¿ûתÿ?נÿ?ûü?‎¿נתÿ¿נתÿÒתÿנתÿÿÒüÿÿÒ‏ÿÒÿûתÿûתÿÓüÿÒüÿÒתÿÒûÿÒûÿÿûתÿנתÿÓ‎ÿנÿÒתÿÒûÿÒûÿÿÿנ‎ÿûÿÒתÿÓתÿÒתÿÓûÿÒתÿהüÿ‎ûÿÒתÿÓתÿÒ‎ÿÿÒÿÒüÿנתÿÿנתÿÒתÿנתÿÓÿÒüÿÓüÿנתÿûתÿÿÿÒüÿÿנ‎ÿÿÿÓüÿÒתÿÒתÿûתÿÿנתÿÒÿÒüÿÒÿÒתÿÿÒתÿנÿנüÿÒתÿÒתÿÿÒûÿ‎ÿÿÒתÿנÿ‎ÿÿÿÒתÿÒûÿÒûÿÿÿÒ‎ÿÿÒüÿûתÿנתÿÒתÿÿÒûÿÒûÿÒüÿÒüÿנתÿנתÿÿÒ‎ÿÒüÿÒ‎ÿÒתÿÒתÿנתÿÿ‎תÿÿÓüÿÒÿÿÒüÿÿנתÿÒתÿ‎ÿנüÿÓתÿÒûÿÒתÿנעÿûעÿנעÿנעÿÓעÿÓעÿÒעÿûעÿÒעÿנףÿûףÿÒףÿÓעÿÒעÿנעÿÒעÿûעÿנעÿÒעÿÓעÿÓעÿנףÿÿ‎ףÿÒÿÿÿûתÿÿÒתÿÒÿÿÓûÿûתÿÿÿנÿÿ‎תÿûתÿÒתÿÒÿÿÓתÿנתÿûÿÿÒתÿנתÿÿÒתÿÒÿÿÒתÿנ‏ÿÿÒתÿÿנתÿ‎תÿÓÿÿÿÒעÿÒעÿÿûעÿנעÿÓעÿנעÿÒעÿÒעÿÒעÿנףÿûףÿÿÒעÿÓעÿÒעÿÓעÿÒעÿûע/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+

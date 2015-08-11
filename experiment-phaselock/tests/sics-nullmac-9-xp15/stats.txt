@@ -1,0 +1,20 @@
+Analyzing the log tests/sics-nullmac-9-xp15/merged-log.txt ...
+Packet 5 was lost!
+Packet 26 was lost!
+Packet 190 was lost!
+Packet 316 was lost!
+Packet 364 was lost!
+Packet 367 was lost!
+Packet 432 was lost!
+Packet 470 was lost!
+Packet 488 was lost!
+Packet 580 was lost!
+Packet 686 was lost!
+Packet 864 was lost!
+Mean latency: 95.590649943 ms
+St.dev of latencies: 37.0989930208
+Sent packets: 889
+Received packets: 877
+PRR: 0.986501687289
+Received acks: 0.986501687289
+Strobes: 2.11516533637

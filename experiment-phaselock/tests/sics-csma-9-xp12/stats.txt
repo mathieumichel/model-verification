@@ -1,0 +1,22 @@
+Analyzing the log tests/sics-csma-9-xp12/merged-log.txt ...
+Packet 273 was lost!
+Packet 356 was lost!
+Packet 357 was lost!
+Packet 448 was lost!
+Packet 468 was lost!
+Packet 470 was lost!
+Packet 471 was lost!
+Packet 472 was lost!
+Packet 474 was lost!
+Packet 475 was lost!
+Packet 476 was lost!
+Packet 477 was lost!
+Packet 478 was lost!
+Packet 838 was lost!
+Mean latency: 103.953672316 ms
+St.dev of latencies: 59.2120683661
+Sent packets: 899
+Received packets: 885
+PRR: 0.984427141268
+Received acks: 0.98553948832
+Strobes: 2.13431151242

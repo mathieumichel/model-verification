@@ -1,20 +1,56 @@
 Analyzing the log tests/sics-nullmac-1-xp1/merged-log.txt ...
-Packet 5 was lost!
-Packet 8 was lost!
-Packet 25 was lost!
-Packet 36 was lost!
-Packet 37 was lost!
-Packet 57 was lost!
-Packet 66 was lost!
-Packet 67 was lost!
-Packet 68 was lost!
-Packet 70 was lost!
-Packet 71 was lost!
-Packet 80 was lost!
-Mean latency: 98.0579710145 ms
-St.dev of latencies: 35.4424964189
-Sent packets: 81
-Received packets: 69
-PRR: 0.851851851852
-Received acks: 0.851851851852
-Strobes: 2.23188405797
+Packet 0 was lost!
+Packet 1 was lost!
+Packet 3 was lost!
+Packet 12 was lost!
+Packet 15 was lost!
+Packet 27 was lost!
+Packet 92 was lost!
+Packet 101 was lost!
+Packet 104 was lost!
+Packet 140 was lost!
+Packet 166 was lost!
+Packet 186 was lost!
+Packet 216 was lost!
+Packet 220 was lost!
+Packet 226 was lost!
+Packet 261 was lost!
+Packet 314 was lost!
+Packet 324 was lost!
+Packet 327 was lost!
+Packet 335 was lost!
+Packet 344 was lost!
+Packet 358 was lost!
+Packet 373 was lost!
+Packet 380 was lost!
+Packet 392 was lost!
+Packet 454 was lost!
+Packet 489 was lost!
+Packet 495 was lost!
+Packet 514 was lost!
+Packet 529 was lost!
+Packet 538 was lost!
+Packet 565 was lost!
+Packet 571 was lost!
+Packet 580 was lost!
+Packet 596 was lost!
+Packet 628 was lost!
+Packet 641 was lost!
+Packet 657 was lost!
+Packet 688 was lost!
+Packet 697 was lost!
+Packet 704 was lost!
+Packet 736 was lost!
+Packet 750 was lost!
+Packet 762 was lost!
+Packet 794 was lost!
+Packet 802 was lost!
+Packet 814 was lost!
+Packet 830 was lost!
+Mean latency: 94.2583333333 ms
+St.dev of latencies: 37.2508060262
+Sent packets: 888
+Received packets: 840
+PRR: 0.945945945946
+Received acks: 0.939189189189
+Strobes: 2.12110311751

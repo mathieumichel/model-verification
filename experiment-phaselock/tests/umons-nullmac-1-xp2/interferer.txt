@@ -1,0 +1,54 @@
+16:46:18.793 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB3
+
+16:46:19.168 Rime started with address 3.0
+
+16:46:19.179 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+
+16:46:19.179 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+
+16:46:19.194 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+
+16:46:19.194 Starting 'Interference generator'
+
+16:46:19.197 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
+
+16:46:19.198 Interferer tx power 15 rf channel 26
+
+16:46:20.197 0
+
+16:46:20.618 1
+
+16:46:21.119 0
+
+16:46:21.548 1
+
+16:46:22.048 0
+
+16:46:22.579 1
+
+16:46:23.079 0
+
+16:46:23.681 1
+
+16:46:24.181 0
+
+16:46:24.697 1
+
+16:46:25.197 0
+
+16:46:25.595 1
+
+16:46:26.095 0
+
+16:46:26.470 1
+
+16:46:26.970 0
+
+16:46:27.579 1
+
+16:46:28.079 0
+
+16:46:28.696 1
+
+17:16:30.884 _‎ÿÿÿÿ}ÿÿÿÿÿÿ?}ÿÿÿÿÿ?ûתÿ?ûתÿÿ¿}ÿÿÿÿ?}ÿÿÿÿÿ?ûתÿÿÿÿ¿}ÿÿÿÿ¿}ÿÿ?}ÿ¿}ÿÿÿÿÿÿÿ¿נÿÿÿÿ?ûתÿÿÿ?}ÿÿÿÿÿהתÿÿÿÿÒûÿÿÿÿÿÒתÿÿÿÿÒ‏ÿÿÒüÿÿÿÒ‎ÿÿÿÿÓÿÿÿÿÿÿÿנתÿÿנתÿÿÒûÿÿÿÿÿנüÿÿנüÿÿÿÿÿÿÒüÿÿÿÿÿÒתÿÿÿנתÿÿÿÿÒתÿÿÿÓתÿÿÿÿÿÒתÿÿÿנתÿÿÿÿÿÒ‎ÿÿÒÿÿÿÿÿÿנüÿÿÿÿÿנתÿÿÿÿÒûÿÿÿנתÿÿÿÿÿנÿÿÿÓüÿÿÒüÿÿÿÿÿהתÿÿÿÒתÿÿÿÿÿÒתÿÿÒûÿÿנתÿÿהתÿÿÿÿÿÒûÿÿÿÿÿנüÿÿÿÿÿÿÿנüÿÿÓÿÿנתÿÿÿÿÿÿÿÿנתÿÿÿÒתÿÿÿÿÒÿÓ‎ÿÿÿÿÿÒüÿÿÿÿÒתÿÿÿÿÿÿÒûÿÿÿÿÿÿנתÿÿנתÿÿÿÿÿÒûÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿנüÿÿÿÒüÿÿÿÓ‎ÿÿÿÿÿנüÿÿÿÿÒתÿÿÿÒתÿÿÿÿÒûÿÿÿÿÒüÿÿÿÒÿÿÿÒüÿÿנתÿÿÿÒתÿÒתÿÿÿÿÿÿÿנתÿÿÿÿÿנûÿÿÒתÿÿÿנÿÿÿÿנÿÿÿÿÓ‎ÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÒתÿÿÿÿÿÒüÿÿÿÿÿÿÓüÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿנתÿÿÿÒתÿÿÿÿÿÿנתÿÿÿÿÿÿהûÿÿÿÿÿÿÓתÿÿÿÒתÿÿÿÿÿÿÿÿÿהûÿÿÿÿÒüÿÿÿÿÒÿÿÿÓ‏ÿÿÿÿÿÿÒתÿÿÿÿÒûÿÿÿÿÒתÿÿתüÿÿÿÿÿהüÿÿÿÿÒüÿÿÿÿÿÿÿ‎תÿÿהûÿÿÿÿÿÒתÿÿÿÓתÿÿÿ‎ÿÿÿÿÿÿÒתÿÿÒÿÿÿÿÒüÿÿÿ‎ÿÿÿÿÿÒÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿ‎ÿÿÿÿ‎תÿÿÿÿÿÿÿÿÒÿÿÿÿ‎תÿÿÿÿÿÿהÿÿÿÿÒתÿÿÿÿ‎תÿûתÿÿÿÿÓתÿÿÿÿÿÒûÿÿÒתÿÿÿÿÿÒ‎ÿÿÿÿÒüÿÿÿÿÓÿÿÿÿ‎תÿÿÿÿÿÿÿ‎תÿÿÿÿÿÿÿÿÒתÿÿÿ‎ÿÿÿÿÿÿÿ‎ÿÿÿÿÿÿÒüÿÿÿÒüÿÿÿÿûתÿÿÿÒתÿÿÿÿÿÿÓûÿÿÿÿנתÿÿÿÿÿûתÿÿÿÿÒתÿÿÿÒüÿÿÿÿûüÿÿÿÿהüÿÿÿÿÿÿÒתÿÿÿנûÿÿÿÿÿÿ‎תÿÒ‎ÿÿÿÿÿÿÿנüÿÿÿנÿÿÿÿÿÓתÿÿÒתÿÿÿÿÿÿתÿÿÿÿעÿעÿÿÿעÿÿÿÿÿÿעÿÿÿעÿÿÿÿÿÿעÿÿÿÿעÿÿÿÿÿעÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿעÿÿÿÿÿÿעÿÿףÿÿÿÿÿףÿÿÿףÿÿÿÿעÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿעÿÿÿעÿÿÿעÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿעÿ/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+

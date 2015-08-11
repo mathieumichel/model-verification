@@ -1,0 +1,67 @@
+Analyzing the log tests/umons-1-xp10/merged-log.txt ...
+Packet 0 was lost!
+Packet 22 was lost!
+Packet 110 was lost!
+Packet 162 was lost!
+Packet 208 was lost!
+Packet 223 was lost!
+Packet 316 was lost!
+Packet 317 was lost!
+Packet 352 was lost!
+Packet 387 was lost!
+Packet 466 was lost!
+Packet 481 was lost!
+Packet 483 was lost!
+Packet 498 was lost!
+Packet 508 was lost!
+Packet 509 was lost!
+Packet 524 was lost!
+Packet 540 was lost!
+Packet 591 was lost!
+Packet 612 was lost!
+Packet 616 was lost!
+Packet 629 was lost!
+Packet 633 was lost!
+Packet 641 was lost!
+Packet 651 was lost!
+Packet 664 was lost!
+Packet 670 was lost!
+Packet 683 was lost!
+Packet 685 was lost!
+Packet 686 was lost!
+Packet 688 was lost!
+Packet 689 was lost!
+Packet 693 was lost!
+Packet 703 was lost!
+Packet 704 was lost!
+Packet 709 was lost!
+Packet 714 was lost!
+Packet 717 was lost!
+Packet 728 was lost!
+Packet 730 was lost!
+Packet 753 was lost!
+Packet 758 was lost!
+Packet 773 was lost!
+Packet 777 was lost!
+Packet 779 was lost!
+Packet 788 was lost!
+Packet 792 was lost!
+Packet 796 was lost!
+Packet 802 was lost!
+Packet 809 was lost!
+Packet 817 was lost!
+Packet 821 was lost!
+Packet 834 was lost!
+Packet 839 was lost!
+Packet 848 was lost!
+Packet 863 was lost!
+Packet 875 was lost!
+Packet 877 was lost!
+Packet 881 was lost!
+Mean latency: 96.599517491 ms
+St.dev of latencies: 40.4733309534
+Sent packets: 888
+Received packets: 829
+PRR: 0.933558558559
+Received acks: 0.934684684685
+Strobes: 1.0

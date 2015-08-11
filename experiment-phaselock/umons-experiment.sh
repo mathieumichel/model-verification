@@ -19,7 +19,7 @@ else
 fi
 
 WAIT_TIME=10
-MEASUREMENT_TIME=180
+MEASUREMENT_TIME=1800
 
 echo "Resetting the testbed..."
 make z1-reset TARGET=z1

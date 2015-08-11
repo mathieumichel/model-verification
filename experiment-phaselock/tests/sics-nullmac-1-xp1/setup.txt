@@ -1,6 +1,6 @@
 Experimental setup: 
 WAIT_TIME =  10
-MEASUREMENT_TIME =  180
+MEASUREMENT_TIME =  1800
 Project Configuration Header:
 #ifndef __PROJECT_CONF_H__
 #define __PROJECT_CONF_H__
@@ -30,7 +30,7 @@ Project Configuration Header:
 
 #if !WITH_NULLMAC
 #undef NETSTACK_CONF_MAC
-#define NETSTACK_CONF_MAC nullmac_driver
+#define NETSTACK_CONF_MAC csma_driver
 #undef NETSTACK_CONF_RDC
 #define NETSTACK_CONF_RDC contikimac_driver
 #undef NETSTACK_CONF_FRAMER
@@ -43,7 +43,7 @@ Project Configuration Header:
 #else
 
 #undef NETSTACK_CONF_MAC
-#define NETSTACK_CONF_MAC nullmac_driver
+#define NETSTACK_CONF_MAC csma_driver
 #undef NETSTACK_CONF_RDC
 #define NETSTACK_CONF_RDC contikimac_driver
 #undef NETSTACK_CONF_FRAMER

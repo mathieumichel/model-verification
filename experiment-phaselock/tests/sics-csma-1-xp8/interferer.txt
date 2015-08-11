@@ -1,0 +1,54 @@
+18:31:45.478 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB3
+
+18:31:45.910 Rime started with address 3.0
+
+18:31:45.921 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+
+18:31:45.921 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+
+18:31:45.936 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+
+18:31:45.936 Starting 'Interference generator'
+
+18:31:45.940 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
+
+18:31:45.940 Interferer tx power 15 rf channel 26
+
+18:31:46.939 0
+
+18:31:47.361 1
+
+18:31:47.861 0
+
+18:31:48.291 1
+
+18:31:48.791 0
+
+18:31:49.322 1
+
+18:31:49.822 0
+
+18:31:50.423 1
+
+18:31:50.923 0
+
+18:31:51.439 1
+
+18:31:51.939 0
+
+18:31:52.338 1
+
+18:31:52.838 0
+
+18:31:53.213 1
+
+18:31:53.713 0
+
+18:31:54.283 1
+
+18:31:54.783 0
+
+18:31:55.392 1
+
+19:01:57.589 _}ÿÿÿÿÿÿÿûÿÿÿÿÿÿÿÿ}ÿÿÿÿÿÿ?ûתÿÿ?}ÿÿÿÿÿÿÿÿ¿ûתÿ?ûתÿÿÿÿÿÿ?ûתÿÿÿ¿נÿÿÿ¿נÿÿÿÿÿ?נתÿÿ¿נתÿÿ¿נÿÿÿÿÿÿ?נתÿÿ¿נûÿÿÿÿÿנתÿÿÿÿÿÓûÿÿÿÿÿÿÿÓתÿÿÿÒüÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÓÿÿÿÿÿנתÿÿÿנתÿÿÿÿÒûÿÿÿÿÿנ‎ÿÿÿÿÿÿהÿÿÿÿÿÒ‎ÿÿÿÿÿÿÿÒתÿÿÿÿÿנתÿÿÿÒתÿÿÿÿÿÓתÿÿÒתÿÿÿÿÿÿÿנתÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿנüÿÿÿנתÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿנתÿÿÿÿנüÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÓüÿÿÿÿÿÿÿנתÿÿÒתÿÿÿÒתÿÿÓûÿÿÿÿנתÿÿÿÿÿהתÿÿÿÿÿÿÿÿÿÒûÿÿÿÿנüÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÓÿÿÿÿÿנתÿÿÿÿÿנתÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÓÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÒתÿÿÿÿÿ‏ÒûÿÿÿÿÿÒתÿÿÿÿÿÒתÿÿÿÿÓתÿÿÿÿÿÿנתÿÿÿÿÿÿÿנûÿÿÿÒÿÿÿÿÿנüÿÿÿÿנ‎ÿÿÿÒתÿÿÿÿÒתÿÿÿÿÿÿÿÿהûÿÿÿÿÿÒüÿÿÿÿÿÿÓÿÿÿÿÿÒüÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÒתÿÿÿÿÿÿנתÿÿÿÿÿ‎ûÿÿÿÿÿÿÿÒתÿÿÿÿÿ‎ÿÿÿÿÿÿÿÿתüÿÿÿÿÒÿÿÿÿÿÓתÿÿûתÿÿÿÿÿÿÿÿÒתÿÿÿÿÒûÿÿÿÒüÿÿÿûüÿÿÿÿÿÒüÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿûתÿÿÿÿÿÿ‎תÿÿÿÿÓתÿÿÿÿÿûתÿÿÿÿÿÿûתÿÿÿÿÿÿÿÿÿÒüÿÿÿÿ‎תÿÿÿÓÿÿÿÿÿÿÓתÿÿÿÒûÿÿÿÒתÿÿÿÿÒüÿÿÿÿÿÒÿÿÿÿÿÿÿÓüÿÿÿÿÿûתÿÿÿÿÿÿÿהתÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿûתÿÿÿÿÿÿÿÿהתÿÿÿÿÒתÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿ‎ÿÿÿÿÿÿÿÿÒüÿÿÿÓüÿÿÒתÿÿÿÿÿÿûתÿÿÿÿÿÿÿÒתÿÿÿÿÒüÿÿÿÿÿÿנÿÿÿÿ‎ÿÿÿÿÿÿÿÒתÿÿÿÿÿנûÿÿÿÿÿûתÿÿÿÿÒתÿÿÿÿÿÿנûÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÓÿÿÿÿÿÿÒüÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÒתÿÿÿÓתÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿהÿÿÿÿÿÒÿÿÿÿÿנÿÿÿÿÿהתÿÿÿÿÿÿÒתÿÿÿÿÿÒûÿÿÿÿÿנתÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÒ‎ÿÿÿÿÒÿÿÿÒÿÿÿÿÿÿÒתÿÿÿÿÿנûÿÿÿנתÿÿÿÒÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿה‏ÿÿÿÿÿÒתÿÿÿÿÓתÿÿÿÿÿתÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿעÿÿÿעÿÿÿÿעÿÿÿÿÿעÿÿÿעÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿעÿÿÿÿÿÿÿÿÿÿףÿÿÿÿÿÿףÿÿÿÿÿÿףÿÿÿÿעÿÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿעÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿעÿ/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+

@@ -1,0 +1,15 @@
+Analyzing the log tests/umons-csma-1-xp8/merged-log.txt ...
+Packet 57 was lost!
+Packet 62 was lost!
+Packet 71 was lost!
+Packet 93 was lost!
+Packet 216 was lost!
+Packet 233 was lost!
+Packet 586 was lost!
+Mean latency: 150.444193912 ms
+St.dev of latencies: 187.261613923
+Sent packets: 894
+Received packets: 887
+PRR: 0.992170022371
+Received acks: 0.993288590604
+Strobes: 1.06418918919

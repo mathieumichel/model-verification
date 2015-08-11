@@ -1,0 +1,29 @@
+Analyzing the log tests/umons-9-xp12/merged-log.txt ...
+Packet 0 was lost!
+Packet 12 was lost!
+Packet 125 was lost!
+Packet 199 was lost!
+Packet 233 was lost!
+Packet 249 was lost!
+Packet 418 was lost!
+Packet 481 was lost!
+Packet 526 was lost!
+Packet 588 was lost!
+Packet 597 was lost!
+Packet 598 was lost!
+Packet 622 was lost!
+Packet 647 was lost!
+Packet 655 was lost!
+Packet 702 was lost!
+Packet 717 was lost!
+Packet 852 was lost!
+Packet 856 was lost!
+Packet 876 was lost!
+Packet 878 was lost!
+Mean latency: 97.5371229698 ms
+St.dev of latencies: 41.6517201477
+Sent packets: 883
+Received packets: 862
+PRR: 0.976217440544
+Received acks: 0.975084937712
+Strobes: 1.05226480836
