@@ -93,7 +93,7 @@ def computeStatsTotal(xpname,ratio, module):
 
 def computeStrobesStats(xpname,ratio,index):
 	if "sics" in xpname:
-		filename="experiment/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
+		filename="experiment-phaselock/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
 	else:
 		filename="experiment-phaselock/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
 	Strobes=[]
@@ -110,16 +110,24 @@ def computeStrobesStats(xpname,ratio,index):
 	
 def cdfStrobes(tab1, name1, tab2, name2):
 	plt.figure(figsize=(7,5))
-	plt.title("Strobes #")
+	plt.title("Strobes # CDF")
 	plt.ylabel("# strobes")
 	plt.xlabel("TX attempts")
-	x=np.arrange(0,30)
+	plt.xticks([0,4,5,10,15,20,25])
+	plt.gca().get_xticklabels()[1].set_color('r')
 	y=sort(tab1)
 	yvals=np.arange(len(y))/float(len(y))
-	plt.plot(y,yvals,'-',label=name1,color='blue', linewidth=4 )
+	plt.plot(y,yvals,'-',label=name1,color='blue', linewidth=2 )
 	y = sort(tab2)
 	yvals=np.arange(len(y))/float(len(y))
-	plt.plot(y,yvals,'-',label=name1,color='blue', linewidth=4 )
+	plt.plot(y,yvals,'.-',label=name2,color='green', linewidth=2 )
+	ax=plt.gca()
+    	ax.annotate('Strobes limit', xy=(4, 0),  xycoords='data',
+                xytext=(15, 0.2), textcoords='data',
+                arrowprops=dict(facecolor='red', shrink=0.05, width=0.2),
+                horizontalalignment='right', verticalalignment='bottom', color='red')
+	ax.legend(loc='lower right', shadow=True)
+	plt.plot([4,4],[0,1], ':', linewidth=1, color='r')
 	plt.savefig('%s.pdf' %("countSrobes-cdf"), format='pdf')
 
 def draw(tab1,name1,tab2,name2):
@@ -135,9 +143,9 @@ def draw(tab1,name1,tab2,name2):
 
 
 ########################################################
-list=[1,2,4]
-for value in list:
-	start(value)
+#list=[1,2,4]
+#for value in list:
+#	start(value)
 ########################################################
 #list=[1,2,4]
 #for value in list:
@@ -149,6 +157,6 @@ for value in list:
 ########################################################
 #regenerateStats()
 ########################################################
-#cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"sics",computeStrobesStats("umons-nullmac",2,1),"umons")
+cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"sics",computeStrobesStats("umons-nullmac",2,1),"umons")
 ########################################################
 
