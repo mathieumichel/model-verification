@@ -1013,10 +1013,12 @@ cc2420_interrupt(void)
       strobe(CC2420_SFLUSHTX); /* Flush Tx fifo */
     }
     if(code!=SOFTACK_ACK){// hack to keep acknowledgement because of a footer issue
-      printf("plop\n");
       list_chop(rf_list);
       memb_free(&rf_memb, rf);
     }
+//    else{
+//      printf("plop\n");
+//    }
   }
 
 /* TODO This ensures there is always a single packet in queue.

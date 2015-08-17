@@ -1,52 +1,132 @@
-10:06:07.126 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB2
+09:04:03.726 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB3
 
-10:06:07.612 Rime started with address 3.0
+09:04:04.143 Rime started with address 2.0
 
-10:06:07.623 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+09:04:04.154 MAC 02:00:00:00:00:00:00:00 Ref ID: 3643
 
-10:06:07.623 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+09:04:04.154 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 2.
 
-10:06:07.638 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+09:04:04.162 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
 
-10:06:07.638 Starting 'Interference generator'
+09:04:04.162 Starting 'Net test'
 
-10:06:07.642 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
+09:04:12.464 TX MSG 0 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890 (len  = 106) 
 
-10:06:07.642 Interferer tx power 15 rf channel 26
+09:04:12.606 contikimac: send (strobes=25, len=121, no ack, no collision), done
 
-10:06:08.640 0
+09:04:12.936 contikimac: send (strobes=11, len=121, no ack, collision), done
 
-10:06:09.063 1
+09:04:13.183 contikimac: send (strobes=18, len=121, no ack, collision), done
 
-10:06:09.563 0
+09:04:13.435 contikimac: send (strobes=23, len=121, no ack, collision), done
 
-10:06:09.992 1
+09:04:13.808 contikimac: send (strobes=9, len=121, no ack, collision), done
 
-10:06:10.492 0
+09:04:28.799 æ¦c‡„ÿB©BrB£C)ãÿæ¦c‡„ÿæ¦c‡„ÿæ¦c‡„ÿB©BrBBrB¬æ¦c‡„ÿæ¦c‡„ÿæ¦c‡„ÿæ¦c‡WÿžBC)rB©Br¦ÿæ¦KÄßÿæ¦c‡Ææ¦KäÆæ¦+äÆ*B©BrB£C)ãÿæ¦RäÆæ¦c‡‡ÿæ¦RäÆæ¦+äÆ*B©BrB©Br¦ÿæ¦räÆæ¦c„ÿæ¦c‡‡þæ¦c‡‡ÿæ¦KäÆæ¦KäÆ/B©BrB§C)ãÿæ¦#‡‡ÿæ¦c'„ÿæ¦RäÆæ¦RäÆæ¦c‡‡þ*B©BrB©Br¦ÿæ¦RäÆæ¦RäÆæ¦räÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿ
 
-10:06:11.023 1
+09:04:55.056 B©BrB©Br¦ÿæ¦ZäÆæ¦räÆÿæBRäÆB©BrB#C)ãÿæ¦#rÆÿæ¦räÆæ¦c‡‡ÿæ¦c‡‡þæ¦RäÆNBC)rB©Br¦ÿæ¦c‡‡ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿg¦c‡‡ÿæ¦c‡‡ÿOBC)rB©Br¦ÿæ¦KäÆæ¦c‡‡ÿæ¦KäÆæ¦«äCÿæ¦#r„ÿæ¦c‡‡ÿNBC)rB©Br¦ÿæ¦c‡‡ÿæ¦+äÆæ¦Rs„ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿNBC)rB©Br¦ÿæ¦c‡‡ÿæ¦käÆæ¦räÆÿæ¦c‡‡ÿæ¦KäÆNBC)rB×CRCÿæ¦KäÆæ¦räÆÿæ¦+äÆNBC)rB©Br¦ÿæ¦RäCÿæ¦räÆæ¦räÆNBC)rB©Br¦ÿæ¦#rÆÿæ¦KäÖæ¦c‡‡ÿæ¦+äÆæ¦Rä¦ÿæ¦c‡‡ÿOBC)rB©Br¦ÿæ¦KäÆæ¦#rÆÿæ¦c„ÿOBC)rB©Br¦ÿæ¦«äÆg¦KäÆæ¦RäÆOBCR-BC)r¦ÿæ¦räÆæ¦kÆÆæ¦KäÖOBC)rB©Br¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦+äÆæ¦+äÆæÿ›äÆæóäÆæ¦£„ÿNBC)
 
-10:06:11.523 0
+09:19:51.666 B©Br¦ÿæ¦räÆæ¦RäÆOBC)rB©Br¦ÿæ¦räÆæ¦RäÆæ¦c„ÿæ¦c‡‡ÿæ¦KäÆNBC)rB©Br¦ÿæ¦Rä¦ÿæ¦+äÆæ¦+äÆæ¦RäÆæ¦räÆÿOBC)rB©Br¦ÿæ¦KäÆæ¦+äÆæ¦räÆæ¦RäÆæóc‡‡ÿNBC)rB©Br¦ÿæ¦c‡‡ÿæ¦KäÖæ¦+äÆæ¦2äÆæ¦c‡‡ÿOBC)rB×C)ãÿæ¦+äÆæ¦räÆæ¦RäÆæ¦+äÆæ¦RäÆæ¦c‡‡ÿNBC)rBC)r¦ÿæ¦räÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæóc‡‡ÿOBC)rB©Br¦ÿæ¦+äÆæ¦c‡‡ÿæ¦+äÆæ¦+äÆNBC)rB©Br¦ÿæ¦RäÆæ¦c„ÿæ¦RäÆæ¦+äÆOBC)ºOC)rBîæ¦c‡‡ÿæ¦#‡‡ÿNBC)rB©Br¦ÿæ¦käÆæ¦RäÆæ¦ºäÆæ¦RäÆOBC)rB©Br¦ÿæ¦räÆæ¦räÆÿNBC)rB©Br¦ÿæ¦RäÆfBJäÖæ¦RäÆæ¦RäÆOBC)rB©Br¦ÿæ¦KäÆæ¦#rÆÿæ¦RäÆæ¦räÆæ¦RäÆNBC)rB©Br¦ÿæ¦räÆæ¦räÆæ¦2äÆæ¦RäÆÿOBC)rB©Br¦ÿ.BräÆæ¦+äÆæ¦RäÆOBC)rB©Br¦ÿæ¦c‡‡ÿæ¦KäÆæBZäÖæ¦RäÆNBC)rB©Br¦ÿæ¦²äÆæ¦räÆæ¦RäÆæ¦c‡‡ÿæ¦RäÆÿOBC)rB©Br¦ÿæ¦KäÆæ¦räCÿæ¦c‡‡ÿæ¦c‡‡ÿoBC)rB©Br¦ÿæ¦+ÆÆæ¦c„ÿæ¦+äÆnBC)rB©Br¦ÿæ¦RäÆæ¦räÆæ¦räCÿnBC)rB©Br¦ÿæ¦c‡‡ÿNB²äÆ.BRäÆoBC)rB©Br¦ÿæ¦«äÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦räÆÿæóKäÆoBC)rB©Br¦ÿæ¦räÆæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦c‡‡þnBC)rB©Br¦ÿæ¦räÆæ¦räÆÿæ¦c‡‡ÿæ¦c‡‡þæ¦KäÆæ¦räÆoBC)rB©Br¦ÿæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦räÆæ¦räÆoBC)rB©Br¦ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆnBC)rB©Br¦ÿæ¦c‡‡ÿæ¦KäÆæ¦RäÆoBC)rB©Br¦ÿæ¦Rä¦ÿæ¦²äCÿæ¦c‡‡ÿæ¦räÆæ¦RäÆæ¦RäÆoBC)rB©Br¦ÿæ¦c‡‡ÿNBRäÆæ¦+äÆnBC)rB©Br¦ÿæ¦räÆæ¦c‡‡ÿæ¦+äÆæÜRs„ÿæ¦RäÆnBC)rB©Br¦ÿæ¦c„ÿæ¦c‡‡ÿæ¦räÆæ¦räÆoBC)rB©Br¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿnJC)rB©B²Sÿæ¦#‡‡ÿæ¦#rÆÿæ¦räÆæ¦c‡‡ÿæ¦RäCÿæ¦RäÆnBC)rB©Br¦ÿæ¦+äÆæ¦c‡‡ÿg¦räÆæ¦RäÆæ¦räÆæ¦c‡‡ÿg¦c‡‡ÿoBC)rBC)r¦ÿæ¦c‡‡ÿæ¦Rä¦ÿæóc‡‡ÿoBC)rB©Br¦ÿæ¦c‡‡ÿæ¦RäÆæ¦RäÆÿæ¦KäÆæ¦räÆnBC)rB©Br¦ÿæ¦#rÆÿ8BjäÖæ¦c‡‡ÿoBC)rB©Br¦ÿg¦c‡‡ÿBRäÆæ¦+äÆnBC)rB×C)ãÿæ¦räÆæ¦c‡‡ÿæ¦+äÆæ¦RäÆnBC)rB©Br¦ÿæ¦räÆæ¦räÆæ¦#‡‡ÿæ¦RäÆnBC)rB©Br¦ÿæ¦räÆæ¦c‡‡ÿæ¦c‡‡ÿnBC)rBC)r¦ÿæ¦c‡‡ÿæ¦RäÆÿæ–KäÆæ¦c‡‡ÿæ¦KäÆæ¦RäÆnBC)rB©Br¦ÿæ¦RäÆÿg¦räÆæó+äÆæ¦räÆæóc‡‡ÿoBC)rB©Br¦ÿæ¦c‡‡ÿæ¦c‡‡ÿoBC)rB©Br¦ÿæ¦c‡‡ÿæ¦Rä¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦²äÆæ¦RäÆæ¦räÆoBC)rB©Br¦ÿæ¦RäÆæ¦RäÆoBC)rB©Br¦ÿæ¦räCÿNBRäÆ>BräÆæ¦KäÆæ¦c‡‡ÿoBC)rB©Br¦ÿæ¦c‡‡ÿæ¦räÆæ¦c‡‡ÿæ¦räÆoBC)rB©Br¦ÿæ¦c‡‡ÿæ¦räÆnBC)rBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆXB_äÆæ¦RäÆoBC)rB©Br¦ÿæ¦RäÆæ¦KäÆæ¦räCÿæóc‡OþnBC)rB©Br¦ÿæ¦räÆæ¦c‡‡ÿNBräÆæ¦räÆæ¦c‡‡ÿoBC)rB©Br¦ÿæ¦c‡‡ÿæ¦«äÆ8BjäÖæ¦c‡‡ÿæ¦räÆæ¦c‡‡ÿoBC)rB©Br¦ÿæ¦räCÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦ã‡‡ÿæ¦räÆÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆnBC)rB©Br¦ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿoBC)rB©BÊbÿæ¦räÆæ¦räÆæ¦c‡‡ÿ6BRäÆnBC)rB©BÆbÿæ¦+äÆæ¦c‡‡ÿæ¦+äÆæ¦RäÆoBC)rB©Br¦ÿæ¦RäÆæ¦c‡‡ÿžB©BrB©Br¦ÿæ¦räÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿNBC)rBC)r¦þæ¦c‡‡ÿæ¦RäÆNBC)rB©Br¦ÿæ¦c‡‡þæ¦KäÆæ¦RäÆæ¦RäÆæ¦RäÆOBC)rB©Br¦ÿæ¦c‡‡ÿæ¦RäCÿæ¦c‡‡ÿNBRäÆÿKäÆOBC)rB©Br¦ÿæ¦+äÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆNBC)rB©Brbÿæ¦räÆæ¦c‡‡ÿNBC)rB©Br¦þæóc‡‡ÿæ¦RäÆæ¦räÆNBC)rB©Br¦ÿæ¦c‡‡ÿNBräÆæ¦räÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆæ¦RäCÿæ¦RäÆÿOBC)rB©Br¦ÿæ¦+äÆæ¦c‡‡ÿæ¦Rs„ÿæ¦räÆæ¦c‡‡ÿNBräÆ.BRäÆæ¦KäÆNBC)rB×C)ãÿæ¦RäÆæ¦+äÆOBC)rBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿOBC)rB©Br¦ÿæ¦RäÆæ¦c‡‡ÿOBC)rB©Br¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦+äÆXBZäÖOBC)rB©Br¦ÿæ¦c‡‡ÿæ¦c‡‡ÿg¦RäÆNBC)rB©Br¦ÿæ¦RäCÿ.êräÆNBRäÆæ¦+äÆæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿOBC)rB©Br¦ÿæ¦+äÆæ¦c‡‡ÿOBC)rB©Br¦ÿæ¦RäÆæ¦räÆæ¦räÆæ¦c‡‡ÿNBräÆNBC)rB©Br¦ÿNBRäÆæ¦RäÆæ¦£‡‡ÿæ¦c‡‡ÿNBC)rB©Br¦ÿæ¦+äÆæ¦Rä¦ÿæ¦+äÆæ¦c‡‡ÿæ¦räÆæ¦RäÆNBC)rB©Br¦ÿæ¦räÆæ¦+äÆBräÆæ¦räÆæ¦c‡‡þ"B©BrBBr¦ÿæ¦c‡‡ÿæ¦räÆæ¦c‡‡ÿæ¦RäÆæ¦+äÆNB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦+äÆNBRäÆæ¦+äÆNB©BrBC)r¦ÿæ¦RäÆg¦KäÆæós‡‡ÿOB©BrBC)r¦ÿæ¦räÆÿæ¦RäÆ6BRäÆæ¦RäÆæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦c‡‡ÿNBräÆæókäÆæ¦räÆæ¦c‡‡ÿæ¦+äÆ^BC)rBC)r¦ÿ8BjäÖæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆOB©BrBC)r¦ÿæ¦räÆNBRäÆOB©BrBC)r¦ÿ>BräÆæ¦räÆæ¦cs„ÿæ¦c‡‡ÿæ¦+äÆæ¦räÆæ¦Rä¦ÿæ¦käÆæ¦c‡‡ÿNJBC)rB©Úãûæ¦RäÆæ¦räCÿæ¦c‡‡ÿæ¦c‡‡ÿg¦c‡‡ÿBC)r‚C)r¦ÿæ¦c‡‡ÿæ¦câÆÿæ¦c‡‡ÿæ¦KäÆæ¦räÆæ¦c‡‡ÿOB©BrB©Bòbÿæ¦räÆæ¦²äÆæ¦räÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦cs„ÿæ¦c‡‡ÿæ¦RäÆOB©B^BrB©Rûæ¦räæÿæ¦2äÆæ¦c‡‡ÿNB©B^BrB©Rûæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæóKäÆæ¦Rä¦ÿOB©BrBC)r¦ÿæ¦KÆÆæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦RäÆ8BRäÖæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦rä¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦+ÆÆæ¦räÆæ¦RäÆOB©BrBC)r¦þg¦+äÆæ¦RäÆæ¦RäÆæ¦²äÆNB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿNB©BrBC)r¦ÿæóKäÆæ¦c‡‡ÿæ¦räCÿæ¦RäÆÿæ¦+nÆÿOB©BrBC)r¦ÿæ¦RäÆæ¦räÆæó+äCÿæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦c‡‡ÿNBRäÆæ¦+äÆæ¦RäÆæ¦c‡‡ÿOB©BrBBr¦ÿæ¦c‡‡ÿæ¦räÆæ¦kÆÆæ¦ºäÆNB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿNB©BrB©Br¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿNŠC)rB©Bšbÿæ¦+äÆæ¦RäÆÿæ¦KäÆOB©BrBC)r¦ÿæ¦ºÇ„ÿæ¦RäÆæ¦ºäÆ"B©BrBC)r¦ÿæ¦c‡‡ÿNBräÆNBRäÆNB©BrBC)r¦ÿæ¦käÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆÿæ¦+äÆæ¦ºäÆNB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿG¦+äÆNBRäÆæ¦+äÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦räÆæ¦RäCÿNB©BrBC)r¦ÿæ¦+äÆæ¦Rs„ÿæ¦²äÆæ¦c‡‡ÿæ¦c‡‡ÿNBRäÆæ¦+äÆOB©BrBC)r¦ÿæ¦räÆæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦RäÆNB©BrBC)r¦ÿæ¦räÆæ¦Rs„ÿæ¦RäCÿæ¦#rÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦²äÆOB©BrBC)r¦ÿæ¦£‡‡ÿæ¦+äÆæ¦räÆæ¦RäÆOB©BrBC)r¦ÿæ¦KäÆæ¦c‡‡ÿæ¦Rs„ÿæ¦räÆOB©BrBC)r¦ÿæ¦#rÆÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦räÆNB©BrBC)r¦ÿæ¦£‡‡ÿæ¦RäÆæ¦räÆæ¦+äÆOB©BrBC)r¦ÿæ¦ºäÆæ¦Rs„ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿBC)rB©BÒbÿæóc‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿ&BräÆNVBC)rB©Òãûæ¦RäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦ºäÆæó›äÆæ¦räÆæ¦#rÆÿæ¦c‡‡ÿæ¦KäÆOB©BrBC)r¦ÿBräÆæ¦RäÆæ¦c‡‡ÿæ¦käÆ^BC)rBÑC)ãû8BjäÖæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿæ¦Rs„ÿæ¦räÆOB©BrB©Br¦ÿæ¦£‡‡ÿ.BRäÆæ¦KäÆæ¦RäÆæ¦c‡‡ÿæ¦+äÆOB©BrB‘C)ãûæ¦RäÆæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿæ¦s„ÿOB©ªrB©Br¦ÿæ¦räÆæ¦c‡‡ÿæ¦käÆOB©BrBC)ræÿæ¦+äÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦käÆæ¦räÆæ¦räÆæ¦+äÆNB©B.BrB©Rûæ¦šäÆæ¦räÆæ¦#rÆÿæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦KäÆæ¦+äÆg¦c‡‡þæ¦c‡‡ÿæ¦+äÆOB©BrBC)r¦ÿæ¦RäÆg¦c‡‡ÿæ¦räÆæ¦Rs„ÿæ¦RäÆæ¦#rÆÿNB©BrBC)r¦ÿæ¦c‡‡ÿNBräÆæ¦KäÆæ¦RäÆæ¦cs„ÿæ¦c‡‡ÿNŠC)rB©BCüæ¦+äÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦RäÆæ¦Rs„ÿæ¦räÆæ¦#rÆÿæ¦c‡‡ÿæ¦KäÆ.BRäÆOB©BrBC)r¦ÿæ¦+äÆæ¦cs„ÿæ¦c‡‡ÿæ¦räÆæ¦RäCÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡„ÿOB©BrBC)r¦ÿæ¦Rs„ÿæ¦#rÆÿgó+äÆOB©BrBC)r¦ÿ>BRäÆæ¦RäÆæ¦cs„ÿæ¦c‡‡ÿæ¦KÆÆæ¦räÆæ¦RäÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦Rs„ÿæ¦RäÆBC)rBC)r¦ÿæ¦#rÆÿæ¦+äÆ>BRäÆNB©BrBC)r¦ÿæ¦+äÆæ¦cs„ÿæ¦c‡‡ÿæ¦KÆÆæ¦RäÆOB©BrBC)r¦ÿæ¦c‡‡þæ¦c‡‡ÿæ¦Rs„ÿNB©BrBC)r¦ÿæ¦räÆg¦+äÆNBRäÆæ¦KäCÿæ¦RäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦KÆÆæ¦RäÆæóc‡‡ÿæ¦Rs„ÿæ¦räÆNB©BrBC)r¦ÿæ¦c‡‡ÿ.BRäCÿæ¦KäÆNB©BrBC)r¦ÿæ¦RäCÿæ¦«ÆÆæ¦RäÆæ¦c“Æÿæ¦c‡‡ÿæ¦ºäÆOB©BrBC)r¦ÿ6BRäÆæ¦#rÆÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦käÆæ¦+äÆæ¦räÆæ¦£s„ÿfBRäÆXBjäÖæ¦c“ÆÿNB©BrBC)rfÿæ¦c‡‡ÿæ¦Rs„ÿæ¦räÆæ¦#rÆÿæ¦c‡‡ÿæ¦+äÆNB©ªrB©Br¦ÿ>BräÆæ¦RäÆæ¦cs„ÿæ¦c‡‡ÿæ¦+äÆOB©BrB©Br¦ÿæ¦c‡‡ÿæó»s„ÿæ¦c‡‡ÿæ¦Rs„ÿæ¦RäÆOB©BrB©Br¦ÿæ¦£‡‡ÿæ¦+äÆæ¦RäÆOB©BrBC)r¦ÿæ¦cs„ÿæ¦+ÆÆXBjäÖOB©BrBC)r¦ÿæ¦c“Æÿæ¦ºäÆæ¦c‡‡ÿæ¦Rs‡ÿæ¦räÆæ¦#rÆÿNB©BrBC)r¦ÿæ¦c‡‡ÿ.BräÆOB©BrBC)r¦ÿæ¦c„ÿæ¦cs„ÿæ¦KÆÆOB©BrBC)r¦ÿæ¦räÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆNÿZäÆæ¦#rÆÿOB©BrB©Br¦ÿæ¦c‡‡þ.BRäÆæ¦+äÆæ¦RäÆæ¦cs„ÿæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦+ÆÆæ¦c„ÿæ¦ºäÆæ¦c‡‡ÿæ¦ªäÆOB©BrBC)r¦ÿæó#r„ÿæ¦KäÆBräÆæ¦KäÆæ¦cs„ÿæ¦c‡‡ÿOB©BrB©Br¦ÿæ¦+ÆÆæ¦c‡‡ÿæó«rÆÿæ¦c‡‡þæ¦Rs„ÿæ¦räÆOŠB©BrB©Ôãûæ¦#rÆÿæ¦+äÆBRäÆæ¦käÆOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦kÆÆæ¦RäÆOB©BrBC)r¦ÿæóc‡‡ÿæ¦ºäÆæ¦£‡‡ÿæ¦Rs„ÿOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦KäÆæ¦+äÆæ¦räÆæ¦cs„ÿæ¦c‡‡þNB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿæ¦Rs„ÿOB©BrBC)r¦ÿæ¦räÆæ¦c‡‡ÿæ¦+äÆOB©BrBC)r¦ÿæ¦KäÆæ¦cs„ÿæ¦c‡‡ÿæó+ÆÆæóc‡‡þNB©BrB©B”bÿæ¦Rs„ÿæ¦Rs„ÿæ¦RäÆOB©BrBC)r¦ÿæ¦c‡‡ÿNBRäÆæ¦KäÆOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦+ÆÆæ¦RäÆæ¦c“Æÿ~BC)rBC)r¦ÿæ¦c‡‡ÿæ¦#‡‡ÿæ¦RäÆæ¦#rÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦cs„ÿ~BC)rBC)r¦ÿ&BräÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿ~BC)rBC)r¦ÿæ¦Rs„ÿæ¦#rÆÿæ¦c‡‡ÿæ¦käÆ.BräÆOB©BrBC)r¦ÿæ¦«äÆæ¦cs„ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆOB©BrBC)r¦ÿæóc‡‡ÿæ¦c‡‡ÿæ¦Rs„ÿOB©BrBC)r¦ÿæ¦²äÆæ¦c‡‡ÿæ¦KäÆBräÆæ¦+äÆæ¦cs‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦+ÆÆæ¦RäÆOB©BrBC)r¦ÿæ¦£‡Oþæ¦räÆæ¦#r„ÿæ¦c‡‡ÿNB©BrB©BÒbÿæ¦+äÆæ¦KäÆNB©BrBC)r¦ÿæ¦RäÆg¦+ÆÆæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿæ¦c‡‡ÿg¦KäÆ^BC)rB©Br¦ÿæ¦RäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿg¦ºäÆæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦Rs„ÿæ¦c‡‡ÿæ¦KäÆæ¦c‡‡ÿæ¦+äÆOB©BrBC)r¦ÿæ¦räÆæ¦c‡‡ÿæ¦räÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆOB©BrB©Br¦ÿæ¦Rs„ÿæ¦#rÆÿNB©BrBC)r¦ÿæ¦c‡‡ÿNBRäÆæ¦+äÆæ¦cs„ÿæ¦c‡‡ÿæ¦+ÆÆæ¦RäÆæ¦c‡‡ÿOB©BrB©Br¦ÿæóc‡‡ÿæ¦c‡Oþæ¦Rs„ÿæ¦räÆæ¦#rÆÿæ¦c‡‡ÿæ¦KäÆbB©BrBC)r¦ÿæ¦KäÆæ¦cs„ÿæ¦c‡‡ÿæ¦KÆÆNB©BrBC)r¦ÿæ¦räÆæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿNB©BrB©Br¦ÿæ¦Rs„ÿæ¦#rÆÿæ¦c‡‡ÿæ¦+äÆ6BRäÆæ¦käÆæ¦RäÆOB©BrBC)r¦ÿæ¦+äÆæ¦#rÆÿOB©BrBC)r¦ÿæ¦£‡‡ÿæ¦ºäÆæ¦c‡‡ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿæ¦KäÆNB©BrBC)r¦ÿNBRäÆæ¦räÆæ¦+äÆæ¦c‡‡ÿg¦RäÆæ¦c“ÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦+äÆæ¦‹äÖæ¦câÆÿæ¦KäÆæ¦c‡‡ÿæ¦räÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦²äÆæ¦Rs„ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦cs„ÿæ¦c‡‡ÿæ¦+ÆÆBC)rBC)rbÿæ¦RäÆæ¦käÆæ¦Rs„ÿNB©B^BrB©Rû6BjäÖæ¦+äÆ.BRäÆæ¦+äÆæó+äÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦+nÆÿæ¦c‡‡ÿæ¦ºäÆ^BC)rBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆæ¦RäCÿæ¦cs„ÿNB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c“Æÿæ¦+äÆæ¦KäÆæ¦Rs„ÿOB©BrBC)r¦þæ¦RäÆæ¦+äÆNB©BrBC)r¦ÿNBRäÆæ¦RäÆæ¦cs„ÿæ¦c‡‡ÿæ¦+ÆÆæ¦RäÆæ¦c“Æÿæ¦+äÆNB©BrB©Br¦ÿæ¦Rs„ÿæ¦#rÆÿæóc‡‡ÿæ¦+äÆ6êRäÆNB©BrB©B”bÿæ¦RäÆæ¦c‡‡ÿg¦+ÆÆæ¦räCÿæ¦+äÆOB©BrBC)r¦ÿæ¦räÆæ¦Rs„ÿæ¦RäÆæ¦#rÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæóKäÆg¦RäÆæ¦cs„ÿOB©BrBC)r¦ÿæ¦c‡‡ÿg¦RäÆæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦Rs„ÿæ¦c‡‡ÿæ¦+äÆNBRäÆæ¦+äCÿOB©BrB©Br¦þæ¦RäÆ&BräÆOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦ºäÆæóc‡‡ÿOB©BrBC)r¦ÿæ¦Rs„ÿæ¦#rÆÿæ¦c‡‡ÿNB©B^BrB©Rûæ¦KäÆæ¦+äÆæ¦cs„ÿæ¦£‡‡ÿOB©BrBC)r¦ÿæ¦+ÆÆæ¦c“Æÿæ¦c‡‡ÿORBC)rBC)ãûæ¦ºäÆæ¦Rs„ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿæ¦+äÆOB©BrBC)r¦ÿæ¦+äÆæ¦cs„ÿæ¦c‡Oþæ¦+nÆÿOB©BrBC)r¦ÿæ¦RäCÿæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿæ¦Rs„ÿOB©BrBC)r¦ÿæ¦räÆæ¦käÆæóc‡‡ÿg¦‹äÖæócs„ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦KäÆæ¦c‡‡ÿg¦ºäÆæ¦c‡‡ÿæ¦Rs„ÿæ¦räÆOB©BrB©Br¦ÿæ¦#r„ÿæ¦+äÆæ¦KäCÿOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦KÆNæ¦RäÆÿæ¦c‡‡ÿæ¦ºäÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦räÆg¦#rÆÿbB©BrB©Br¦ÿæ¦c‡‡ÿæóKäÆg¦RäÆæ¦cs„ÿæ¦c‡‡ÿæ¦+ÆÆæ¦2äÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦Rs„ÿæóc‡‡ÿæ¦#rÆÿæ¦c‡‡ÿæ¦+äÆæ¦+äÆbB©BrBC)r¦ÿæóZäCÿæ¦#‡‡ÿæ¦+ÆÆOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦+äÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿ~BC)rB©BÒbÿæ¦KäÆæ¦+äÆæ¦Räæÿæ¦c‡‡ÿæ¦+ÆÆOB©BrBC)r¦ÿæ¦RäÆÿæóc‡Oþæ¦ºäÆæ¦c‡‡ÿNB©BrB©Br¦ÿæ¦räÆæ¦c‡‡ÿæ¦+äÆOB©BrBC)r¦ÿæ¦+äÆæ¦cs„ÿæ¦KäÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c“ÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦Rs„ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦+äÆæ¦räÆæ¦cs„ÿæ¦KäÆæ¦c‡‡ÿæ¦RäCÿæ¦c“ÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦Rs„ÿæ¦RäÆæ¦#rÆÿæ¦+äÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦cs„ÿNB©BrBC)r¦ÿæ¦KäÆæ¦#rÆÿæ¦£“Æÿæ¦ºäÆOB©BrBC)r¦ÿæ¦c‡‡ÿg¦#rÆÿæ¦c‡‡ÿæ¦KäÆæ¦KäÆæ¦RäÆOB©B.BrB©Rûæ¦cs„ÿæ¦RäÆÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦räÆæ¦c‡‡þæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c„ÿæó+äÆæ¦cs„ÿæ¦+äÆæ¦c‡‡ÿæ¦RäÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦ºäÆæ¦£‡‡ÿg¦Rs„ÿæ¦RäÆbB©BrBC)r¦ÿæ¦c‡‡ÿæ¦KäÆæ¦KäÆæóKäÆæ¦cs„ÿOB©BrBC)r¦ÿæ¦+ÆÆæóc‡‡ÿæ¦käÆOB©B^BrB©Rûæ¦RäÆæ¦räÆ>BC)rBC)r¦ÿæ¦#rÆÿæ¦+äÆæ¦c‡‡ÿæ¦KäÆOB©BrBC)r¦ÿæ¦RäÆæ¦KÆÆæ¦RäÆOB©BrBC)r¦ÿæ¦+äÆæ¦käÆæ¦ªäÆæ¦#rÆÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦cs„ÿOB©BrBC)r¦ÿæ¦käÆæ¦RäÆæ¦+äÆæ¦RäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦ªs„ÿæ¦c‡‡ÿæóc‡‡ÿæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦+äÆæ¦cs„ÿæ¦KäÆæ¦#rÆÿæ¦c“ÆÿNB©BrBC)r¦ÿæ¦käÆæ¦+äÆOB©BrBC)r¦ÿæ¦ºäÆæ¦£‡‡þæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦räÆæ¦cs„ÿæóKäCÿæ¦+äÆæó#rÆÿæ¦c“ÆÿOB©BrBC)r¦ÿæ¦+äÆæ¦käÆæ¦js„ÿOB©BrBC)r¦ÿæ¦#rÆÿæ¦+äÆæ¦c‡‡ÿæ¦+äÆOB©BrBC)r¦ÿæ¦RäÆæ¦kÆÆæ¦RäÆNB©BrBC)r¦ÿæ¦c“Æÿg¦ºäÆæ¦Rs„ÿOB©BrBC)r¦ÿæ¦räÆæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆNB©BrBC)r¦ÿæ¦KäÆæ¦#rÆÿæ¦käÆæ¦RäÆæ¦c‡‡ÿOB©BrB©Br¦ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦käÆNB©BrB©Br¦ÿæ¦Rä¦ÿæ¦+ÆÆæ¦RäÆæ¦c“Æÿæó+äÆOB©BrBC)r¦ÿæ¦räÆæ¦Rs„ÿæ¦räÆOB©BrBC)r¦ÿæ¦#rÆÿæ¦+äÆæ¦c‡‡ÿæ¦+äÆ>BC)rB©Br¦þæ¦RäÆg¦+äÆæ¦KäÆæ¦#rÆÿæ¦c‡‡ÿ"B©BrBC)r¦ÿæ¦RäÆÿæ¦räÆæ¦#rÆÿæ¦c‡‡ÿæ¦KäÆæ¦KäÆæ¦RäÆOB©BrB©Br¦ÿæ¦cs„ÿæ¦+äÆæ¦c‡‡ÿæ¦KäÆOB©BrBÑC)ãûæ¦RäÆæ¦Rs„ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæfc‡‡ÿæ¦+ÆÆæ¦RäÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦+äÆæ¦Rs„ÿæ¦²äÆOB©BrBC)r¦ÿæ¦#rÆÿæ¦+äCÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦cs„ÿæ¦+äÆOB©BrBC)r¦ÿæ¦«äÆæ¦RäÆOB©BrBC)r¦ÿæ¦KäÆæ¦+äÆæ¦räÆæ¦RäÆæ¦c‡‡ÿBC)rBC)r¦ÿæ¦c‡‡ÿæ¦«äÆæ¦KäÆæ¦RäÆæócs„ÿæ¦käCÿOB©BrBC)r¦ÿæ¦#rÆÿæókäÆæ¦RäÆæ¦RäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦£‡‡ÿæ¦käÆæ¦+äÆæ¦RäÆNB©BrBC)r¦ÿæ¦+äÆæ¦RäÆæ¦c‡‡ÿæ¦ºäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦+äÆÿæóc‡‡ÿæó+äÆæ¦RäÆæ¦cs„ÿOB©BrB©Br¦ÿæ¦+äÆæ¦RäÆæ¦RäÃÿg¦ºäÆæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦Rs„ÿæ¦c‡‡ÿæóc‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦câÆÿæ¦+äÆæ¦RäÆæ¦RäÆÿæ¦js„ÿOB©BrB©Br¦ÿæ¦c‡‡ÿæ¦räÆg¦²äÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦£s„ÿæ¦kÆÆæ¦räÆæ¦c‡‡ÿæ¦käÆOB©BrBC)r¦ÿæ¦RäÆæ¦Rs„ÿæ¦RäÆæ¦c‡‡ÿOB©BrB¥C)ãûæ¦c‡‡ÿæ¦KäCÿæ¦RäÆOB©BrBC)r¦ÿæ¦cs„ÿæ¦KÆÆOB©BrBC)r¦ÿæ¦RäÆæ¦ºäÆæ¦c‡‡ÿæ¦Rs„ÿNB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦+äÆæó+äCÿæ¦cs„ÿæ¦+äÆOB©BžC)rBÎæ¦+äÆæ¦RäÆæ¦KäÆOB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡þæ¦KäÆOBC)^ÂR-Bcûæ¦RäÆæ¦+ÆÆæ¦RäÆæ¦c‡‡ÿæ¦käÆæ¦c‡OþOB©BrBC)r¦ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿBC)^BrB©Rûæ¦c‡‡þæ¦c‡‡ÿæ¦£‡‡ÿæ¦cs„ÿOB©BrB©Br¦ÿæ¦käÆæ¦KäÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦Rs„ÿæó#rÆÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦RäÆæ¦kÆÆæ¦RäÆæ¦c“ÆÿOB©BrBC)r¦ÿæ¦käÆæ¦+äÆOB©BrBC)r¦ÿæ¦+äÆæ¦c‡‡ÿæ¦ºäCÿfBRäÆ&BRäÆNJBC)rB©Òãûæ¦#rÆÿæ¦+äÆæ¦RäÆæ¦c‡OþNB©BrBC)r¦ÿæ¦Rs„ÿæ¦#rÆÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦KäÆOB©BrBC)r¦ÿæ¦RäÆæ¦+äÆæ¦+äÆæ¦#rÆÿæ¦ZäÆæ¦RäÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦#rÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæóKäÆæ¦ºäÆæ¦c‡Oþæ¦c‡‡ÿæ¦käÆæ¦#rÆÿæ¦c“ÆÿOB©BrBC)r¦ÿæ¦+äÆæ¦+äÆæ¦Rs„ÿæ¦RäÆæ¦c‡‡ÿæ¦+äÆæ¦c‡‡ÿæ¦+äÆOB©BrB©Br¦ÿæ¦RäÆæ¦käÆæ¦KäÆOB©BrBC)r¦ÿæ¦#r„ÿæ¦käÆæ¦Rs‡þOB©BrBC)r¦ÿæ¦²äÆæ¦c‡‡ÿæ¦c‡‡ÿOB©BrB©Br¦ÿæóc‡‡ÿæ¦RäÆæ¦cs„ÿæ¦+äÆæ¦#rÆÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦RäÆæ¦#rÆÿæ¦c‡‡ÿOB©BrB©Br¦ÿæ¦c‡‡ÿæó+äÆæ¦RäÆæ¦KäÆæ¦«äÆæ¦£s„ÿNB©ÊR-BC)ãû¦¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦Rs‡ÿæ¦RäÆOB©BrBC)r¦ÿæ¦#rÆÿæ¦KäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦ZäÆæ¦cs„ÿæ¦+äÆæ¦käÆæ¦RäÆæ¦käÆNB©BrBC)r¦ÿæ¦RäCÿæ¦Rs‡ÿæ¦RäÆOB©BrBC)r¦ÿæ¦#rÆÿæóKäÆæ¦c‡‡ÿæ¦«äÆæ¦RäÆÿæ¦+äÆOB©BrBC)r¦ÿæ¦+äÆæ¦RäÆæ¦+äÆæóc‡‡ÿæ¦c‡‡ÿæ¦RäÆOB©BrBC)r¦ÿæ¦RäÆæ¦kÆÆæ¦KäÆæ¦c‡‡ÿæ¦käÆæ¦RäÆOB©BrBC)r¦ÿæ¦cs„ÿæ¦+ÆÆæ¦RäÆOB©BrB©Br¦ÿæ¦c‡‡ÿæ¦RäÆæ¦KäÆg¦RäÆNB©BrBC)r¦ÿæ¦RäÆæ¦kÆÆOB©BrBBrBÎæ¦käÆæ¦KäÆæó+äÆgócs„ÿæ¦+ÆÆOB©BrBC)r¦ÿæ¦räÆæóKäÆæ¦KäÆæ¦RäÆOB©BrBC)r¦ÿæó+äÆg¦kÆÆæ¦KäÆOB©BrBC)ræÿæ¦+äÆæ¦cs„ÿæ¦+äÆæ¦+äÆæ¦RäÆOB©BrBC)r¦ÿæ¦Räæÿæ¦c‡‡ÿæ¦räÆæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦+äÆæó+äÆOB©BrBC)r¦ÿæ¦RäÆ:BjäÖæ¦ZäÆæ¦²äÆæ¦RäÆæ¦c‡‡ÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦c‡‡ÿæ¦cs„ÿbB©BrBC)r¦ÿæ¦kÆNæ¦käÆæ¦RäÆæ¦c‡‡ÿæ¦RäÆOB©BrBC)r¦ÿæ¦RäÆæ¦KÆÆæ¦£‡‡ÿæ¦+äÆæó+äÆæ¦cs‡ÿOB©BrBC)r¦ÿæ¦+äCÿæ¦RäÆæ¦«äÆæ¦RäÆæóc‡‡ÿæ¦RäÆ"B©BrBC)r¦ÿæ¦c‡‡ÿ6BräÆ>BRäÆæ¦+äÆæ¦RäÆæ¦#‡‡ÿNB©BrB©Br¦ÿæócs„ÿæ¦RäÆæ¦c“ÆÿNB©BrBC)r¦ÿæ¦KäÆg¦RäÆæ¦RäÆæ¦RäCÿæ¦c‡‡ÿæóc‡‡ÿNB©BrB©Br¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæó+äÆæ¦RäÆOB©B^BrB©RûæókäÆæ¦RäÆæ¦RäÆÿOB©BrB©Br¦ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæóc‡‡ÿæ¦cs„ÿOB©B^BrB©Rûæ¦+äÆæ¦RäCÿæ¦RäÆæ¦+äÆOB©BrBC)r¦ÿæ¦²äÆæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)rbÿæ¦KäÖæ¦RäÆ&B2äÆæ¦käÆ"B©BrBC)r¦ÿæ¦RäÆæ¦c“ÆÿOB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦RäÆOB©BrBC)r¦ÿæ¦RäÆNBRäÆæ¦KäÆæ¦c‡‡ÿæ¦c‡‡ÿOB©BrBC)r¦ÿæóKäÆæóc‡‡ÿæ¦RäCÿæ¦c‡‡ÿæ¦RäÆæ¦RäÆOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿbB©BrBC)r¦ÿæ¦c‡‡ÿ&BRäÆfB²äÆæó+äÆæ¦RäCÿOB©BrBC)r¦ÿæ¦RäÆæókäÆæ¦c‡‡ÿæ¦räÆæóc‡‡ÿOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæóc‡‡ÿæ¦c‡‡ÿæ¦RäÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦KäÆæ¦²äÆOB)BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦RäÆæ¦RäÆæóc‡‡þæ¦c‡‡ÿOB©BrBC)r¦þæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦KäÆæ¦RäÆæ¦RäÆÿOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦²äÆæ¦RäÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦+äÆæ¦RäCÿOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦+äÆæ¦räÆæ¦RäÆæ¦KäÆOB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿNB©BrBC)r¦ÿæ¦RäCÿæ¦c‡‡ÿæ¦ZäÆæ¦RäÆ¦BRäÆæ¦RäÆOB©B^*rB©Rûæ¦c‡‡ÿæ¦RäÆæ¦RäÆOB©BrBC)r¦ÿæ¦c‡‡ÿ.BRäÆæ¦+äCÿOB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦RäÆæ¦RäÆæ¦käÆOB©BrBÕC)ãûæ¦c‡‡ÿæ¦²äÆæ¦c‡‡ÿæ¦c‡‡ÿ6BräÆ8BjäÖNB©BrBC)r¦ÿæ¦«äÆg¦RäÆOB©BrBC)r¦ÿæ¦+äÆæ¦c‡‡ÿæ¦RäÆæ¦RäÆOB©BrB©Br¦ÿæ¦RäÆ>BräÆOB©BrB©B”bÿæ¦+äÆæ¦c‡‡þ&BRäÆæ¦käÆOB©B^BrB©Rûæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦RäÆæ¦RäÆOB©B^BrB©Rûæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦£‡‡ÿOB©BrBC)r¦ÿæ¦RäÆ&B²äÆæ¦ZäCÿgóc‡‡ÿæ¦RäÆæ¦+äÆ>BC)rBÑC)ãûæ¦RäÆæ¦RäÆg¦RäÆoB©BrBC)r¦þ&BRäÆæ¦+äÆæ¦RäÆæ¦c‡‡ÿfBräÆæ¦+äÆnB©BrBUC)ãûfBZäÖæ¦RäCÿæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦RäÆæ¦£‡‡þæ¦c‡OþNBRäÆBC)rBC)r¦ÿæ¦KäÆæ¦c‡‡ÿ&BRäCÿæ¦KäCÿæ¦räÆoB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿnB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦c‡‡þgBJäÖæ¦c‡‡ÿæ¦+äÆæ¦RäÆVBJäÖoB©BrBC)r¦ÿ¦¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦räÆ"B©BrBC)r¦ÿæ¦RäÆæóc‡‡ÿæ¦c‡‡ÿæóc‡‡ÿoB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦KäÆæ¦RäÆ"B©BrBC)r¦ÿæ¦RäÆæ¦²äÆoB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡Oþæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦RäÆ&BRäÆoB©BrBC)r¦ÿæ¦käÆæ¦RäÆæ¦KäÆFB_äÆæ¦£‡‡ÿæ¦RäÆoB©BrBC)r¦þFBJäÖæ¦c‡‡ÿæ¦c‡‡ÿg¦c‡‡ÿoB©BrBC)r¦ÿæ¦RäCÿ&BRäÆæ¦RäÆæ¦RäÆæ¦käÆFBjäÖoB©B^*rB©Rûæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿg¦c‡‡ÿæ¦KäÆæ¦RäÆæ¦RäÆæ¦KäÆoB©BrBÑC)ãûæ¦RäÆæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿoB©BrBC)r¦þæ¦c‡Oþæ¦c‡‡ÿæ¦RäÆæ¦c‡Oþæ¦KäÆoB©B^BrB©Rûæ¦RäÆæ¦c‡‡ÿæ¦²äÆæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡þoB©BrBC)r¦ÿg¦c‡Oþæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦käÆæ¦RäÆoB©BrB©Br¦ÿæ¦+äÆæ¦c‡‡ÿæ¦RäÆæ¦RäÆnB©BrB©B”Cüæ¦c‡‡ÿÿKäÆoB©BrBC)r¦ÿæ¦käÆæ¦c‡‡ÿË¦RäÆoB©BrBC)r¦ÿæ¦RäÆ¦BRäÆoB©BrBC)r¦ÿ¦¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦RäÆoB©BrBC)r¦ÿæ¦c‡‡ÿ.BRäÆæ¦+äÆæ¦RäÆæ¦c‡‡ÿ&ÿc‡‡ÿæ¦ZäÆoB©BrBÕC)ãûæ¦RäÆæ¦c‡‡ÿæ¦RäÆæðRs„ÿæ¦RäÆoB©BrB©Br¦ÿæ¦RäÆæ¦c‡‡ÿæ°Rs„ÿBRäÆæ¦RäÆoB©BrBC)r¦ÿg¦c‡‡ÿæ¦RäÆoB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦RäÆæ¦RäÆoB©BrBC)r¦ÿæóc‡‡ÿæ°Rs„ÿBRäÆoB©BrBC)r¦ÿæ¦RäÆ&BRäÆæókäÆæ¦RäÆoB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦RäÆæ¦RäÆæ¦RäÆoB©BrBC)r¦ÿæ¦c‡‡ÿ>BRäÆæÈõrÆÿæ¦RäÆæ¦c‡‡ÿfÿc‡‡ÿnB©BrBC)r¦ÿæ¦+äÆ‡¦c‡‡ÿæóc‡‡ÿæ¦c‡‡ÿæ¦RäÆ>BC)rBC)r¦ÿæ¦RäÆæ¦c‡‡ÿæ¦£‡‡ÿoB©BrBC)r¦ÿæ¦c‡‡ÿæ¦£‡‡ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆæ¦RäÆæ¦+äÆoB©BrBC)r¦ÿæ¦RäÆæ¦RäCÿæ¦RäÆnB©BrB©Br¦ÿæ¦c‡‡ÿBräÆæÈõrÆÿæ¦räÆnB©BrBC)r¦ÿfBRäÆæ¦räÆæ¦räCÿæ¦RäÆoB©BrBC)r¦ÿæóc‡‡ÿ"B©B^BrB©Rûg¦RäÆæóc‡‡ÿNBRäÆæ¦+äÆÿæ¦RäCÿoB©BrBC)r¦ÿææ{„ÿæ¦käÆæ¦RäÆæ¦+äÆg¦RäÆæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿBRäÆ.ÿkäÆæ¦+äÆoB©BrBC)r¦ÿæó+äÆæÿc‡‡ÿæ¦RäÆoB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦c‡‡ÿæ¦RäÆBC)rBC)r¦ÿæ¦RäÆBRäÆNBräÆæ¦+äÆæ¦RäÆæ¦c‡‡ÿæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦RäÆ¦¦c‡OþoB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦²äÆæóc‡‡ÿNBRäÆ6BRäÆoB©BrBC)r¦ÿæ¦ZäÆæ¦c‡‡ÿæBRäÆæ¦c‡‡ÿæ¦+äÆoB©BrB©Br¦ÿ¦BRäÆæ¦c‡‡ÿæ¦RäÆoB©BrBC)r¦ÿFBjäÖæ¦c‡Oþg¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿoB©BrBC)r¦þæ¦c‡‡ÿæ¦räÆæóKäÆÿæ¦RäÆoB©BrBC)r¦ÿæ¦c‡‡ÿæó+äÆæ¦c‡‡ÿæ¦c‡„ÿæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦c‡‡ÿæó+äÆæ¦c‡‡ÿæ¦+äÆoB©BrBC)rSüæ¦RäÆ¦BRäÆoB©BrBC)r¦ÿFBjäÖæë›äCÿ?¦RäÆoB©BrBC)r¦ÿæ¦c‡‡ÿNBRäÆæ¦+äÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆoB©BrBC)r¦þæ¦+äÆæ¦c‡‡ÿæÿ›äÆæ¦£‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿoB©BrBC)r¦þæ¦RäÆæ¦c‡‡ÿæ¦+äÆæ¦RäÆoB©BrBC)r¦ÿæÿ›äÆæý›äÆæ¦RäÆæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦c‡‡ÿNBRäÆæ¦+äÆæ¦RäÆæ¦c‡‡ÿnB©BrB©Br¦ÿfBRäCÿg¦RäÆæ¦+äÆoB©BrB‘C)ãûFBJäÖæÿ›äÆæj#rÆÿæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦£‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦KäÆæ¦RäÆnB©B^BrB©Rûæ¦RäÆæ¦räCÿæ¦c‡‡ÿ&Î¤äÖæ
 
-10:06:12.125 1
+09:19:56.416 #rÆÿæóc‡‡þoB©B^*rB©Rûæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆæ¦RäÆnB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæÿ›äÆæ¦RäÆæ
 
-10:06:12.625 0
+09:20:01.791 #rÆÿæ¦c‡‡ÿoB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡ÿæ¦+äÆæ¦RäCÿnB©BrB©B”bÿæ¦RäÆæRs„ÿæÿ›äÆg¦RäCÿoB©BrBC)r¦ÿæ
 
-10:06:13.141 1
+09:20:16.541 #rÆÿæðRs„ÿ.BRäÆoB©BrBC)r¦ÿæóZdßÿ&BRäÆæ¦+äÆæ¦RäCÿæ¦+äÆ~BC)rBC)r¦ÿFBjäÖgÿ›äÆoB©BrBC)r¦ÿæ¦RäÆæóc‡‡ÿæðRs„ÿoB©BrBC)r¦þBRäÆæ¦²äÆæ¦c‡‡ÿ&BRäÆæ¦+äÆæóc‡‡ÿ"B©BrBBrBÎæ¦c‡‡ÿæ¦c‡‡ÿæÎ”äÖoB©BrBC)r¦ÿæj#rÆÿæC›äÆoB©BrBC)r¦ÿæÜõrÆÿæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äCÿbB©BrBC)r¦ÿæóc‡‡ÿ¦¦c‡‡ÿFBjäÖoB©BrBC)r¦ÿæç›äÆæ
 
-10:06:13.640 0
+09:20:21.916 #rÆÿæ¦c‡‡ÿæRs„ÿNBRäÆoB©BrBC)r¦ÿæHõrÆÿ&BRäÆæ¦+äÆæ¦RäÆæ¦RäÆæ¦«äCÿoB©BrBC)r¦ÿFBZäÖæ¦RäÆæ
 
-10:06:14.039 1
+09:20:37.541 #rÆÿnB©BrBC)r¦ÿæ¦c‡‡ÿ6BRäÆæe+äÆæ¦c‡‡ÿæ¦c‡‡ÿæ¦+äÆoB©BrBC)r¦ÿæ¦RäÆæ¦RäÆæ¦c‡‡ÿoB©BrBC)r¦ÿæÿZäÆæ¦c‡‡ÿæðRs„ÿ.BRäÆæÈõrÆÿææ{¹‡ÿoB©BrBC)r¦ÿ&BräÆæ¦RäÆfBjäÖæ¦c‡‡ÿæ¦c‡‡ÿæÿ›äÆoB©BrBC)r¦ÿæ¦RäÆæ¦c‡Oþ.êRäÆæGrÆÿæ¦RäÆææ{„ÿæ¦c‡‡ÿæ¦KäÆoB©BrBBrBÎæ¦RäÆæ¦c‡‡ÿoB©BrBC)r¦ÿFBjäÖæÿ›äÆæ¦RäÆæ
 
-10:06:14.539 0
+09:20:47.791 #rÆÿæ¦c‡‡ÿæðRs„ÿoB©BrBC)r¦ÿ.BRäÆæ¦RäÆææ{„ÿæ¦K|ßÿæóss‡ÿbB©B^BrB©RûVBjäÖv¦RäÆæÿ›äÆoB©B^BrB©Rûæ¦RäÆæ¦c‡‡ÿæðRs„ÿ6BRäÆoB©BrB©B”CüæÜõrÆÿææ{¹‡ÿæ¦K|ßÿæ¦RäÆæ¦srÎöæ¦KäÆoB©B^BrB©Rûæ¦c‡‡ÿæ¦RäÆæ
 
-10:06:14.914 1
+09:20:55.791 #rÆÿæ¦c‡‡þæRs‡ÿBRäÆæHõrÆÿæ¦RäÆnB©BrBC)r¦ÿææ{¹‡ÿæ¦KäÖæósrÇò¦êRäÆFBjäÖæ¦c‡‡ÿæý›äÆoB©BrBC)r¦ÿæ¦RäÆæ¦c‡‡ÿBRäÆæÜõrÆÿæ¦RäÆgæ{¹‡ÿæ¦c‡‡ÿæ¦KÆÆoB©BrB©Br¦ÿæ¦RäÆ¦¦c‡‡þFBJäÖæ¦c‡‡ÿæÿ›äÆæ
 
-10:06:15.414 0
+09:20:59.916 #rÆÿæ¦c‡‡ÿæRs„ÿ6BRäÆoB©BrB©B”bÿæÜõr„ÿææ{¹‡ÿg¦c‡‡ÿæ¦KäÖoB©B^BrB©Rûæ–{„ÿFBjäÖæóc‡‡ÿæç›äÆæ¦RäÆæ
 
-10:06:15.984 1
+09:21:07.916 #r„ÿæ¦c‡‡ÿæ~›äÆoB©B^BrB©RûæÈõrÆÿææ{¹‡ÿ&BRäÆg¦KäÖæ–s„ÿ¦BRäÆFBRäÖoB©BrBC)r¦ÿæóc‡‡ÿæ¦RäCÿæj#rÆÿæ¦c‡‡ÿæRs„ÿNBRäÆoB©BrBC)r¦ÿæÈõrÆÿææ{¹‡ÿæBRäÆæ¦K|ßÿoB©BrBC)r¦ÿæ¦RäÆæóc‡‡ÿFBjäÖæ¦c‡‡ÿfÎ”äÖæ
 
-10:06:16.484 0
+09:21:11.666 #rÆÿæóc‡OþoB©BrBC)r¦ÿæ&KäÖæHõrÆÿæ¦RäCÿæêRäÆæóâ„ÿæ¦RäÆæ¦c‡‡ÿFBRäÖoBC)rBC)r¦þæ¦c‡‡ÿæ¦RäÆæ
 
-10:06:17.094 1
+09:21:16.541 #rÆÿæ¦c‡‡ÿæ¶›äCÿBRäÆæÈõrÆÿæ¦RäÆoBC)rBC)r¦ÿææ{„ÿæ¦K|ßÿæ¦RäÆæ–{»‡ÿBC)rBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæý›äÆæ¦RäÆæ
+
+09:21:21.041 #rÆÿæ¦c‡‡ÿæðRs„ÿ6BRäÆoB©BrB©B”bÿæÈõrÆÿææc„ÿ&BräÆæ¦Ktßÿæ¦RäÆg³c„ÿoB©BrB©Br¦ÿæóc‡‡ÿæ¦c‡‡ÿæÿ›äÆæ¦RäÆoB©BrB©Br¦ÿæ
+
+09:21:29.417 #rÆÿæ?›äCÿNBRäÆæÈõrÆÿæ¦RäÆææc„ÿæ¦c‡‡ÿæ¦KÆÆoB©BrB©Br¦ÿæ¦RäCÿ¦¦c‡‡ÿFBRäÖæ¦c‡‡ÿæÿ›äCÿæ¦RäÆoB©B^*rB©Rûæj#rÆÿæ¶›äÆ.BRäCÿoB©BrBC)r¦ÿæÈõrÆÿæó{"ÆÿæBRäÆæ¦K|ßÿæ¦RäÆg–{»‡ÿoB©BrB©Br¦ÿg¦c‡‡ÿ6BRäÆæ¦RäÆæ
+
+09:21:59.417 #rÆÿæ¦c‡‡ÿg°Rs„ÿæ¦+äÆoB©BrBC)r¦ÿg¦Ràßÿæ¦c‡‡ÿæ¦K|ßÿæ¦RäÆ¦¦c‡‡ÿFBjäÖæ¦c‡‡ÿoB©BrBC)r¦ÿæÿ›äÆæû#rgÿæ¦c‡‡ÿæ°Rs„ÿæÜõrÆÿæ¦R ‡ÿæóc‡„ÿoB©BrB©BrbÿNêRäÆæ¦RäÆæÖ{„ÿFBjäÖoB©BrBC)r¦ÿg¦c‡‡ÿæ¦RäÆæj#rÆÿæ¦c‡‡ÿæ°Rs„ÿ>BRäÆoB©BrBC)r¦ÿæÈõrÆÿgæ{„ÿæ¦Kxßÿæ¦RäÆæ–s„ÿoB©BrBC)r¦ÿæ¦c‡‡ÿæÿ›äÆæ¦RlÆÿoB©BrBC)r¦ÿæj#rÆÿæ¶ZäÆ.BRäÆæ¦RäÆææs¹‡ÿæ¦c‡‡ÿæ¦KÆÆnB©BrB©Br¦ÿæ–{„ÿFBjäÖ6BRäÆoB©BrBC)r¦ÿæ¦r,Æÿæ¦c‡‡ÿæRs„ÿ6BRäÆoB©BrB©B”bÿæÜõrÆÿgæc„ÿg¦Kxßÿæ¦RäÆoB©B^BrB©Rûæ–{»‡ÿFBJäÖoB©B^BrB©Rûæ¦c‡‡ÿæ¦RlÆÿæj#r„ÿg¦c‡„ÿæðRs„ÿoB©BrBC)r¦ÿ.BräÆææ{„ÿoB©B^BrB©Rûæ¦£‡‡ÿæócs„ÿæ–{»‡ÿæ¦c‡‡ÿn²C)rBC)²bÿFBZäÖæÿ›äÆæ¦RäÆæ
+
+09:22:04.917 #rÆÿæ¦c‡‡ÿoB©BrBC)r¦ÿæy›äÆæÈõr„ÿoB©B^BrB©Rûæ¦RäÆ&BRäÆæ¦RxßÿæócsÆÿæ¦räÆnB©BrBC)r¦ÿæ¦c‡‡ÿæ¦2äÆæ
+
+09:22:09.542 #rÆÿoB©BrBC)r¦ÿæ¦c‡Oþæ¦c‡Æÿæ¦RäÆææ{äÆæ¦c‡‡ÿæ¦Kxßÿæ¦RCßÿæ–{»‡ÿoBC)rBC)r¦ÿg¦c‡‡ÿæÿ›äÆæ¦RäÆæ
+
+09:22:15.167 #rÆÿæ¦c‡‡ÿæRs„ÿg¦ccÆÿoB©BrBC)r¦ÿæÈõrÆÿfBRäCÿæ¦KäÖæ¦RäÆoB©BrBC)r¦ÿg–{»‡ÿFBjäÖæ¦c‡‡ÿæ¦RäÆoB©BrBC)r¦ÿæ
+
+09:22:19.542 #rÆÿgy›äÆæÌõrÆÿæ¦RäÆææ{„ÿoB©BrBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ¦c‡‡þBC)rBC)r¦þFBjäÖæÿ›äÆæ
+
+09:22:24.792 #rÆÿæ¦c‡‡ÿoB©BrBC)r¦ÿæ°Rs„ÿæÜõrÆÿæ¦RäÆææ{„ÿæ¦Kxßÿæ¦²äÆBC)rBC)r¦ÿ¦¦#‡‡ÿæóc7„ÿæÿ›äÆæ
+
+09:22:36.042 #rÆÿoB©BrBC)r¦ÿæ¦c‡‡ÿBRäCÿgÌõrÆÿæ¦RäÆ&BRäÆæ¦KÆÆoB©BrB©Br¦ÿæ¦RäÆ¦¦c‡‡ÿFBjäÖæóc7„ÿæ›äÆoB©BrB©Br¦ÿæ¦RäÆæ¦c‡‡ÿæy›äÆNBRäÆæÇrÆÿoB©BrBC)r¦ÿæ¦RäCÿæó+ä‡þ¦BRäÆæ¦RäÆæ–c„ÿ¦¦c‡‡þoB©BrBBrBÎFBjäÖgÿ›äÆæókäÆæ
+
+09:22:42.042 #rÆÿæ¦c‡‡ÿæ°Rs„ÿnB©BrBC)r¦ÿ>êRäÆæ¦RäÆææ{¹‡ÿæ¦+t‡ÿ>BC)rBC)r¦ÿæ¦RäÆ¦¦c‡‡ÿFBjäÖ>BC)rBC)r¦ÿæ¦c‡‡ÿæ¦RäÆæ
+
+09:22:48.042 #rÆÿæ¦c‡OþæðRs„ÿBRäÆæhµr„ÿoBC)rBC)r¦ÿæ¦RäÆg¦kd‡ÿ¦BRäÆæ¦räÆoB©B*rB©Rûæ–c„ÿFBjäÖæ¦c‡‡ÿæÿ›äÆæ¦RäÆoB©BBrB©Rûæ
+
+09:22:53.167 #rÆÿæðrs„ÿoB©BrBC)r¦ÿNBRäÆæ¦räÆææs„ÿ&BRäÆæ¦KäÖæ¦RäCÿæ–{„ÿ"B©BrBC)r¦ÿæ¦KäSÿæÌõrÆÿfÎ´äÖæ¦RäÆæ
+
+09:22:59.292 #rÆÿæ¦cÿoB©BrBC)r¦ÿæ¦c‡‡ÿæÌõrÆÿæ¦Rà‡ÿoB©BrBC)r¦ÿææ{„ÿæ¦KäÖoB©BBrB©Rûæ¦räÆæókä­ÿæ¦RäÆæ¦c‡‡ÿæÿ›äÆæ¦RäÆæ
+
+09:23:05.167 #rÆÿoB©BrB©Br¦ÿæ¦cÿæ?›äÆæHõrÆÿæ¦Ràßÿææ{„ÿoB©Br·C)ãûæBRäÆæ¦RäÆæ¦Rà‡ÿçBjäÖæ¦c‡‡ÿoB©BrBC)r¦ÿæÿ›äÆæ
+
+09:23:11.043 #rÆÿæ¦c‡‡ÿæ°Rs„ÿ.BRäÆoB©BrBC)r¦ÿæÜõr„ÿææ{„ÿæ¦c‡‡ÿæ¦K|ßÿoB©BrBC)r¦ÿæ¦²äÆ¦BRäÆFBZäÖæ¦c‡‡ÿoB©BrBC)r¦ÿgÜ›äÆæ
+
+09:23:22.168 #rÆÿæ¦c‡‡ÿoB©BrBC)r¦ÿæ†›äCÿæÈõr„ÿæ¦Ràßÿææ{„ÿ&ÿc‡‡ÿoNBC)rB©Òãûæ¦Zxßÿæ–{»‡ÿoB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c‡‡ÿæ›äÆæ¦RlÆÿoB©BrBC)r¦ÿæj#rgÿæ°Rs„ÿNBRäÆæÈõrÆÿoB©BrB©Br¦ÿg¦²àßÿæ¦c‡‡ÿæóâ„ÿæ¦RäÆoB©BrBC)r¦ÿæ–{„ÿFBjäÖnB©BrBC)r¦ÿæ¦c‡‡ÿæ¦R,Æÿæ
+
+09:23:28.418 #rÆÿg¦c‡‡ÿæy›äÆoB©BrBC)r¦ÿNBRäÆæ¦r ‡ÿoB©BrBC)r¦ÿæó{¹‡ÿæ¦Kxßÿæ¦RH‡ÿæ–{„ÿ¦¦c‡‡ÿoB©BrBC)r¦ÿFBjäÖæÿ›äÆæ¦R,Æÿæ
+
+09:23:34.543 #rÆÿæ¦c‡‡ÿoB©BrBC)r¦ÿæRs„ÿæÈõrÆÿoB©BrBC)r¦ÿæ¦R ‡ÿ&ÿc‡‡ÿæ¦Kxßÿæ¦R@‡ÿæ–{„ÿæ¦c‡‡ÿo²C)rB©B²bÿFBjäÖæÿ›äÆæ¦RlÆÿoB©BrBC)r¦ÿæ
+
+09:23:46.043 #rÆÿæ°Rs„ÿæ¦c#ÆÿoB©BrBC)r¦ÿæÈõrÆÿgós¹‡ÿæ¦c‡‡ÿæ¦Kxßÿæ¦RH‡ÿæ–{„ÿæ¦c‡‡ÿoB©BrBC)r¦þFBjäÖæÿ›äÆæ¦RlÆÿæû#rÆÿæ¦c‡‡ÿoB©BrBC)r¦ÿgðRs„ÿgHõrÆÿæ¦Ràßÿgæ¹‡ÿæ¦c‡‡ÿæóâ„ÿoB©BrBC)r¦ÿæ¦rH‡ÿ¦¦c‡‡ÿFÿc‡Oþæ¦c‡‡ÿoB©BrBC)r¦ÿæÿ›äÆæ
+
+09:24:03.668 #rÆÿæ¦c‡‡þæ°Rs„ÿæ¦c#ÆÿæÇrÆÿæ¦RàßÿoB©BrBC)r¦ÿææ{„ÿæóâ„ÿæ¦Rƒßÿæ³s„ÿ"B©BrBC)r¦ÿæ¦c‡‡ÿæ¦c·„ÿæÿ›äÆoB©BrBC)r¦þæ¦RlÆÿæ¦c‡‡ÿg¶›äÆæ¦c#ÆÿoB©BrBC)r¦ÿæÇrÆÿææ{„ÿ&B²äÆoB©BrBC)r¦ÿg¦K|ßÿæÖc„ÿoB©BrBC)r¦ÿg¦c‡‡ÿæ¦c7„ÿæÿ›äÆæóccÆÿnB©BBrB©Rûæj#rÆÿæ/›äÆæ¦c#ÆÿoB©BrBC)r¦þæhõrÆÿææ{¹‡ÿg¦kt‡ÿæ¦c‡‡ÿæ¦RBßÿoB©B^BrB©Rûæ¦Rà‡ÿg¦c·„ÿæÿ›äÆæ¦RlÆÿæ
+
+09:24:10.043 #rÆÿæ¦c‡‡ÿæðRs„ÿoB©BrBC)r¦ÿæ¦c#Æÿæ¦Ràßÿææc„ÿoB©BrBC)r¦þæ¦kt‡þæû#rÆÿæ–{»‡ÿæóc‡„ÿoB©BrBC)r¦ÿFBjäÖæç›äÆæ¦RlÆÿæ
+
+09:24:16.418 #rÆÿæ¦c‡‡ÿæ°Rs„ÿoBC)rBC)r¦ÿæ¦c#Æÿæ¦Rà‡ÿææcäÆæ¦+t‡ÿoB©BrBC)r¦ÿ‡¦c‡‡ÿæ–{„ÿ¦¦c‡‡ÿoB©BrBC)rSüFBjäÖæç›äÆæ¦RlÆÿ"B©BrBC)r¦ÿæ
+
+09:24:19.168 #rÆÿæðRs„ÿæ¦c#ÆÿæÇrÆÿæ¦Ràßÿææ{„ÿoB©B^BrB©Rûæ¦+t‡ÿæ
+
+09:24:27.168 #rÆÿæ–s„ÿoB©BrBC)r¦ÿæ¦c‡‡ÿæ¦c·„ÿæÿ›äÆoB©BrBC)r¦ÿæ¦RlÆÿæ¦cÿæ¦c7„ÿ^BC)rBC)r¦ÿæ¦c#Æÿgókàßÿææ{¹‡ÿæ¦+t‡þæ¦+äSÿæz#rÆÿæ–{„ÿoB©BrBC)r¦ÿæ¦KäVÿæÈõrÆÿfÎ¤äÖæ¦RlÆÿæ
+
+09:24:39.293 #rÆÿæ¦cÿoB©BrBC)r¦ÿæ¦c7gÿæÜõrÆÿæ¦R ‡ÿoB©BrBC)r¦ÿææ{„ÿæ¦R|ßÿæ¦RHßÿoB©BrBC)r¦ÿæ–{„ÿFBjäÖoB©BrBC)r¦ÿæ¦KdOÿæç›äÆæj#rÆÿoB©BrB©Br¦ÿæ¦cÿæRs„ÿæÈõrÆÿæ¦Ràßÿææ{„ÿoB©BrBC)rSüæ¦+t‡ÿæû#r„ÿæ–{»‡ÿæ¦+äSÿæ¦r,ÆÿoB©BrBC)r¦ÿæ¦c7„ÿæ¦RlÆÿæ
+
+09:24:42.668 #rÆÿæ¦cÿæ¦c·„ÿæ¦c#ÆÿbB©BrBC)ræÿæ–c„ÿææ{„ÿæ¦+t‡ÿæ¦käRÿæ
+
+09:24:45.419 #rÆÿæ–c„ÿoB©BrB©Br¦ÿæ¦Kä­ÿgÈõrÆÿnB©BrB©Br¦ÿæç›äÆæ
+
+09:24:50.418 #rÆÿæ¦cÿoB©BrBC)r¦ÿæ¦c7„ÿæÈõrÆÿæ¦RàßÿææcäÆnB©BrBC)ræÿæ¦kd‡ÿæû#rÆÿæ–{„ÿoB©BrBC)r¦ÿæ¦+ä­ÿæÇrÆÿæç›äÆæ¦R‡ÿoB©BrBC)r¦ÿæ
+
+09:24:53.543 #rÆÿæðRs„ÿæ¦c#ÆÿoB©BrBC)r¦ÿæGrÆÿææcäÆæ¦+t‡ÿæ¦+ä­ÿæ
+
+09:24:56.419 #r„ÿoB©BrBBrBÎæ–{„ÿFj¤äÖoB©BrBC)r¦ÿæ¦c7„ÿæ¦RlÆÿæ
+
+09:25:02.669 #rÆÿæ¦cÿæ¦c7„ÿoB©BrB©Br¦ÿæ¦c#Æÿæ¦RàßÿoB©BrBC)r¦ÿæó¹‡ÿæ¦Ktßÿæ¦R@‡ÿæ–{„ÿæ¦+äSÿoB©BrB)Br¦ÿæ¦RlÆÿæÿ›äÆæ¦rlÆÿæ
+
+09:25:05.794 #rÆÿæócÿoB©BrBC)ræÿæ¦c7„ÿæÈõrÆÿoB©BrBC)r¦ÿæ¦R ‡ÿæ¦+t‡ÿæ¦KäSÿæ
+
+09:25:08.794 #rÆÿæ–{„ÿæ¦+äSÿoB©BrB)Br¦ÿæ¦R‡ÿæÿ›äÆæ¦RlÆÿoB©BrBC)r¦ÿæ
+
+09:25:11.794 #rÆÿæðRs„ÿæ¦£#ÆÿoB©BrBC)r¦ÿæÈõrÆÿææc„ÿæ¦kt‡ÿæ¦+äSÿæ
+
+09:25:14.544 #rÆÿæ–{»‡ÿæ¦KäSÿnB©BrBC)r¦ÿæ¦RlÆÿgÿ›äÆæ¦²lÆÿæ
+
+09:25:18.044 #rÆÿg¦cÿ>BC)rBC)r¦ÿæ¦£7„ÿæÌõrÆÿæóK ‡þææ{„ÿæ¦Kä‡ÿæ¦+äSÿoB©BrBC)r¦ÿæ
+
+09:25:20.294 #rÆÿæ¦+äSÿæ¦RlÆÿæ¦c7„ÿoB©BrBC)r¦ÿæÿ›äÆæ
+
+09:25:35.669 #rÆÿæ¦cŽÿæ¦c7„ÿæ¦c#ÆÿgÈõrgÿæ¦RàßÿoB©BžC)rBÎææ{„ÿæ¦K|ßÿæ¦RCßÿæ–{„ÿoB©BrBC)r¦ÿæ¦+äSÿæÌõrÆÿæ¦RäÆoB©BrBC)r¦ÿg¦2äÆæ¦Ktßÿæ°Rs„ÿg¦c#ÆÿoB©BrBC)r¦ÿæÜõrÆÿææ{„ÿæ¦Kd‡ÿoB©BrBC)r¦ÿæ¦Kä­ÿæ¦R ‡þoB©BrBC)r¦ÿæ¦+äÿæÈõr„ÿæ¦RäÆæ¦RäCÿoB©BrBC)r¦ÿæ¦c#ÆÿæRs„ÿæ¦c#ÆÿoB©BrBC)r¦ÿæÈõrÆÿææ{¹‡ÿæ¦kt‡ÿg¦Kä­ÿæ
+
+09:25:56.294 #rÆÿæ–{„ÿoB©BrBC)r¦ÿæ¦+ä­ÿæÌõrÆÿæ¦RäÆæ¦RäÆæ¦ccÆÿæ¦cÿæ¦c7„ÿoB©BrB©Bræÿæ¦ccÆÿæó+àßÿææ{¹‡ÿnB©BrB©Br¦þæ¦+t‡ÿæ¦RäÆæ¦RàßÿgóKäSÿæ¦RlÆÿ^BC)rBC)r¦ÿg¦c7„ÿæ¦R,Æÿæ¦RäÆ¾rB©BrB)Bãûæ¦Ktßÿæ¦c#ÆÿæÈµrFþoB©BrB©Br¦þæ¦R`‡ÿæ¦+t‡ÿæ¦käSÿæ¦²äÆoB©BrBC)r¦þæ¦RàßÿFBZäÖæ¦c·gÿæÿ›äÆnB©BrBC)r¦þæ¦RlÆÿæ¦cÿæ¦c·„ÿoB©BrB©Br¦þæ¦c#Æÿæ¦²àßÿææ{¹‡ÿæ¦Kt‡ÿæ¦+äÿæ¦RäÆoB©BrBC)r¦ÿæ¦R ‡ÿFBJäÖæ¦c7„ÿæÿ›äÆæ¦RlÆÿ>BC)rBC)r¦ÿæ
+
+09:25:59.044 #rÆÿ6BRäÆoB©BrBC)r¦ÿNÿkäÆFBRäÖææ{„ÿæ¦Kt‡ÿæó+äSÿæ
 

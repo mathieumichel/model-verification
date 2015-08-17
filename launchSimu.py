@@ -2,7 +2,7 @@ import os, numpy, re
 from texttable import Texttable
 t = Texttable()
 t.add_row(["Ratio", "XP (#)", "MAC", "Avg PDR (%)", "Avg latency (ms)", "Avg strobes (#)", "ACKS (%)"])
-count=15
+count=5
 from pylab import *
 
 
@@ -11,122 +11,39 @@ def changeMacLayer(module):
 	os.system("mv temp.h project-conf.h")
 	os.system("chmod 777 project-conf.h")
 
-#launch all umons xp than all sics xp
-def start(ratio):
-	#change the ratio for interferer
-	os.chdir("experiment")
+def changeRatio(ratio):
+	os.chdir("interferer")
 	os.system("sed \"s/#define INTERFERER_OFF_TIME INTERFERER_ON_TIME * .*/\#define INTERFERER_OFF_TIME INTERFERER_ON_TIME * "+str(ratio)+"/\" project-conf.h > temp.h")
 	os.system("mv temp.h project-conf.h")
 	os.system("chmod 777 project-conf.h")
 	os.system("make interferer.upload TARGET=z1 MOTE=3")
 	os.chdir("..")
+	
+def launchTest(test,ratio,module):
+	changeMacLayer(module)
+	os.system("make net-test.upload TARGET=z1 MOTE=1")
+	os.system("make net-test.upload TARGET=z1 MOTE=2")
+	i=0
+	while i<count:
+		os.system("./umons-experiment.sh tests/"+str(test)+"-"+str(module)+"-"+str(ratio)+"-xp"+str(i+1))
+		i+=1
 
+
+#launch all umons xp than all sics xp
+def start(ratio):
+	changeRatio(ratio)
+	
 	#umons code
-	
 	os.chdir("experiment-phaselock")
-	
-	i=0
-	module="nullmac"
-	changeMacLayer(module)
-	os.system("make net-test.upload TARGET=z1 MOTE=1")
-	os.system("make net-test.upload TARGET=z1 MOTE=2")
-	while i<count:
-		os.system("./umons-experiment.sh tests/umons-"+module+"-"+str(ratio)+"-xp"+str(i+1))
-		i+=1
-	i=0
-	module="csma"
-	changeMacLayer(module)
-	os.system("make net-test.upload TARGET=z1 MOTE=1")
-	os.system("make net-test.upload TARGET=z1 MOTE=2")
-	while i<count:
-		os.system("./umons-experiment.sh tests/umons-"+module+"-"+str(ratio)+"-xp"+str(i+1))
-		i+=1
-		
+	launchTest("umons",ratio,"nullmac")
+	launchTest("umons",ratio,"csma")
 	os.chdir("..")
 	
 	#sics code
 	os.chdir("experiment")
-	i=0
-	module="nullmac"
-	changeMacLayer(module)
-	os.system("make net-test.upload TARGET=z1 MOTE=1")
-	os.system("make net-test.upload TARGET=z1 MOTE=2")
-	os.chdir("../experiment-phaselock")
-	while i<count:
-		os.system("./umons-experiment.sh tests/sics-"+module+"-"+str(ratio)+"-xp"+str(i+1))
-		i+=1
-	i=0
-	module="csma"
-	os.chdir("../experiment")
-	changeMacLayer(module)
-	os.system("make net-test.upload TARGET=z1 MOTE=1")
-	os.system("make net-test.upload TARGET=z1 MOTE=2")
-	os.chdir("../experiment-phaselock")
-	while i<count:
-		os.system("./umons-experiment.sh tests/sics-"+module+"-"+str(ratio)+"-xp"+str(i+1))
-		i+=1
-	i=0
+	launchTest("sics",ratio,"nullmac")
+	launchTest("sics",ratio,"csma")
 	os.chdir("..")
-
-
-#launch umons and sics xps in an alternate way
-def startB(ratio, mode):
-	
-	#change the ratio for interferer
-	os.chdir("experiment")
-	os.system("sed \"s/#define INTERFERER_OFF_TIME INTERFERER_ON_TIME * .*/\#define INTERFERER_OFF_TIME INTERFERER_ON_TIME * "+str(ratio)+"/\" project-conf.h > temp.h")
-	os.system("mv temp.h project-conf.h")
-	os.system("chmod 777 project-conf.h")
-	os.system("make interferer.upload TARGET=z1 MOTE=3")
-	os.chdir("..")
-	#os.system("rm -rf experiment-phaselock/tests/umons-"+str(ratio)+"-xp*")
-	#os.system("rm -rf experiment-phaselock/tests/sics-"+str(ratio)+"-xp*")
-	i=1
-	
-	if mode==0:
-		module="nullmac"
-	elif mode==1:
-		module="csma"
-	elif mode==2:
-		module="nullmac"
-		
-	os.chdir("experiment")
-	os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
-	os.system("mv temp.h project-conf.h")
-	os.system("chmod 777 project-conf.h")
-	os.chdir("../experiment-phaselock")
-	os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
-	os.system("mv temp.h project-conf.h")
-	os.system("chmod 777 project-conf.h")
-	os.chdir("..")
-	
-	while i<=count:
-		#umons code
-		os.chdir("experiment-phaselock")
-		os.system("make net-test.upload TARGET=z1 MOTE=1")
-		os.system("make net-test.upload TARGET=z1 MOTE=2")
-		os.system("./umons-experiment.sh tests/umons-"+module+"-"+str(ratio)+"-xp"+str(i))
-		os.chdir("..")
-		#sics code
-		os.chdir("experiment")
-		os.system("make net-test.upload TARGET=z1 MOTE=1")
-		os.system("make net-test.upload TARGET=z1 MOTE=2")
-		os.chdir("../experiment-phaselock")
-		os.system("./umons-experiment.sh tests/sics-"+module+"-"+str(ratio)+"-xp"+str(i))
-		os.chdir("..")
-		i+=1
-		if(i>count and mode==2): #we test now with csma_driver
-			i=1
-			module="csma"
-			os.chdir("experiment")
-			os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
-			os.system("mv temp.h project-conf.h")
-			os.system("chmod 777 project-conf.h")
-			os.chdir("../experiment-phaselock")
-			os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
-			os.system("mv temp.h project-conf.h")
-			os.system("chmod 777 project-conf.h")
-			os.chdir("..")
 
 def regenerateStats():
 	ratios=[1,2,4,9]
@@ -148,15 +65,18 @@ def computeStatsTotal(xpname,ratio, module):
 	acks=[]
 	xpcount=0;
 	while i<=count:
-		file="experiment-phaselock/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)+"/stats.txt"
+		if xpname=="umons":
+			file="experiment-phaselock/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)+"/stats.txt"
+		else:
+			file="experiment/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)+"/stats.txt"
 		for line in open(file, 'r').readlines():
 			res1=re.compile('(Mean latency: )(\d*.\d*)( ms)').match(line)
 			res2=re.compile('(PRR: )(\d*.\d*)').match(line)
 			res3=re.compile('(Strobes: )(\d*.\d*)').match(line)
 			res4=re.compile('(Received acks: )(\d*.\d*)').match(line)
 			if res1:
-				if float(res1.group(2)) > 1000:
-					break
+				#if float(res1.group(2)) > 1000:
+				#	break
 				latencies.append(float(res1.group(2)))
 				xpcount+=1
 			elif res2:
@@ -172,7 +92,10 @@ def computeStatsTotal(xpname,ratio, module):
 	t.add_row([str(ratio), xpname.upper()+" ("+str(xpcount)+")", module, "%.2f" % (numpy.mean(pdrs)*100)+" ( +/- "+"%.2f" % (numpy.std(pdrs)*100)+ ")" , "%.2f" % (numpy.mean(latencies)) +" ( +/- "+"%.2f" % (numpy.std(latencies))+ ")", "%.2f" % (numpy.mean(strobes)) +" ( +/- "+"%.2f" % (numpy.std(strobes))+ ")","%.2f" % (numpy.mean(acks)*100) +" ( +/- "+"%.2f" % (numpy.std(acks)*100)+ ")"])
 
 def computeStrobesStats(xpname,ratio,index):
-	filename="experiment-phaselock/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
+	if "sics" in xpname:
+		filename="experiment/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
+	else:
+		filename="experiment-phaselock/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
 	Strobes=[]
 	for line in open(filename).readlines():
 		line_vector = line.strip().split()
@@ -180,10 +103,24 @@ def computeStrobesStats(xpname,ratio,index):
 			continue;
 		msg_type = line_vector[1]
 		if msg_type == "contikimac:":
-			if line_vector[2]=="send":# and line_vector[5]=="ack,":
+			if line_vector[2]=="send":#and line_vector[5]=="ack,":
 				number_of_strobes = int(line_vector[3].split('=')[1][:-1])
 				Strobes.append(number_of_strobes)
 	return Strobes
+	
+def cdfStrobes(tab1, name1, tab2, name2):
+	plt.figure(figsize=(7,5))
+	plt.title("Strobes #")
+	plt.ylabel("# strobes")
+	plt.xlabel("TX attempts")
+	x=np.arrange(0,30)
+	y=sort(tab1)
+	yvals=np.arange(len(y))/float(len(y))
+	plt.plot(y,yvals,'-',label=name1,color='blue', linewidth=4 )
+	y = sort(tab2)
+	yvals=np.arange(len(y))/float(len(y))
+	plt.plot(y,yvals,'-',label=name1,color='blue', linewidth=4 )
+	plt.savefig('%s.pdf' %("countSrobes-cdf"), format='pdf')
 
 def draw(tab1,name1,tab2,name2):
 	plt.figure(figsize=(7,5))
@@ -196,48 +133,22 @@ def draw(tab1,name1,tab2,name2):
 	plt.plot(tabX,tab2,label=name2,linestyle="--",)
 	plt.savefig('%s.pdf' %("countSrobes-all"), format='pdf')
 
-def baseline(ratio):
-	#change the ratio for interferer
-	os.chdir("experiment")
-	os.system("sed \"s/#define INTERFERER_OFF_TIME INTERFERER_ON_TIME * .*/\#define INTERFERER_OFF_TIME INTERFERER_ON_TIME * "+str(ratio)+"/\" project-conf.h > temp.h")
-	os.system("mv temp.h project-conf.h")
-	os.system("chmod 777 project-conf.h")
-	os.system("make interferer.upload TARGET=z1 MOTE=3")
-	os.chdir("..")
-
-	
-	#sics code
-	i=0
-	os.chdir("experiment")
-	os.system("make net-test.upload TARGET=z1 MOTE=1")
-	os.system("make net-test.upload TARGET=z1 MOTE=2")
-	os.chdir("../experiment-phaselock")
-	while i<10:
-		os.system("./umons-experiment.sh tests/baseline-sics-"+str(ratio)+"-xp"+str(i+1))
-		i+=1
-	os.chdir("..")
 
 ########################################################
-#for ratio in range(10):
-	#computeStatsTotal("umons",ratio+1)
-	#computeStatsTotal("sics",ratio+1)
-########################################################
-#list=[1,2,9]
-#for value in list:
-#	start(value)
-########################################################
-list=[1,2,9]
+list=[1,2,4]
 for value in list:
-	computeStatsTotal("umons",value,"csma")
-	computeStatsTotal("umons",value,"nullmac")
-	computeStatsTotal("sics",value,"csma")
-	computeStatsTotal("sics",value,"nullmac")
-print t.draw()
+	start(value)
+########################################################
+#list=[1,2,4]
+#for value in list:
+	#computeStatsTotal("umons",value,"csma")
+	#computeStatsTotal("umons",value,"nullmac")
+	#computeStatsTotal("sics",value,"csma")
+	#computeStatsTotal("sics",value,"nullmac")
+#print t.draw()
 ########################################################
 #regenerateStats()
 ########################################################
-#draw(computeStrobesStats("sics",1,2),"sics",computeStrobesStats("sics",1,2),"sics")
+#cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"sics",computeStrobesStats("umons-nullmac",2,1),"umons")
 ########################################################
-#list=[1,2,9]
-#for value in list:
-	#baseline(value)
+
