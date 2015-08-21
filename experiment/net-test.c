@@ -14,7 +14,7 @@
 #define MIN_WAIT CLOCK_SECOND * 1
 #define MAX_WAIT CLOCK_SECOND * 3
 
-#define USING_COOJA 0
+#define USING_COOJA 1
 
 #if USING_COOJA
 #define PRINTF cooja_debug

@@ -8,6 +8,7 @@
 #include "dev/cc2420/cc2420.h"
 #include "dev/leds.h"
 #include "powertrace.h"
+#include "simple-energest.h"
 
 #include "cooja-debug.h"
 
@@ -63,7 +64,7 @@ PROCESS_THREAD(net_test_process, ev, data)
 
   etimer_set(&et, MAX_WAIT * 2);
   PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
-
+  energest_log_start();
   while(1) {
     interval = MIN_WAIT + (random_rand() % (MAX_WAIT - MIN_WAIT));
     etimer_set(&et, interval);

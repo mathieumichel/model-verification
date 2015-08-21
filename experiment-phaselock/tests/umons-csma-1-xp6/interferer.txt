@@ -1,54 +1,54 @@
-02:22:00.436 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB3
+05:30:45.542 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB2
 
-02:22:00.840 Rime started with address 3.0
+05:30:45.950 Rime started with address 3.0
 
-02:22:00.850 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+05:30:45.961 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
 
-02:22:00.851 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+05:30:45.961 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
 
-02:22:00.865 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+05:30:45.976 nullmac nullrdc, channel check rate 128 Hz, radio channel 26
 
-02:22:00.866 Starting 'Interference generator'
+05:30:45.976 Starting 'Interference generator'
 
-02:22:00.869 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
+05:30:45.980 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
 
-02:22:00.869 Interferer tx power 15 rf channel 26
+05:30:45.980 Interferer tx power 15 rf channel 26
 
-02:22:01.868 0
+05:30:46.979 0
 
-02:22:02.290 1
+05:30:47.401 1
 
-02:22:02.790 0
+05:30:47.901 0
 
-02:22:03.220 1
+05:30:48.330 1
 
-02:22:03.720 0
+05:30:48.830 0
 
-02:22:04.251 1
+05:30:49.362 1
 
-02:22:04.751 0
+05:30:49.862 0
 
-02:22:05.353 1
+05:30:50.463 1
 
-02:22:05.853 0
+05:30:50.963 0
 
-02:22:06.368 1
+05:30:51.479 1
 
-02:22:06.868 0
+05:30:51.979 0
 
-02:22:07.267 1
+05:30:52.377 1
 
-02:22:07.767 0
+05:30:52.877 0
 
-02:22:08.142 1
+05:30:53.252 1
 
-02:22:08.642 0
+05:30:53.752 0
 
-02:22:09.212 1
+05:30:54.323 1
 
-02:22:09.712 0
+05:30:54.823 0
 
-02:22:10.321 1
+05:30:55.432 1
 
-02:52:12.571 _ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿ûÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?ûûÿÿÿÿÿÿÿÿÿÿÿ?ûתÿÿÿÿÿÿÿÿÿÿÿÿÿ?ûûÿÿÿÿÿÿÿÿÿÿÿ¿ûתÿÿÿÿÿÿÿÿÿÿÿÿÿ?ûתÿÿÿÿÿÿÿÿÿÿÿÿ?ûüÿÿÿÿÿÿÿÿ¿ûÿÿÿÿÿÿÿÿÿÿÿÿÿ?נ‏ÿÿÿÿÿÿÿÿÿÿÿÿÿ?ûüÿÿÿÿÿÿÿÿÿ¿ûÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¿נÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ?ûתÿÿÿÿÿÿÿÿÿÿÿÿ¿נתÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿנ‏ÿÿÿÿÿÿÿÿÿÿÿÿהÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÓûÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒ‏ÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿהÿÿÿÿÿÿÿÿÿÿÿÒ‎ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿהüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿÿÿה‏ÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÿÿÿÿנûÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿÿÿÿÿÓ‎ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿנ‏ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿהüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿהûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÿÿÿÿÿÓ‏ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿתתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿהתÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒ‏ÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒ‏ÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿתתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿהûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿûתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿהתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÿû‏ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿהתÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûתÿÿÿÿÿÿÿÿÿÿÿÿÿהתÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿה‏ÿÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿûתÿÿÿÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿÿÒ‏ÿÿÿÿÿÿÿÿÿÿÿÿÿÿû‎ÿÿÿÿÿÿÿÿÿה‏ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿûûÿÿÿÿÿÿÿÿÿÿÿÿÿûתÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûתÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿנûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿה‎ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÿÿÿÿהתÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÿÿנûÿÿÿÿÿÿÿÿÿÿÿÿÿÿהתÿÿÿÿÿÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÿÿÿÿÿנÿÿÿÿÿÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿÿÿÓתÿÿÿÿÿÿÿÿÿÿÿÿ2תÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿÿÿÿשעÿÿÿÿÿÿÿÿÿÿÿÿÿÿ3עÿÿÿÿÿÿÿÿÿףÿÿÿÿÿÿÿÿÿÿÿÿÿÿ3ףÿÿÿÿÿÿÿÿÿÿ2ףÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ2עÿÿÿÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿÿÿÿעÿÿÿ/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+06:00:57.688 ÿ_ÿ¿ûÿûת?ûת?ûת¿ûת?ûתÿ?ûתÿ¿}ÿÿ¿}ÿ?ûת¿ûÿ¿נÿÿ?ûת?ûתÿÿÿנתÿÿÓûÿÿÿÒתÿÒüÿÿÒüÿÿ‎üÿÓüÿÿנתÿÿÿנתÿÒûÿנÿÿנÿÒüÿÒתÿנתÿÿÒתÿÿÓתÿÒתÿנתÿÿÿÒüÿÒ‏ÿÿנüÿÿÿנתÿÿÒûÿנתÿÿנÿÿÒÿÒ‎ÿÿנתÿÿÿÿÒתÿÒתÿÒûÿנתÿÿÒתÿÿÒûÿÿנÿנÿÓüÿÿÿנתÿנתÿÿÒתÿÿÒÿÓüÿÒÿÒתÿÿÒûÿנתÿÿנתÿÓתÿנתÿÿנ‎ÿÒÿÿנüÿÿנÿÿÒתÿÒתÿÒûÿÒ‎ÿÓüÿÿÿÿÒüÿנתÿÒתÿÿÿÿÒתÿנתÿÿנûÿÒתÿÿנüÿנüÿÓüÿÿÒתÿÒûÿÿÒתÿÿÒüÿÓÿûüÿנתÿÒתÿÿÿûתÿנûÿÿÓתÿûתÿÿÿûתÿÒüÿÒüÿÓüÿÒתÿÒûÿÒתÿÿûÿûüÿÿÿÿÒ‎ÿûתÿÿûûÿÒתÿÓתÿûתÿÿÒתÿÒÿÒÿÒÿÿÒÿÿÿÒתÿÿûתÿÿÒûÿÓüÿ‎תÿÿû‎ÿÿÒתÿÿûתÿûתÿÓתÿÿÒûÿÒתÿÒüÿÿÿÿÿÒÿÿÓ‎ÿÿûתÿÿ‎תÿÿÒתÿÿ‎üÿ‎üÿÒÿÒüÿûתÿÒתÿÿÒûÿÿÒתÿûתÿÓתÿÒÿÿÿÿנüÿÒ‎ÿÒתÿנûÿנתÿÿÿÒüÿנüÿÿנüÿÿÿÓתÿÿÒתÿÿתÿעÿעÿעÿÿÿעÿÿעÿעÿÿÿעÿעÿעÿÿÿעÿÿעÿעÿעÿÿףÿÿףÿףÿעÿעÿעÿÿעÿÿעÿעÿÿעÿÿעÿע/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
 

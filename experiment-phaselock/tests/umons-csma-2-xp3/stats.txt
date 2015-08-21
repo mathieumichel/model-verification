@@ -1,13 +1,13 @@
-Analyzing the log tests/umons-csma-2-xp3/merged-log.txt ...
-Packet 70 was lost!
-Packet 360 was lost!
-Packet 465 was lost!
-Packet 524 was lost!
-Packet 835 was lost!
-Mean latency: 124.08305275 ms
-St.dev of latencies: 92.2502078391
-Sent packets: 896
-Received packets: 891
-PRR: 0.994419642857
-Received acks: 0.995535714286
-Strobes: 1.01121076233
+Analyzing the log experiment-phaselock/tests/umons-csma-2-xp3/merged-log.txt ...
+Packet 851 was lost!
+Mean latency: 243.846496107 ms
+St.dev of latencies: 217.472806059
+Sent packets: 900
+Received packets: 899
+PRR: 0.998888888889
+Received acks: 0.998888888889
+Strobes: 1.03225806452
+Phases lost: 0
+Duty Cycle Total 21.1575984144
+Duty Cycle TX 0.211162865486
+Duty Cycle RX 20.946435549

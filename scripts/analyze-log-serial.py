@@ -5,7 +5,10 @@ import numpy, re, sys
 def timestamp_to_ms(t):
     t_vector = re.split("\.|:", t)
     off = len(t_vector) - 1
-    ms = int(t_vector[off])
+    if(len(str(t_vector[off])))>3:
+        ms = int(t_vector[off])/1000
+    else:
+        ms = int(t_vector[off])
     off -= 1
     if off >= 0:
         ms += int(t_vector[off]) * 1000
@@ -19,6 +22,8 @@ def timestamp_to_ms(t):
 
     return ms
 
+
+
 highest_tx_id = -1
 max_msg_id = 10000
 
@@ -26,6 +31,11 @@ TX_Times = [-1] * max_msg_id
 RX_Times = [-1] * max_msg_id
 Latencies = []
 Strobes = []
+DutyCycle=[]
+DutyCycleRX=[]
+DutyCycleTX=[]
+phaseLost=0;
+loss=0;
 
 if len(sys.argv) != 2:
     print "Usage: analyze-log.py <log-file>"
@@ -40,6 +50,8 @@ with open(log_file_name, "r") as log_file:
     for line in log_file.readlines():
         line_vector = line.strip().split()
         if len(line_vector) < 4:
+            if(len(line_vector)==3 and line_vector[1]=="drop"):
+                phaseLost+=1
             continue;
         timestamp = timestamp_to_ms(line_vector[0])
         msg_type = line_vector[1]
@@ -83,6 +95,13 @@ with open(log_file_name, "r") as log_file:
                 Strobes.append(number_of_strobes)
             except ValueError:
                  print "Failed to parse strobe count", line_vector[2]
+        elif msg_type=="Duty":
+            dcTX = 100 * int(line_vector[5])/ float(line_vector[9])
+            dcRX = 100 * int(line_vector[7])/ float(line_vector[9])
+            dc=100 * ( int(line_vector[5]) + int(line_vector[7]) ) / float(line_vector[9])
+            DutyCycle.append(dc)
+            DutyCycleTX.append(dcTX)
+            DutyCycleRX.append(dcRX)
 
 if len(RX_Times) > len(TX_Times):
     print "Error: Received more packets than what were sent"
@@ -98,7 +117,9 @@ for i in range(0, highest_tx_id):
         lost_packets += 1
     else:
         received_packets += 1
-        Latencies.append(RX_Times[i] - TX_Times[i])
+        temp=RX_Times[i] - TX_Times[i];
+        if(temp>0):
+            Latencies.append(RX_Times[i] - TX_Times[i])
 
 if len(Latencies) == 0 or lost_packets + received_packets == 0:
    print "Unable to generate statistical summary: no received packets!";
@@ -112,3 +133,9 @@ print "Received packets:", received_packets;
 print "PRR:", received_packets / float((lost_packets + received_packets))
 print "Received acks:", count_ack / float((lost_packets + received_packets))
 print "Strobes:",numpy.mean(Strobes)
+print "Phases lost:",phaseLost
+print "Duty Cycle Total",numpy.mean(DutyCycle)
+print "Duty Cycle TX",numpy.mean(DutyCycleTX)
+print "Duty Cycle RX",numpy.mean(DutyCycleRX)
+
+

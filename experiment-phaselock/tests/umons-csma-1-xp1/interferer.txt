@@ -1,54 +1,54 @@
-23:50:40.086 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB3
+06:16:00.717 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB2
 
-23:50:40.519 Rime started with address 3.0
+06:16:01.139 Rime started with address 3.0
 
-23:50:40.529 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
+06:16:01.149 MAC 03:00:00:00:00:00:00:00 Ref ID: 3643
 
-23:50:40.529 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
+06:16:01.150 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 3.
 
-23:50:40.544 CSMA ContikiMAC, channel check rate 8 Hz, radio channel 26
+06:16:01.165 nullmac nullrdc, channel check rate 128 Hz, radio channel 26
 
-23:50:40.544 Starting 'Interference generator'
+06:16:01.165 Starting 'Interference generator'
 
-23:50:40.548 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
+06:16:01.168 Interferer off-time 64 ticks, on-time 64 ticks, CLOCK_SECOND 128
 
-23:50:40.548 Interferer tx power 15 rf channel 26
+06:16:01.168 Interferer tx power 15 rf channel 26
 
-23:50:41.547 0
+06:16:02.167 0
 
-23:50:41.969 1
+06:16:02.589 1
 
-23:50:42.469 0
+06:16:03.089 0
 
-23:50:42.899 1
+06:16:03.519 1
 
-23:50:43.399 0
+06:16:04.019 0
 
-23:50:43.930 1
+06:16:04.550 1
 
-23:50:44.430 0
+06:16:05.050 0
 
-23:50:45.032 1
+06:16:05.652 1
 
-23:50:45.531 0
+06:16:06.152 0
 
-23:50:46.047 1
+06:16:06.667 1
 
-23:50:46.547 0
+06:16:07.167 0
 
-23:50:46.946 1
+06:16:07.566 1
 
-23:50:47.446 0
+06:16:08.066 0
 
-23:50:47.820 1
+06:16:08.441 1
 
-23:50:48.320 0
+06:16:08.941 0
 
-23:50:48.930 1
+06:16:09.511 1
 
-23:50:49.430 0
+06:16:10.011 0
 
-23:50:50.047 1
+06:16:10.620 1
 
-00:20:52.222 _‎ÿÿÿÿÿÿÿÿÿ}ÿÿÿÿÿÿÿÿÿ}ÿÿÿÿ?ûתÿÿÿÿ?}ÿÿÿÿÿÿ¿ûתÿÿÿÿÿÿ?}ÿÿ?ûתÿÿÿÿÿÿ¿}ÿÿÿÿÿÿÿ¿נÿÿÿÿ?ûתÿ¿ûÿÿÿÿÿ¿נÿÿÿÿÿ?ûתÿÿ¿נתÿÿÿÿÿÿÿÿהתÿÿÿÿÓתÿÿÒתÿÿÿÿÿÿÿÿÒÿÿÿÿÒÿÿÿÿÿÿÿÿÿÿÒÿÿÿÓÿÿÿÿÿÿנתÿÿÿÿÿהתÿÿÿÿÿÒûÿÿÿÿÿÿÿנ‏ÿÿÿÿÿÿÿנÿÿÿÿÒüÿÿÿÿÿÒתÿÿÿÿנתÿÿÿÿÿÿÿÿÒתÿÿÓתÿÿÿÿÿÿÒתÿÿÿÿÿנתÿÿÿÿÿÿÒÿÿÿÿÒÿÿÿנ‎ÿÿÿÿהתÿÿÿÿÿÒûÿÿÿÿנתÿÿנüÿÿÿÿÒÿÿÿÿÒüÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿÒתÿÿÒתÿÿÿÿÓûÿÿÿÿנתÿÿÿנתÿÿÒûÿÿÿÿנÿÿÿÿÿÿנ‏ÿÿÿÒ‏ÿÿÿÿÿÒתÿÿÿÿÿנתÿÿÿÿÿÒתÿÿÿÿÿÓÿÿÿÓÿÿÿÿÿÿÿÿנÿÿÿÿÿÿÿÒתÿÿÿÿÿÒûÿÿנתÿÿÿÿÿÿנתÿÿÿÿÒûÿÿÿÿנתÿÿÿÿÿÿנÿÿÿÓÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÒÿÿÿÿÿÒתÿÿÿÿÿÒתÿÿÿÿÿÿÓûÿÿÿÿÿÿÿנ‏ÿÿÿÿÿÿהüÿÿÿÿÿÿÒÿÿÿÿÿÿנתÿÿÿÿנתÿÿÿÿÒתÿÿÿÿÒתÿÿÿÿÿנûÿÿÿÿÒתÿÒüÿÿÿÿÿÿÿÓÿÿÿÿÿÿÿÒüÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÒתÿÿÿנתÿÿÿÿÿנÿÿÿÿÿÿÿÒÿÿÿÿÿÿנÿÿÿÿנÿÿÿÿÿÒתÿÿנתÿÿÿÿÿנûÿÿÿÿÿÒתÿÿÿÒתÿÿÿנתÿÿÿÒÿÿÿÿÿÿÿÓüÿÿÿÒ‎ÿÿנתÿÿÿÿÿÿÒûÿÿÿÿÒתÿÿÿÿנ‎ÿÿÿÿנÿÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿנתÿÿÿÿÿÿÿהתÿÿÿÿÿÓתÿÿÿÒתÿÿÿÿÿÿÿÒתÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÒûÿÿÿÓüÿÿÿÿÿÿנÿÿÿÿÿÿÿÿÿנüÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿ‎תÿÿÿÿÿÿÿÿÿûתÿÿÿÿÿÓÿÿÿÿÿÿ‎ûÿÿÿÿÿה‎ÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÒûÿÿÓתÿÿÿÿÿÒתÿÿÿÒûÿÿÿÿÿÿÿÿÿÿÒתÿÿÿÿÿרגüÿÿÿÿÿÿÿ‎ÿÿÿÿÿÿÿÒÿÿÿÿÿÿÿÿ‎üÿÿÿÿÿÿ‎תÿÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÓûÿÿÿÿÿÿÿ‎‎ÿÿÿÿÿÿÒÿÿÿÿÿÿÒÿÿÿÒתÿÿÿÿÿÒתÿÿÿÿÿÿÿÓתÿÿÿÒתÿÿÿÿÿÿÿÿûûÿÿÿÿÿÿÿÿÒתÿÿÿÒÿÿÿÿû‎ÿÿÿÿÿה‎ÿÿÿÿÿÿÒתÿÿÿÿûתÿÿÿÿÿÿÿûתÿÿÿÿÿÿÿÓÿÿÿÿÿÒÿÿÿÿÿÿÿנÿÿÿÿÿÒÿÿÿÿÿÿÒתÿÿÿÿÿÿÿÿÿתÿÿÿÿÿÿÿÿûÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿעÿÿÿÿÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿעÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿÿףÿÿÿÿÿÿÿףÿÿÿףÿÿÿעÿÿÿÿÿעÿÿÿÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿÿעÿÿÿÿÿעÿÿÿÿÿÿעÿÿÿÿÿÿÿÿÿעÿ/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+06:46:12.796 _=¿ûÿ?ûת?}ÿ?ûת¿ûתÿÿ?ûתÿÿ?}ÿÿ¿ûÿÿ¿ûÿÿÿ?}ÿÿ¿ûÿÿ¿נÿÿÿ?}ÿÿ?}ÿÿנתÿÓûÿÿÒתÿÿÿÒüÿÿÿÒüÿ‎üÿÿÿÓüÿנתÿÿÿנתÿÿÒûÿנÿÿÿÿנÿÒüÿÿÒתÿÿנתÿÿÒתÿÿÓתÿÒתÿÿÿנתÿÿÒüÿÒÿÿנüÿÿנתÿÒûÿנתÿנÿÿÒÿÿÒ‎ÿÿנתÿÒתÿÿÒתÿÒûÿÿÿנתÿÒתÿÒûÿנÿנÿÿÿÓüÿÿנתÿÿÿנתÿÒתÿÿÒÿÿÓüÿÿÒÿÒתÿÿÒûÿנתÿנתÿÿÓתÿÿנתÿנ‎ÿÒÿנüÿנÿÒתÿÒתÿÒûÿÿÒ‎ÿÓüÿÿÿÒüÿנתÿÒתÿÿÒתÿנתÿנûÿÿÿÒתÿנüÿÿÿנüÿÓüÿÿÿÿÒתÿÿÒûÿÿÒתÿÒüÿÿÓÿûüÿנתÿÒתÿ‎ÿÿנûÿÿÿÓתÿûתÿûתÿÿÒüÿÿÒüÿÿÿÓüÿÒתÿÿÒûÿÿÒתÿûÿ‎üÿÒ‎ÿÿûתÿÿûûÿÿÿÒתÿÓתÿ‎ÿÿÒתÿÒÿÒÿÿÿÒÿÒÿÒתÿÿÿûתÿÒûÿÓüÿÿûüÿ‎ÿÿÒתÿûתÿÿûתÿÓתÿÒûÿÒתÿÿÿÒüÿÿÒüÿÓüÿÿûתÿûתÿÒתÿûüÿÿûüÿÿÒÿÿÒüÿûתÿÿÒתÿÒûÿÒתÿÿ‎תÿÿÿÓתÿÿÒÿÿÿÿנüÿÿÒ‎ÿÒתÿÿנûÿÿנתÿÿÒüÿÿנüÿÿÿנüÿÓתÿÒתÿÿתÿÿעÿÿעÿעÿÿעÿÿעÿÿÿעÿעÿÿÿÿעÿÿÿעÿעÿÿעÿעÿÿעÿÿÿףÿףÿÿÿףÿÿÿÿÿעÿÿעÿÿÿÿעÿÿעÿעÿÿÿעÿÿÿעÿÿעÿÿע/home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
 

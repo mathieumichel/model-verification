@@ -1,8 +1,8 @@
 import os, numpy, re
 from texttable import Texttable
 t = Texttable()
-t.add_row(["Ratio", "XP (#)", "MAC", "Avg PDR (%)", "Avg latency (ms)", "Avg strobes (#)", "ACKS (%)"])
-count=5
+t.add_row(["Ratio", "XP (#)", "MAC", "Avg PDR (%)", "Avg latency (ms)", "Avg strobes (#)", "ACKS (%)", "Loss"])
+count=6
 from pylab import *
 
 
@@ -46,15 +46,16 @@ def start(ratio):
 	os.chdir("..")
 
 def regenerateStats():
-	ratios=[1,2,4,9]
+	ratios=[1,2,4]
 	for ratio in ratios:
-		i=1
-		while i<=count:
-			dir1="experiment-phaselock/tests/umons"+"-"+str(ratio)+"-xp"+str(i)
-			dir2="experiment-phaselock/tests/sics"+"-"+str(ratio)+"-xp"+str(i)
-			os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
-			os.system("python scripts/analyze-log-serial.py "+dir2+"/merged-log.txt | tee "+dir2+"/stats.txt")
-			i+=1
+		for mod in ["csma","nullmac"]:
+			i=1
+			while i<=count:
+				dir1="experiment-phaselock/tests/umons-"+mod+"-"+str(ratio)+"-xp"+str(i)
+				dir2="experiment/tests/sics-"+mod+"-"+str(ratio)+"-xp"+str(i)
+				os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
+				os.system("python scripts/analyze-log-serial.py "+dir2+"/merged-log.txt | tee "+dir2+"/stats.txt")
+				i+=1
 
 def computeStatsTotal(xpname,ratio, module):
 	i=1
@@ -63,17 +64,26 @@ def computeStatsTotal(xpname,ratio, module):
 	pdrs=[]
 	strobes=[]
 	acks=[]
+	loss=[]
 	xpcount=0;
 	while i<=count:
 		if xpname=="umons":
-			file="experiment-phaselock/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)+"/stats.txt"
+			dir1="experiment-phaselock/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)
+			file=dir1+"/stats.txt"
+			os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
 		else:
-			file="experiment/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)+"/stats.txt"
+			dir1="experiment/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)
+			file=dir1+"/stats.txt"
+			os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
+		if not os.path.isfile(file):
+			i+=1
+			continue
 		for line in open(file, 'r').readlines():
 			res1=re.compile('(Mean latency: )(\d*.\d*)( ms)').match(line)
 			res2=re.compile('(PRR: )(\d*.\d*)').match(line)
 			res3=re.compile('(Strobes: )(\d*.\d*)').match(line)
 			res4=re.compile('(Received acks: )(\d*.\d*)').match(line)
+			res5=re.compile('(Phases lost: )(\d*)').match(line)
 			if res1:
 				#if float(res1.group(2)) > 1000:
 				#	break
@@ -88,8 +98,14 @@ def computeStatsTotal(xpname,ratio, module):
 					print "plop",file
 			elif res4:
 				acks.append(float(res4.group(2)))
+			elif res5:
+				loss.append(int(res5.group(2)))
 		i+=1
-	t.add_row([str(ratio), xpname.upper()+" ("+str(xpcount)+")", module, "%.2f" % (numpy.mean(pdrs)*100)+" ( +/- "+"%.2f" % (numpy.std(pdrs)*100)+ ")" , "%.2f" % (numpy.mean(latencies)) +" ( +/- "+"%.2f" % (numpy.std(latencies))+ ")", "%.2f" % (numpy.mean(strobes)) +" ( +/- "+"%.2f" % (numpy.std(strobes))+ ")","%.2f" % (numpy.mean(acks)*100) +" ( +/- "+"%.2f" % (numpy.std(acks)*100)+ ")"])
+	t.add_row([str(ratio), xpname.upper()+" ("+str(xpcount)+")", module, "%.2f" % (numpy.mean(pdrs)*100)+" ( +/- "+"%.2f" % (numpy.std(pdrs)*100)+ ")" ,
+	 "%.2f" % (numpy.mean(latencies)) +" ( +/- "+"%.2f" % (numpy.std(latencies))+ ")",
+	  "%.2f" % (numpy.mean(strobes)) +" ( +/- "+"%.2f" % (numpy.std(strobes))+ ")",
+	  "%.2f" % (numpy.mean(acks)*100) +" ( +/- "+"%.2f" % (numpy.std(acks)*100)+ ")",
+	   numpy.mean(loss)])
 
 def computeStrobesStats(xpname,ratio,index):
 	if "sics" in xpname:
@@ -117,10 +133,10 @@ def cdfStrobes(tab1, name1, tab2, name2):
 	plt.gca().get_xticklabels()[1].set_color('r')
 	y=sort(tab1)
 	yvals=np.arange(len(y))/float(len(y))
-	plt.plot(y,yvals,'-',label=name1,color='blue', linewidth=2 )
+	plt.plot(y,yvals,'-',label="soft ack contikimac",color='blue', linewidth=2 )
 	y = sort(tab2)
 	yvals=np.arange(len(y))/float(len(y))
-	plt.plot(y,yvals,'.-',label=name2,color='green', linewidth=2 )
+	plt.plot(y,yvals,'.-',label="default contikimac",color='green', linewidth=2 )
 	ax=plt.gca()
     	ax.annotate('Strobes limit', xy=(4, 0),  xycoords='data',
                 xytext=(15, 0.2), textcoords='data',
@@ -147,16 +163,16 @@ def draw(tab1,name1,tab2,name2):
 #for value in list:
 #	start(value)
 ########################################################
-#list=[1,2,4]
-#for value in list:
-	#computeStatsTotal("umons",value,"csma")
-	#computeStatsTotal("umons",value,"nullmac")
-	#computeStatsTotal("sics",value,"csma")
-	#computeStatsTotal("sics",value,"nullmac")
-#print t.draw()
+list=[0,1,2,4]
+for value in list:
+	computeStatsTotal("umons",value,"csma")
+ 	computeStatsTotal("umons",value,"nullmac")
+ 	computeStatsTotal("sics",value,"csma")
+ 	computeStatsTotal("sics",value,"nullmac")
+print t.draw()
 ########################################################
 #regenerateStats()
 ########################################################
-cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"sics",computeStrobesStats("umons-nullmac",2,1),"umons")
+#cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"sics",computeStrobesStats("umons-nullmac",2,1),"umons")
 ########################################################
 

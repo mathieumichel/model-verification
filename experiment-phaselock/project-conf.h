@@ -10,7 +10,7 @@
 #undef WITH_PHASE_OPTIMIZATION
 #define WITH_PHASE_OPTIMIZATION      1
 
-#define USING_COOJA 0
+#define USING_COOJA 1
 
 
 

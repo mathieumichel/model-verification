@@ -63,7 +63,7 @@ PROCESS_THREAD(net_test_process, ev, data)
 
   etimer_set(&et, MAX_WAIT * 2);
   PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
-
+printf ("coucou\n");
   while(1) {
     interval = MIN_WAIT + (random_rand() % (MAX_WAIT - MIN_WAIT));
     etimer_set(&et, interval);
