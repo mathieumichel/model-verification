@@ -1028,7 +1028,7 @@ cc2420_interrupt(void)
   extern volatile unsigned char we_are_sending;
   if(we_are_sending){
     /* Turn the radio off as early as possible */
-    //off();
+    off();
   }
   if(frame_valid && do_ack && len_b >0) {
     if(softack_acked_callback) {

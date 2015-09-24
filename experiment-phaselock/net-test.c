@@ -53,7 +53,7 @@ PROCESS_THREAD(net_test_process, ev, data)
   PROCESS_BEGIN();
 
 
-#if !USING_COOJA
+#if USING_COOJA
  //cc2420_set_cca_threshold(-25);
 
  cc2420_set_txpower(31);

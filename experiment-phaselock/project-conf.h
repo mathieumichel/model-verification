@@ -10,7 +10,7 @@
 #undef WITH_PHASE_OPTIMIZATION
 #define WITH_PHASE_OPTIMIZATION      1
 
-#define USING_COOJA 1
+#define USING_COOJA 0
 
 
 
@@ -26,7 +26,7 @@
 
 #if !WITH_NULLMAC
 #undef NETSTACK_CONF_MAC
-#define NETSTACK_CONF_MAC nullmac_driver
+#define NETSTACK_CONF_MAC csma_driver
 #undef NETSTACK_CONF_RDC
 #define NETSTACK_CONF_RDC contikimac_driver
 #undef NETSTACK_CONF_FRAMER

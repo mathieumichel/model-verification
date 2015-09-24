@@ -466,9 +466,15 @@ St.dev of latencies: 38.5646191245
 Sent packets: 880
 Received packets: 418
 PRR: 0.475
-Received acks: 0.475
-Strobes: 1.09330143541
+Received acks: 1.0
+Strobes: 2.09330143541
 Phases lost: 0
 Duty Cycle Total 31.2918260893
 Duty Cycle TX 0.101837485363
 Duty Cycle RX 31.189988604
+DC TX1 0.0
+DC RX1 31.0170167543
+DC 1 31.0170167543
+DC TX2 0.203674970726
+DC RX2 31.3629604536
+DC 2 31.5666354244

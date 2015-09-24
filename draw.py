@@ -48,12 +48,16 @@ def start(ratio):
 	os.chdir("..")
 
 def regenerateStats():
-	ratios=[1,2,4,9]
+	ratios=[1,2,4]
 	for ratio in ratios:
 		i=1
 		while i<=count:
-			dir1="experiment-phaselock/tests/umons"+"-"+str(ratio)+"-xp"+str(i)
-			dir2="experiment-phaselock/tests/sics"+"-"+str(ratio)+"-xp"+str(i)
+			dir1="experiment-phaselock/tests/umons-nullmac"+"-"+str(ratio)+"-xp"+str(i)
+			dir2="experiment/tests/sics-nullmac"+"-"+str(ratio)+"-xp"+str(i)
+			os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
+			os.system("python scripts/analyze-log-serial.py "+dir2+"/merged-log.txt | tee "+dir2+"/stats.txt")
+			dir1="experiment-phaselock/tests/umons-csma"+"-"+str(ratio)+"-xp"+str(i)
+			dir2="experiment/tests/sics-csma"+"-"+str(ratio)+"-xp"+str(i)
 			os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
 			os.system("python scripts/analyze-log-serial.py "+dir2+"/merged-log.txt | tee "+dir2+"/stats.txt")
 			i+=1
@@ -133,7 +137,7 @@ def drawStatsTotal(module):
 	x=[1,6,11,16]
 	x_offset1=map(lambda x:x-0.2, x)
 	x_offset2=map(lambda x:x+0.2, x)
-	plt.setp([ax1,ax2],xticks=x,xticklabels=[0,12.5,25,50])
+	plt.setp([ax1,ax2],xticks=x,xticklabels=[0,20,30,50])
 
 	pdrs1=[]
 	pdrs1M=[]
@@ -154,8 +158,8 @@ def drawStatsTotal(module):
 
 	list=[0,4,2,1]
 	for value in list:
-		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss1,dc1A,dc2A,dc3A=computeStatsTotal("sics",value,"csma")
-		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss2,dc1B,dc2B,dc3B=computeStatsTotal("sics",value,"nullmac")
+		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss1,dc1A,dc2A,dc3A=computeStatsTotal("umons",value,module)
+		pdr2,pdr2a,pdr2b,lat2,lat2a,lat2b,loss2,dc1B,dc2B,dc3B=computeStatsTotal("sics",value,module)
 		pdrs1.append(float(pdr1))
 		pdrs1M.append(float(pdr1a))
 		pdrs1m.append(float(pdr1b))
@@ -241,7 +245,7 @@ def drawDC():
 	x_offset1=map(lambda x:x-0.2, x)
 	x_offset2=map(lambda x:x+0.2, x)
 
-	plt.setp([ax1,ax2,ax3],xticks=x,xticklabels=[0,12.5,25,50])
+	plt.setp([ax1,ax2,ax3],xticks=x,xticklabels=[0,20,33,50])
 	list=[0,4,2,1]
 	duty1A=[]
 	duty2A=[]
@@ -250,7 +254,7 @@ def drawDC():
 	duty2B=[]
 	duty3B=[]
 	for value in list:
-		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss1,dc1A,dc2A,dc3A=computeStatsTotal("sics",value,"csma")
+		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss1,dc1A,dc2A,dc3A=computeStatsTotal("umons",value,"nullmac")
 		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss2,dc1B,dc2B,dc3B=computeStatsTotal("sics",value,"nullmac")
 		duty1A.append(float(dc1A))
 		duty2A.append(float(dc2A))
@@ -290,7 +294,7 @@ def computeStrobesStats(xpname,ratio,index):
 		if msg_type == "contikimac:":
 			if line_vector[2]=="send":#and line_vector[5]=="ack,":
 				number_of_strobes = int(line_vector[3].split('=')[1][:-1])
-				Strobes.append(number_of_strobes)
+				Strobes.append(number_of_strobes+1)#+1 is because contikimac doesn't account the last final packets only strobes to wake up
 	return Strobes
 	
 def cdfStrobes(tab1, name1, tab2, name2):
@@ -304,11 +308,11 @@ def cdfStrobes(tab1, name1, tab2, name2):
 	y = sort(tab2)
 	yvals=np.arange(len(y))/float(len(y))
 	plt.plot(y,yvals,'-',label=name2,color='blue',linestyle="--", linewidth=1 )
-	plt.xticks([0,4,5,10,15,20,25])
+	plt.xticks([0,5,10,15,20,25])
 	ax=plt.gca()
 	ax.set_xlim([0,26])
-	plt.plot([4,4],[0,1], ':', color='red', linewidth=1)
-	ax.annotate('strobes limit once the phase learned!',xy=(4,0),xycoords='data',xytext=(6,0.1),textcoords='data',
+	plt.plot([5,5],[0,1], ':', color='red', linewidth=1)
+	ax.annotate('strobes limit once the phase learned!',xy=(5,0),xycoords='data',xytext=(7,0.1),textcoords='data',
 	arrowprops=dict(facecolor='red',shrink=0.05, frac=0.2, width=2),size=8, color='red')
 	#ax.xaxis.set_ticklabels([0,"4\n Max strobes #\n once the phase learned!",5,10,15,20,25])
 	ax.xaxis.get_ticklabels()[1].set_color('r')
@@ -322,15 +326,26 @@ def draw(tab1,name1):
 	plt.xlabel("TX attempts")
 	tabX=range(len(tab1))
 	plt.plot(tabX,tab1,label=name1,linestyle="-",)
+	
+	ax=plt.gca()
+	ax.annotate('A',xy=(120,1),xycoords='data',xytext=(80,10),textcoords='data',
+	arrowprops=dict(facecolor='black',width=0.5),size=18, color='black')
+	ax.annotate('B',xy=(220,5),xycoords='data',xytext=(230,10),textcoords='data',
+	arrowprops=dict(facecolor='black', width=0.5),size=18, color='black')
+	ax.annotate('C',xy=(450,13),xycoords='data',xytext=(350,20),textcoords='data',
+	arrowprops=dict(facecolor='black',width=0.5),size=18, color='black')
+	ax.annotate('',xy=(193,13),xycoords='data',xytext=(350,20),textcoords='data',
+	arrowprops=dict(facecolor='black',width=0.5),size=18, color='black')
 	plt.savefig('%s.pdf' %("countSrobes-"+name1), format='pdf')
 
 
 ########################################################
-#cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"Default ContikiMAC",computeStrobesStats("umons-nullmac",2,1),"Advanced ContikiMAC")
-# drawStatsTotal("csma")
-# drawStatsTotal("nullmac")
+#regenerateStats()
+cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"Default ContikiMAC",computeStrobesStats("umons-nullmac",2,1),"Advanced ContikiMAC")
+#drawStatsTotal("csma")
+#drawStatsTotal("nullmac")
 # drawLosses()
-# draw(computeStrobesStats("sics-nullmac",2,1),"sics-nullmac-2-xp1")
-drawDC()
+draw(computeStrobesStats("sics-nullmac",2,1),"sics-nullmac-2-xp1")
+#drawDC()
 ########################################################
 

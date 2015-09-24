@@ -31,11 +31,18 @@ TX_Times = [-1] * max_msg_id
 RX_Times = [-1] * max_msg_id
 Latencies = []
 Strobes = []
+DutyCycle1=[]
+DutyCycleRX1=[]
+DutyCycleTX1=[]
+DutyCycle2=[]
+DutyCycleRX2=[]
+DutyCycleTX2=[]
 DutyCycle=[]
 DutyCycleRX=[]
 DutyCycleTX=[]
 phaseLost=0;
 loss=0;
+countTX=0;
 
 if len(sys.argv) != 2:
     print "Usage: analyze-log.py <log-file>"
@@ -95,13 +102,20 @@ with open(log_file_name, "r") as log_file:
                 Strobes.append(number_of_strobes)
             except ValueError:
                  print "Failed to parse strobe count", line_vector[2]
+
+ 
         elif msg_type=="Duty":
             dcTX = 100 * int(line_vector[5])/ float(line_vector[9])
             dcRX = 100 * int(line_vector[7])/ float(line_vector[9])
             dc=100 * ( int(line_vector[5]) + int(line_vector[7]) ) / float(line_vector[9])
-            DutyCycle.append(dc)
-            DutyCycleTX.append(dcTX)
-            DutyCycleRX.append(dcRX)
+            if line_vector[3]=="[1":
+                DutyCycle1.append(dc)
+                DutyCycleTX1.append(dcTX)
+                DutyCycleRX1.append(dcRX)
+            else:
+                DutyCycle2.append(dc)
+                DutyCycleTX2.append(dcTX)
+                DutyCycleRX2.append(dcRX)
 
 if len(RX_Times) > len(TX_Times):
     print "Error: Received more packets than what were sent"
@@ -131,11 +145,17 @@ print "St.dev of latencies:", numpy.std(Latencies)
 print "Sent packets:", lost_packets + received_packets;
 print "Received packets:", received_packets;
 print "PRR:", received_packets / float((lost_packets + received_packets))
-print "Received acks:", count_ack / float((lost_packets + received_packets))
+print "Received acks:", count_ack / float(received_packets)
 print "Strobes:",numpy.mean(Strobes)
 print "Phases lost:",phaseLost
-print "Duty Cycle Total",numpy.mean(DutyCycle)
-print "Duty Cycle TX",numpy.mean(DutyCycleTX)
-print "Duty Cycle RX",numpy.mean(DutyCycleRX)
+print "Duty Cycle Total",(numpy.mean(DutyCycle1)+numpy.mean(DutyCycle2))/2.
+print "Duty Cycle TX",(numpy.mean(DutyCycleTX1)+numpy.mean(DutyCycleTX2))/2.
+print "Duty Cycle RX",(numpy.mean(DutyCycleRX1)+numpy.mean(DutyCycleRX2))/2.
+print "DC TX1",numpy.mean(DutyCycleTX1)
+print "DC RX1",numpy.mean(DutyCycleRX1)
+print "DC 1",numpy.mean(DutyCycle1)
+print "DC TX2",numpy.mean(DutyCycleTX2)
+print "DC RX2",numpy.mean(DutyCycleRX2)
+print "DC 2",numpy.mean(DutyCycle2)
 
 

@@ -1,10 +1,12 @@
 import os, numpy, re
 from texttable import Texttable
-t = Texttable()
-t.add_row(["Ratio", "XP (#)", "MAC", "Avg PDR (%)", "Avg latency (ms)", "Avg strobes (#)", "ACKS (%)", "Loss"])
-count=6
+t = Texttable(max_width=140)
+t.add_row(["TXprob", "XP(#)", "MAC", "AvgPDR(%)", "AvgLat(ms)", "AvgStrobes(#)", "ACKS(%)", "Losses", "DC(%)"])
+count=5
 from pylab import *
-
+ratio=[12,8,4,2,1,0]
+tx=[90,85,76.89,54,29.5,100]
+probs=dict(zip(ratio,tx))
 
 def changeMacLayer(module):
 	os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
@@ -65,16 +67,24 @@ def computeStatsTotal(xpname,ratio, module):
 	strobes=[]
 	acks=[]
 	loss=[]
+	dc=[]
 	xpcount=0;
 	while i<=count:
-		if xpname=="umons":
+		if module=="nullrdc":
+			if ratio==0:
+				ratio==1
+			dir1="/home/macfly/Desktop/tests-nullrdc/"+xpname+"-"+"nullmac"+"-"+str(ratio)+"-xp"+str(i)
+			file=dir1+"/stats.txt"
+			#os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
+		elif xpname=="umons":
+			#dir1="/home/macfly/Desktop/tests-nocca/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)
 			dir1="experiment-phaselock/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)
 			file=dir1+"/stats.txt"
-			os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
+			#os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
 		else:
 			dir1="experiment/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)
 			file=dir1+"/stats.txt"
-			os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
+			#os.system("python scripts/analyze-log-serial.py "+dir1+"/merged-log.txt | tee "+dir1+"/stats.txt")
 		if not os.path.isfile(file):
 			i+=1
 			continue
@@ -84,6 +94,7 @@ def computeStatsTotal(xpname,ratio, module):
 			res3=re.compile('(Strobes: )(\d*.\d*)').match(line)
 			res4=re.compile('(Received acks: )(\d*.\d*)').match(line)
 			res5=re.compile('(Phases lost: )(\d*)').match(line)
+			res6=re.compile('(Duty Cycle Total )(\d*.\d*)').match(line)
 			if res1:
 				#if float(res1.group(2)) > 1000:
 				#	break
@@ -100,12 +111,15 @@ def computeStatsTotal(xpname,ratio, module):
 				acks.append(float(res4.group(2)))
 			elif res5:
 				loss.append(int(res5.group(2)))
+			elif res6:
+				dc.append(float(res6.group(2)))
 		i+=1
-	t.add_row([str(ratio), xpname.upper()+" ("+str(xpcount)+")", module, "%.2f" % (numpy.mean(pdrs)*100)+" ( +/- "+"%.2f" % (numpy.std(pdrs)*100)+ ")" ,
-	 "%.2f" % (numpy.mean(latencies)) +" ( +/- "+"%.2f" % (numpy.std(latencies))+ ")",
-	  "%.2f" % (numpy.mean(strobes)) +" ( +/- "+"%.2f" % (numpy.std(strobes))+ ")",
-	  "%.2f" % (numpy.mean(acks)*100) +" ( +/- "+"%.2f" % (numpy.std(acks)*100)+ ")",
-	   numpy.mean(loss)])
+	t.add_row([str(probs[ratio]), xpname.upper()+"("+str(xpcount)+")", module, "%.2f" % (numpy.mean(pdrs)*100)+"(+/-"+"%.2f" % (numpy.std(pdrs)*100)+ ")" ,
+	 "%.2f" % (numpy.mean(latencies)) +"(+/-"+"%.2f" % (numpy.std(latencies))+ ")",
+	  "%.2f" % (numpy.mean(strobes)) +"(+/-"+"%.2f" % (numpy.std(strobes))+ ")",
+	  "%.2f" % (numpy.mean(acks)*100) +"(+/-"+"%.2f" % (numpy.std(acks)*100)+ ")",
+	   numpy.mean(loss),
+	   "%.2f" % numpy.mean(dc)])
 
 def computeStrobesStats(xpname,ratio,index):
 	if "sics" in xpname:
@@ -165,6 +179,7 @@ def draw(tab1,name1,tab2,name2):
 ########################################################
 list=[0,1,2,4]
 for value in list:
+	#computeStatsTotal("sics",value,"nullrdc")
 	computeStatsTotal("umons",value,"csma")
  	computeStatsTotal("umons",value,"nullmac")
  	computeStatsTotal("sics",value,"csma")
