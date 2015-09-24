@@ -1,0 +1,22 @@
+Analyzing the log experiment/tests/sics-nullmac-0-xp5/merged-log.txt ...
+Packet 419 was lost!
+Packet 558 was lost!
+Packet 608 was lost!
+Packet 759 was lost!
+Mean latency: 96.6666666667 ms
+St.dev of latencies: 36.572544836
+Sent packets: 889
+Received packets: 885
+PRR: 0.99550056243
+Received acks: 1.0011299435
+Strobes: 2.11738148984
+Phases lost: 0
+Duty Cycle Total 1.09185987424
+Duty Cycle TX 0.315847323397
+Duty Cycle RX 0.776012550839
+DC TX1 0.0
+DC RX1 0.848414754726
+DC 1 0.848414754726
+DC TX2 0.631694646793
+DC RX2 0.703610346952
+DC 2 1.33530499374

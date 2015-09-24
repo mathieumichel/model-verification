@@ -1,0 +1,37 @@
+Analyzing the log experiment/tests/sics-nullmac-0-xp2/merged-log.txt ...
+Packet 12 was lost!
+Packet 62 was lost!
+Packet 70 was lost!
+Packet 178 was lost!
+Packet 185 was lost!
+Packet 243 was lost!
+Packet 347 was lost!
+Packet 419 was lost!
+Packet 558 was lost!
+Packet 608 was lost!
+Packet 623 was lost!
+Packet 677 was lost!
+Packet 683 was lost!
+Packet 759 was lost!
+Packet 789 was lost!
+Packet 796 was lost!
+Packet 816 was lost!
+Packet 826 was lost!
+Packet 872 was lost!
+Mean latency: 95.2801377727 ms
+St.dev of latencies: 36.6603494844
+Sent packets: 890
+Received packets: 871
+PRR: 0.978651685393
+Received acks: 1.00114810563
+Strobes: 2.12270642202
+Phases lost: 0
+Duty Cycle Total 1.29662968642
+Duty Cycle TX 0.310996698799
+Duty Cycle RX 0.985632987619
+DC TX1 0.0
+DC RX1 0.852151898259
+DC 1 0.852151898259
+DC TX2 0.621993397598
+DC RX2 1.11911407698
+DC 2 1.74110747458

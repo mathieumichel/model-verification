@@ -1,0 +1,20 @@
+Analyzing the log experiment/tests/sics-csma-0-xp2/merged-log.txt ...
+Packet 191 was lost!
+Packet 348 was lost!
+Mean latency: 96.0922384702 ms
+St.dev of latencies: 36.8554229487
+Sent packets: 891
+Received packets: 889
+PRR: 0.997755331089
+Received acks: 1.00112485939
+Strobes: 2.11685393258
+Phases lost: 0
+Duty Cycle Total 1.11173210736
+Duty Cycle TX 0.317058740163
+Duty Cycle RX 0.794673367194
+DC TX1 0.0
+DC RX1 0.869641149364
+DC 1 0.869641149364
+DC TX2 0.634117480325
+DC RX2 0.719705585024
+DC 2 1.35382306535

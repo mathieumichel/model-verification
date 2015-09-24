@@ -1,0 +1,18 @@
+Analyzing the log experiment/tests/sics-csma-0-xp3/merged-log.txt ...
+Mean latency: 96.3127802691 ms
+St.dev of latencies: 36.170927898
+Sent packets: 892
+Received packets: 892
+PRR: 1.0
+Received acks: 1.00112107623
+Strobes: 2.11646136618
+Phases lost: 0
+Duty Cycle Total 1.0858655597
+Duty Cycle TX 0.315722126443
+Duty Cycle RX 0.770143433257
+DC TX1 0.0
+DC RX1 0.819355587698
+DC 1 0.819355587698
+DC TX2 0.631444252885
+DC RX2 0.720931278815
+DC 2 1.3523755317

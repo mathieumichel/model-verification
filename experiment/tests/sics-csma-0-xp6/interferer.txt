@@ -1,0 +1,4 @@
+20:56:52.446 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 
+
+20:56:52.447 /home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+
