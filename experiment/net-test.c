@@ -8,13 +8,13 @@
 #include "dev/cc2420/cc2420.h"
 #include "dev/leds.h"
 #include "powertrace.h"
-
+#include "simple-energest.h"
 #include "cooja-debug.h"
 
 #define MIN_WAIT CLOCK_SECOND * 1
 #define MAX_WAIT CLOCK_SECOND * 3
 
-#define USING_COOJA 1
+#define USING_COOJA 0
 
 #if USING_COOJA
 #define PRINTF cooja_debug
@@ -53,7 +53,7 @@ PROCESS_THREAD(net_test_process, ev, data)
   PROCESS_BEGIN();
 
 #if !USING_COOJA
-  //cc2420_set_cca_threshold(-25);
+  //cc2420_set_cca_threshold(-32);//_25
 
   cc2420_set_txpower(31);
   cc2420_set_cca_threshold(-32-14);
@@ -63,7 +63,7 @@ PROCESS_THREAD(net_test_process, ev, data)
 
   etimer_set(&et, MAX_WAIT * 2);
   PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&et));
-
+  energest_log_start();
   while(1) {
     interval = MIN_WAIT + (random_rand() % (MAX_WAIT - MIN_WAIT));
     etimer_set(&et, interval);
@@ -79,9 +79,12 @@ PROCESS_THREAD(net_test_process, ev, data)
 
     if(!linkaddr_cmp(&addr, &linkaddr_node_addr)) {
       /* Add padding to make the link-layer packet 67 bytes. */
+//      len = snprintf(buf, sizeof(buf),
+//                     "MSG %u 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890",
+//                    msg_counter++);
       len = snprintf(buf, sizeof(buf),
-                     "MSG %u 1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890",
-                     msg_counter++);
+                           "MSG %u 12345678901234567890123456789012345678901",
+                           msg_counter++);
       PRINTF("TX %s (len  = %d) \n", buf, len);
       packetbuf_copyfrom(buf, len);
 

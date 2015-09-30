@@ -14,7 +14,6 @@
 
 
 
-
 #undef RF_CHANNEL
 #define RF_CHANNEL 26
 
@@ -26,7 +25,7 @@
 
 #if !WITH_NULLMAC
 #undef NETSTACK_CONF_MAC
-#define NETSTACK_CONF_MAC csma_driver
+#define NETSTACK_CONF_MAC nullmac_driver
 #undef NETSTACK_CONF_RDC
 #define NETSTACK_CONF_RDC contikimac_driver
 #undef NETSTACK_CONF_FRAMER

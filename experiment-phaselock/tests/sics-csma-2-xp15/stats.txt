@@ -1,8 +1,0 @@
-Analyzing the log tests/sics-csma-2-xp15/merged-log.txt ...
-Mean latency: 125.591928251 ms
-St.dev of latencies: 94.6420058019
-Sent packets: 892
-Received packets: 892
-PRR: 1.0
-Received acks: 1.00112107623
-Strobes: 2.10526315789

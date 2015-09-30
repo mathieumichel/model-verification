@@ -740,7 +740,7 @@ send_packet(mac_callback_t mac_callback, void *mac_callback_ptr,
           encounter_time = txtime;
           break;
         } else {
-          PRINTF("contikimac: collisions while sending\n");
+          printf("contikimac: collisions while sending %u\n",len);//MF disable to make no interferences
           collisions++;
         }
       }

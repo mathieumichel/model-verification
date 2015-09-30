@@ -10,14 +10,16 @@
 #undef RF_CHANNEL
 #define RF_CHANNEL 26
 
-#define WITH_NULLMAC 0
+
+
+#define WITH_NULLMAC 1
 #ifndef WITH_NULLMAC
 #define WITH_NULLMAC 0
 #endif
 
 #if !WITH_NULLMAC
 #undef NETSTACK_CONF_MAC
-#define NETSTACK_CONF_MAC csma_driver
+#define NETSTACK_CONF_MAC nullmac_driver
 #undef NETSTACK_CONF_RDC
 #define NETSTACK_CONF_RDC contikimac_driver
 #undef NETSTACK_CONF_FRAMER
@@ -30,7 +32,7 @@
 #else
 
 #undef NETSTACK_CONF_MAC
-#define NETSTACK_CONF_MAC csma_driver
+#define NETSTACK_CONF_MAC nullmac_driver
 #undef NETSTACK_CONF_RDC
 #define NETSTACK_CONF_RDC nullrdc_driver
 #undef NETSTACK_CONF_FRAMER
@@ -39,6 +41,7 @@
 #define CC2420_CONF_AUTOACK 0
 #undef NETSTACK_CONF_RADIO
 #define NETSTACK_CONF_RADIO   cc2420_driver
+
 #endif
 
 #undef CONTIKIMAC_CONF_WITH_PHASE_OPTIMIZATION

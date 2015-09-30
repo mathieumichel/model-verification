@@ -130,12 +130,13 @@ callback(void *ptr)
   if(generate_interference) {
     modulated();
     printf("1\n");
-/*    wait_time = 3 * ON_TIME / 4 + (random_rand() % (ON_TIME / 2));*/
+    //wait_time = 3 * ON_TIME / 4 + (random_rand() % (ON_TIME / 2));
     wait_time = ON_TIME;
     interference_time += wait_time;
   } else {
     reset();
     printf("0\n");
+    //wait_time =  OFF_TIME;
     wait_time = 3 * OFF_TIME / 4 + (random_rand() % (OFF_TIME / 2));
     idle_time += wait_time;
   }

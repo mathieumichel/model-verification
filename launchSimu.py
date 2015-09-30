@@ -121,55 +121,7 @@ def computeStatsTotal(xpname,ratio, module):
 	   numpy.mean(loss),
 	   "%.2f" % numpy.mean(dc)])
 
-def computeStrobesStats(xpname,ratio,index):
-	if "sics" in xpname:
-		filename="experiment-phaselock/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
-	else:
-		filename="experiment-phaselock/tests/"+xpname+"-"+str(ratio)+"-xp"+str(index)+"/merged-log.txt"
-	Strobes=[]
-	for line in open(filename).readlines():
-		line_vector = line.strip().split()
-		if len(line_vector) < 4:
-			continue;
-		msg_type = line_vector[1]
-		if msg_type == "contikimac:":
-			if line_vector[2]=="send":#and line_vector[5]=="ack,":
-				number_of_strobes = int(line_vector[3].split('=')[1][:-1])
-				Strobes.append(number_of_strobes)
-	return Strobes
-	
-def cdfStrobes(tab1, name1, tab2, name2):
-	plt.figure(figsize=(7,5))
-	plt.title("Strobes # CDF")
-	plt.ylabel("# strobes")
-	plt.xlabel("TX attempts")
-	plt.xticks([0,4,5,10,15,20,25])
-	plt.gca().get_xticklabels()[1].set_color('r')
-	y=sort(tab1)
-	yvals=np.arange(len(y))/float(len(y))
-	plt.plot(y,yvals,'-',label="soft ack contikimac",color='blue', linewidth=2 )
-	y = sort(tab2)
-	yvals=np.arange(len(y))/float(len(y))
-	plt.plot(y,yvals,'.-',label="default contikimac",color='green', linewidth=2 )
-	ax=plt.gca()
-    	ax.annotate('Strobes limit', xy=(4, 0),  xycoords='data',
-                xytext=(15, 0.2), textcoords='data',
-                arrowprops=dict(facecolor='red', shrink=0.05, width=0.2),
-                horizontalalignment='right', verticalalignment='bottom', color='red')
-	ax.legend(loc='lower right', shadow=True)
-	plt.plot([4,4],[0,1], ':', linewidth=1, color='r')
-	plt.savefig('%s.pdf' %("countSrobes-cdf"), format='pdf')
 
-def draw(tab1,name1,tab2,name2):
-	plt.figure(figsize=(7,5))
-	plt.title("Evolution number of Strobes")
-	plt.ylabel("# strobes")
-	plt.xlabel("TX attempts")
-	tabX=range(len(tab1))
-	plt.plot(tabX,tab1,label=name1,linestyle="-",)
-	tabX=range(len(tab2))
-	plt.plot(tabX,tab2,label=name2,linestyle="--",)
-	plt.savefig('%s.pdf' %("countSrobes-all"), format='pdf')
 
 
 ########################################################
@@ -177,7 +129,7 @@ def draw(tab1,name1,tab2,name2):
 #for value in list:
 #	start(value)
 ########################################################
-list=[0,1,2,4]
+list=[0,1,2,4,8,12]
 for value in list:
 	#computeStatsTotal("sics",value,"nullrdc")
 	computeStatsTotal("umons",value,"csma")
@@ -185,9 +137,4 @@ for value in list:
  	computeStatsTotal("sics",value,"csma")
  	computeStatsTotal("sics",value,"nullmac")
 print t.draw()
-########################################################
-#regenerateStats()
-########################################################
-#cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"sics",computeStrobesStats("umons-nullmac",2,1),"umons")
-########################################################
 

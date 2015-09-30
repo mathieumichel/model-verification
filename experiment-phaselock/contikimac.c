@@ -140,7 +140,7 @@ static int we_are_receiving_burst = 0;
 #ifdef CONTIKIMAC_CONF_CCA_COUNT_MAX_TX
 #define CCA_COUNT_MAX_TX                   (CONTIKIMAC_CONF_CCA_COUNT_MAX_TX)
 #else
-#define CCA_COUNT_MAX_TX                   6
+#define CCA_COUNT_MAX_TX                   2//6
 #endif
 
 /* CCA_CHECK_TIME is the time it takes to perform a CCA check. */
@@ -239,7 +239,7 @@ static int we_are_receiving_burst = 0;
 #ifdef CONTIKIMAC_CONF_SHORTEST_PACKET_SIZE
 #define SHORTEST_PACKET_SIZE  CONTIKIMAC_CONF_SHORTEST_PACKET_SIZE
 #else
-#define SHORTEST_PACKET_SIZE               125
+#define SHORTEST_PACKET_SIZE               65//125
 #endif
 
 #include <stdio.h>
@@ -840,7 +840,7 @@ send_packet(mac_callback_t mac_callback, void *mac_callback_ptr,
           encounter_time = txtime;
           break;
         } else {
-          printf("contikimac: collisions while sending %u\n",len);
+          printf("contikimac: collisions while sending %u\n",len);//MF disable to make no interferences
           collisions++;
         }
       }

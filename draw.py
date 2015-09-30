@@ -8,44 +8,6 @@ from pylab import *
 matplotlib.rcParams.update({'font.size': 14})
 
 
-def changeMacLayer(module):
-	os.system("sed \"s/#define NETSTACK_CONF_MAC.*/\#define NETSTACK_CONF_MAC "+module+"_driver/\" project-conf.h > temp.h")
-	os.system("mv temp.h project-conf.h")
-	os.system("chmod 777 project-conf.h")
-
-def changeRatio(ratio):
-	os.chdir("interferer")
-	os.system("sed \"s/#define INTERFERER_OFF_TIME INTERFERER_ON_TIME * .*/\#define INTERFERER_OFF_TIME INTERFERER_ON_TIME * "+str(ratio)+"/\" project-conf.h > temp.h")
-	os.system("mv temp.h project-conf.h")
-	os.system("chmod 777 project-conf.h")
-	os.system("make interferer.upload TARGET=z1 MOTE=3")
-	os.chdir("..")
-	
-def launchTest(test,ratio,module):
-	changeMacLayer(module)
-	os.system("make net-test.upload TARGET=z1 MOTE=1")
-	os.system("make net-test.upload TARGET=z1 MOTE=2")
-	i=0
-	while i<count:
-		os.system("./umons-experiment.sh tests/"+str(test)+"-"+str(module)+"-"+str(ratio)+"-xp"+str(i+1))
-		i+=1
-
-
-#launch all umons xp than all sics xp
-def start(ratio):
-	changeRatio(ratio)
-	
-	#umons code
-	os.chdir("experiment-phaselock")
-	launchTest("umons",ratio,"nullmac")
-	launchTest("umons",ratio,"csma")
-	os.chdir("..")
-	
-	#sics code
-	os.chdir("experiment")
-	launchTest("sics",ratio,"nullmac")
-	launchTest("sics",ratio,"csma")
-	os.chdir("..")
 
 def regenerateStats():
 	ratios=[1,2,4]
@@ -74,7 +36,7 @@ def computeStatsTotal(xpname,ratio, module):
 	dc2=[]
 	dc3=[]
 	xpcount=0;
-	while i<=6:
+	while i<=5:
 		if xpname=="umons":
 			file="experiment-phaselock/tests/"+xpname+"-"+module+"-"+str(ratio)+"-xp"+str(i)+"/stats.txt"
 		else:
@@ -114,6 +76,179 @@ def computeStatsTotal(xpname,ratio, module):
 	return "%.2f" % (numpy.mean(pdrs)*100), "%.2f" % (numpy.max(pdrs)*100), "%.2f" % (numpy.min(pdrs)*100), "%.2f" % (numpy.mean(latencies)), "%.2f" % (numpy.max(latencies)), "%.2f" % (numpy.min(latencies)),numpy.mean(loss),"%.2f" %numpy.mean(dc1),"%.2f" %numpy.mean(dc2),"%.2f" %numpy.mean(dc3)
 	#t.add_row([str(ratio), xpname.upper()+" ("+str(xpcount)+")", module, "%.2f" % (numpy.mean(pdrs)*100)+" ( +/- "+"%.2f" % (numpy.std(pdrs)*100)+ ")" , "%.2f" % (numpy.mean(latencies)) +" ( +/- "+"%.2f" % (numpy.std(latencies))+ ")", "%.2f" % (numpy.mean(strobes)) +" ( +/- "+"%.2f" % (numpy.std(strobes))+ ")","%.2f" % (numpy.mean(acks)*100) +" ( +/- "+"%.2f" % (numpy.std(acks)*100)+ ")"])
 
+
+def drawStatsLatency(module, top):
+	fig=plt.figure(figsize=(9,6))
+	#fig.suptitle(module+" experiments stats")
+
+	plt.ylabel("Avg Latency (ms)")
+	plt.xlabel("Interference level (%)")
+	plt.xlim([-1,28])
+	#plt.ylim([0,110])
+
+	# ax3=fig.add_subplot(3,1,3)
+	# ax3.set_ylabel("Phases dropped (#)")
+	# ax3.set_xlabel("Interference levels")
+	# ax3.set_xlim([-1,17])
+
+	x=[1,6,11,16,21,26]
+	x_offset1=map(lambda x:x-0.5, x)
+	x_offset2=map(lambda x:x+0.5, x)
+	x_offset3=map(lambda x:x-1.5, x)
+	plt.xticks(x)
+	plt.gca().xaxis.set_ticklabels([0,7,11,20,33,50])
+	pdrs1=[]
+	pdrs1M=[]
+	pdrs1m=[]
+
+	pdrs2=[]
+	pdrs2M=[]
+	pdrs2m=[]
+
+	lats1=[]
+	lats1M=[]
+	lats1m=[]
+
+	lats2=[]
+	lats2M=[]
+	lats2m=[]
+	list=[0,12,8,4,2,1]
+	for value in list:
+		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss1,dc1A,dc2A,dc3A=computeStatsTotal("umons",value,module)
+		pdr2,pdr2a,pdr2b,lat2,lat2a,lat2b,loss2,dc1B,dc2B,dc3B=computeStatsTotal("sics",value,module)
+		pdrs1.append(float(pdr1))
+		pdrs1M.append(float(pdr1a))
+		pdrs1m.append(float(pdr1b))
+		pdrs2.append(float(pdr2))
+		pdrs2M.append(float(pdr2a))
+		pdrs2m.append(float(pdr2b))
+		lats1.append(float(lat1))
+		lats1M.append(float(lat1a))
+		lats1m.append(float(lat1b))
+		lats2.append(float(lat2))
+		lats2M.append(float(lat2a))
+		lats2m.append(float(lat2b))
+
+	coords=[[0.6,1.4],[5.6,6.4],[10.6,11.4],[15.6,16.4],[21.6,21.4],[26.6,26.4]]
+	coords2=[[0.6+0.4,1.4+0.4],[5.6+0.4,6.4+0.4],[10.6+0.4,11.4+0.4],[15.6+0.4,16.4+0.4],[21.6+0.4,21.4+0.4],[26.6+0.4,26.4+0.4]]
+
+	if module=="nullmac":
+		lats3=[154,251,290,379,472,524]
+	else:
+		lats3=[154,251,290,379,472,524]
+
+	rects3=plt.bar(x_offset3,lats3,1,color='black',edgecolor='black',label='ContikiMAC model')
+
+	rects1=plt.bar(x_offset1,lats1,1,color='white',edgecolor='black',label='Soft-ACK ContikiMAC', hatch='*')
+	rects2=plt.bar(x_offset2,lats2,1,color='grey',label='Default ContikiMAC')
+
+	# rects3=plt.bar(x_offset3,lats3,0.4,color='red',edgecolor='red',label='Contikimac model')
+	# rects1=plt.bar(x_offset1,lats1,0.4,color='blue',edgecolor='blue',label='Adv Contikimac')
+	# rects2=plt.bar(x_offset2,lats2,0.4,color='green',edgecolor='green',label='Default Contikimac')
+
+	#rects1=ax3.bar(x_offset1,losses1,0.4,color='blue',edgecolor='blue',label='Adv Contikimac')
+	#rects2=ax3.bar(x_offset2,losses2,0.4,color='green',edgecolor='green',label='Default Contikimac')
+
+	# for i in range(4):
+	# 	plt.plot(coords[i],[lats1M[i],lats1M[i]],':',color='r',linewidth=2)
+	# 	plt.plot(coords[i],[lats1m[i],lats1m[i]],':',color='r',linewidth=2)	
+	# 	plt.plot(coords2[i],[lats2M[i],lats2M[i]],':',color='r',linewidth=2)
+	# 	plt.plot(coords2[i],[lats2m[i],lats2m[i]],':',color='r',linewidth=2)
+
+	if top==1:
+		plt.legend(loc="upper left", shadow=True, fontsize=15)
+	else:
+		plt.legend(loc="upper left", shadow=True, fontsize=15)
+	plt.savefig('%s.pdf' %("stats-latency"+str(module)), format='pdf')
+
+def drawStatsPDR(module,top):
+	fig=plt.figure(figsize=(12,8))
+	#fig.suptitle(module+" experiments stats")
+
+	plt.ylabel("Avg PDR (%)")
+	plt.xlabel("Interference level (%)")
+	plt.xlim([-1,40])
+	plt.ylim([0,110])
+
+	# ax3=fig.add_subplot(3,1,3)
+	# ax3.set_ylabel("Phases dropped (#)")
+	# ax3.set_xlabel("Interference levels")
+	# ax3.set_xlim([-1,17])
+
+	x=[1,6,11,16,21,26]
+	offset_tmp=0.5
+	x_offset1=map(lambda x:x-0.5, x)
+	x_offset2=map(lambda x:x+0.5, x)
+	x_offset3=map(lambda x:x-1.5, x)
+	plt.xticks(x)
+	plt.gca().xaxis.set_ticklabels([0,7,11,20,33,50])
+	pdrs1=[]
+	pdrs1M=[]
+	pdrs1m=[]
+
+	pdrs2=[]
+	pdrs2M=[]
+	pdrs2m=[]
+
+	lats1=[]
+	lats1M=[]
+	lats1m=[]
+
+	lats2=[]
+	lats2M=[]
+	lats2m=[]
+	list=[0,12,8,4,2,1]
+	for value in list:
+		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss1,dc1A,dc2A,dc3A=computeStatsTotal("umons",value,module)
+		pdr2,pdr2a,pdr2b,lat2,lat2a,lat2b,loss2,dc1B,dc2B,dc3B=computeStatsTotal("sics",value,module)
+		pdrs1.append(float(pdr1))
+		pdrs1M.append(float(pdr1a))
+		pdrs1m.append(float(pdr1b))
+		pdrs2.append(float(pdr2))
+		pdrs2M.append(float(pdr2a))
+		pdrs2m.append(float(pdr2b))
+		lats1.append(float(lat1))
+		lats1M.append(float(lat1a))
+		lats1m.append(float(lat1b))
+		lats2.append(float(lat2))
+		lats2M.append(float(lat2a))
+		lats2m.append(float(lat2b))
+
+	#coords=[[0.6,1.4],[5.6,6.4],[10.6,11.4],[15.6,16.4],[21.6,21.4],[26.6,26.4]]
+	#coords2=[[0.6+0.4,1.4+0.4],[5.6+0.4,6.4+0.4],[10.6+0.4,11.4+0.4],[15.6+0.4,16.4+0.4],[21.6+0.4,21.4+0.4],[26.6+0.4,26.4+0.4]]
+
+
+	if module=="csma":
+		pdrs3=[100,99.8,99.5,97.2,86.7,54.2]#pcca=95
+		pdrs3b=[99.9,99.6,99.2,96.1,85,52.1]#pcca=90
+		pdrs3c=[100,99.9,99.7,97.8,88.1,55.9]#pcca=99
+	else:
+		pdrs3=[95,80.4,74.4,59.2,39.7,17.7]#pcca=95
+		pdrs3b=[90,76.1,70.5,56,38,16.8]#pcca=90
+		pdrs3c=[99,83.8,77.5,61.8,41.3,18.5]#pcca=99
+
+
+	rects3=plt.bar(x_offset3,pdrs3c,1,color='black',edgecolor='black',label='ContikiMAC model\n (pcca=0.99)')
+	rects3=plt.bar(x_offset3,pdrs3,1,color='white',edgecolor='black',label='ContikiMAC model\n (pcca=0.95)')
+	rects3=plt.bar(x_offset3,pdrs3b,1,color='lightgrey',edgecolor='black',label='ContikiMAC model\n (pcca=0.90)',hatch='//')
+
+	rects1=plt.bar(x_offset1,pdrs1,1,color='white',edgecolor='black',label='Soft-ACK ContikiMAC', hatch='*')
+	rects2=plt.bar(x_offset2,pdrs2,1,color='grey',label='Default ContikiMAC')
+
+	#rects1=ax3.bar(x_offset1,losses1,0.4,color='blue',edgecolor='blue',label='Adv Contikimac')
+	#rects2=ax3.bar(x_offset2,losses2,0.4,color='green',edgecolor='green',label='Default Contikimac')
+
+	# for i in range(4):
+	# 	plt.plot(coords[i],[pdrs1M[i],pdrs1M[i]],':',color='r',linewidth=2)
+	# 	plt.plot(coords[i],[pdrs1m[i],pdrs1m[i]],':',color='r',linewidth=2)	
+	# 	plt.plot(coords2[i],[pdrs2M[i],pdrs2M[i]],':',color='r',linewidth=2)
+	# 	plt.plot(coords2[i],[pdrs2m[i],pdrs2m[i]],':',color='r',linewidth=2)
+
+	if top==1:
+		plt.legend(loc="upper right", shadow=True, fontsize=15)
+	else:
+		plt.legend(loc="upper right", shadow=True, fontsize=15)
+	plt.savefig('%s.pdf' %("stats-PDR"+str(module)), format='pdf')
 
 def drawStatsTotal(module):
 	fig=plt.figure(figsize=(14,4*2))
@@ -178,8 +313,8 @@ def drawStatsTotal(module):
 	coords=[[0.6,1.4],[5.6,6.4],[10.6,11.4],[15.6,16.4]]
 	coords2=[[0.6+0.4,1.4+0.4],[5.6+0.4,6.4+0.4],[10.6+0.4,11.4+0.4],[15.6+0.4,16.4+0.4]]
 
-	rects1=ax2.bar(x_offset1,lats1,0.4,color='blue',edgecolor='blue',label='Adv Contikimac')
-	rects2=ax2.bar(x_offset2,lats2,0.4,color='green',edgecolor='green',label='Default Contikimac')
+	rects1=ax2.bar(x_offset1,lats1,0.5,color='blue',edgecolor='blue',label='Adv Contikimac')
+	rects2=ax2.bar(x_offset2,lats2,0.5,color='green',edgecolor='green',label='Default Contikimac')
 
 	#rects1=ax3.bar(x_offset1,losses1,0.4,color='blue',edgecolor='blue',label='Adv Contikimac')
 	#rects2=ax3.bar(x_offset2,losses2,0.4,color='green',edgecolor='green',label='Default Contikimac')
@@ -200,25 +335,32 @@ def drawStatsTotal(module):
 
 
 def drawLosses():
-	fig=plt.figure(figsize=(8,5))
-	fig.suptitle("Number of phaselock losses")
-	plt.ylabel("Phaselock dropped (#)")
-	plt.xlabel("Interference levels")
-	plt.gca().set_ylim([0,100])
-	plt.xticks([1,6,11,16])
-	plt.gca().xaxis.set_ticklabels([0,12.5,25,50])
+	fig=plt.figure(figsize=(9,6))
+	#fig.suptitle("Number of phaselock losses")
+	plt.ylabel("Phase-lock dropped (#)")
+	plt.xlabel("Interference level (%)")
+	plt.gca().set_ylim([0,60])
+	plt.gca().set_xlim([-1,23])
+	plt.gca().xaxis.set_ticklabels([7,11,20,33,50])
+	x=[1,6,11,16,21]
+	plt.xticks(x)
+	#plt.gca().xaxis.set_ticklabels([0,12.5,25,50])
 	lost1=[]
 	lost2=[]
-	list=[0,4,2,1]
+	list=[12,8,4,2,1]
 	for value in list:
 		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss1,dc1A,dc2A,dc3A=computeStatsTotal("sics",value,"csma")
 		pdr1,pdr1a,pdr1b,lat1,lat1a,lat1b,loss2,dc1B,dc2B,dc3B=computeStatsTotal("sics",value,"nullmac")
 		lost1.append(int(loss1))
 		lost2.append(int(loss2))
 
-	x=[1,6,11,16]
-	plt.plot(x,lost1,linestyle="-",label="csma",linewidth=2)
-	plt.plot(x,lost2,linestyle="--",label="nullmac",linewidth=2)
+	x_offset1=map(lambda x:x-1.1, x)
+	x_offset2=map(lambda x:x+0.1, x)
+	#plt.plot(x,lost1,linestyle="-",label="CSMA",linewidth=4)
+	#plt.plot(x,lost2,linestyle="--",label="NULLMAC",linewidth=4)
+
+	rects2=plt.bar(x_offset1,lost2,1,color='grey',edgecolor='black',label='NO CSMA')
+	rects1=plt.bar(x_offset2,lost1,1,color='white',edgecolor='black',label='CSMA',hatch='/')
 
 	plt.legend(loc='upper right', shadow=True, fontsize='15')
 	plt.savefig('%s.pdf' %("countLosses"), format='pdf')
@@ -298,25 +440,25 @@ def computeStrobesStats(xpname,ratio,index):
 	return Strobes
 	
 def cdfStrobes(tab1, name1, tab2, name2):
-	fig=plt.figure(figsize=(8,5))
-	plt.title("Strobes count CDF")
+	fig=plt.figure(figsize=(9,6))
+	#plt.title("Strobes count CDF")
 	plt.xlabel("# strobes")
-	plt.ylabel("TX attempts")
+	plt.ylabel("CDF")
 	y=sort(tab1)
 	yvals=np.arange(len(y))/float(len(y))
-	plt.plot(y,yvals,'-',label=name1,color='green',linestyle="-", linewidth=1 )
+	plt.plot(y,yvals,'-',label=name1,color='green',linestyle="-", linewidth=4 )
 	y = sort(tab2)
 	yvals=np.arange(len(y))/float(len(y))
-	plt.plot(y,yvals,'-',label=name2,color='blue',linestyle="--", linewidth=1 )
+	plt.plot(y,yvals,'-',label=name2,color='blue',linestyle="--", linewidth=4 )
 	plt.xticks([0,5,10,15,20,25])
 	ax=plt.gca()
 	ax.set_xlim([0,26])
-	plt.plot([5,5],[0,1], ':', color='red', linewidth=1)
-	ax.annotate('strobes limit once the phase learned!',xy=(5,0),xycoords='data',xytext=(7,0.1),textcoords='data',
-	arrowprops=dict(facecolor='red',shrink=0.05, frac=0.2, width=2),size=8, color='red')
+	plt.plot([5,5],[0,1], ':', color='red', linewidth=3)
+	ax.annotate('strobes limit once \n the phase learned!',xy=(5,0),xycoords='data',xytext=(7,0.1),textcoords='data',
+	arrowprops=dict(facecolor='red',shrink=0.05, frac=0.2, width=2),size=15, color='red')
 	#ax.xaxis.set_ticklabels([0,"4\n Max strobes #\n once the phase learned!",5,10,15,20,25])
 	ax.xaxis.get_ticklabels()[1].set_color('r')
-	ax.legend(loc='lower right', shadow=True, fontsize='10')
+	ax.legend(loc='right', shadow=True, fontsize='15')
 	plt.savefig('%s.pdf' %("countSrobes-cdf"), format='pdf')
 
 def draw(tab1,name1):
@@ -328,24 +470,31 @@ def draw(tab1,name1):
 	plt.plot(tabX,tab1,label=name1,linestyle="-",)
 	
 	ax=plt.gca()
-	ax.annotate('A',xy=(120,1),xycoords='data',xytext=(80,10),textcoords='data',
+	ax.annotate('A',xy=(80,3),xycoords='data',xytext=(40,10),textcoords='data',
 	arrowprops=dict(facecolor='black',width=0.5),size=18, color='black')
 	ax.annotate('B',xy=(220,5),xycoords='data',xytext=(230,10),textcoords='data',
 	arrowprops=dict(facecolor='black', width=0.5),size=18, color='black')
-	ax.annotate('C',xy=(450,13),xycoords='data',xytext=(350,20),textcoords='data',
+	ax.annotate('C',xy=(445,13),xycoords='data',xytext=(350,20),textcoords='data',
 	arrowprops=dict(facecolor='black',width=0.5),size=18, color='black')
-	ax.annotate('',xy=(193,13),xycoords='data',xytext=(350,20),textcoords='data',
+	ax.annotate('',xy=(175,13),xycoords='data',xytext=(350,20),textcoords='data',
 	arrowprops=dict(facecolor='black',width=0.5),size=18, color='black')
 	plt.savefig('%s.pdf' %("countSrobes-"+name1), format='pdf')
 
 
 ########################################################
+
+matplotlib.rcParams.update({'font.size': 18})
 #regenerateStats()
-cdfStrobes(computeStrobesStats("sics-nullmac",2,1),"Default ContikiMAC",computeStrobesStats("umons-nullmac",2,1),"Advanced ContikiMAC")
-#drawStatsTotal("csma")
-#drawStatsTotal("nullmac")
-# drawLosses()
-draw(computeStrobesStats("sics-nullmac",2,1),"sics-nullmac-2-xp1")
+#cdfStrobes(computeStrobesStats("sics-nullmac",4,1),"Default ContikiMAC",computeStrobesStats("umons-nullmac",4,1),"Soft-ACK ContikiMAC")
+# #drawStatsTotal("csma")
+# #drawStatsTotal("nullmac")
+# drawStatsLatency("nullmac",0)
+# drawStatsLatency("csma",1)
+matplotlib.rcParams.update({'font.size': 19})
+drawStatsPDR("nullmac",1)
+drawStatsPDR("csma",0)
+#drawLosses()
+#draw(computeStrobesStats("sics-nullmac",4,1),"sics-nullmac-4-xp1")
 #drawDC()
 ########################################################
 
