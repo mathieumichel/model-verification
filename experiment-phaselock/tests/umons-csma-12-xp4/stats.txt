@@ -1,0 +1,19 @@
+Analyzing the log tests/umons-csma-12-xp4/merged-log.txt ...
+Packet 413 was lost!
+Mean latency: 131.419932811 ms
+St.dev of latencies: 121.539571044
+Sent packets: 894
+Received packets: 893
+PRR: 0.998881431767
+Received acks: 1.00111982083
+Strobes: 1.04697986577
+Phases lost: 0
+Duty Cycle Total 5.61897345903
+Duty Cycle TX 0.219166835938
+Duty Cycle RX 5.39980662309
+DC TX1 0.0
+DC RX1 5.62256652242
+DC 1 5.62256652242
+DC TX2 0.438333671875
+DC RX2 5.17704672377
+DC 2 5.61538039564

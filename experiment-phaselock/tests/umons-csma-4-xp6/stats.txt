@@ -1,0 +1,24 @@
+Analyzing the log experiment-phaselock/tests/umons-csma-4-xp6/merged-log.txt ...
+Packet 168 was lost!
+Packet 301 was lost!
+Packet 479 was lost!
+Packet 666 was lost!
+Packet 727 was lost!
+Packet 837 was lost!
+Mean latency: 186.041340782 ms
+St.dev of latencies: 179.966059713
+Sent packets: 901
+Received packets: 895
+PRR: 0.993340732519
+Received acks: 1.00111731844
+Strobes: 2.01116071429
+Phases lost: 0
+Duty Cycle Total 12.9906713856
+Duty Cycle TX 0.267167531406
+Duty Cycle RX 12.7235038541
+DC TX1 0.0
+DC RX1 13.060533898
+DC 1 13.060533898
+DC TX2 0.534335062812
+DC RX2 12.3864738103
+DC 2 12.9208088731

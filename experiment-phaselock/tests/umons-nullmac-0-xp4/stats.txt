@@ -1,0 +1,24 @@
+Analyzing the log experiment-phaselock/tests/umons-nullmac-0-xp4/merged-log.txt ...
+Packet 0 was lost!
+Packet 12 was lost!
+Packet 481 was lost!
+Packet 588 was lost!
+Packet 598 was lost!
+Packet 807 was lost!
+Mean latency: 90.8970588235 ms
+St.dev of latencies: 44.5992668856
+Sent packets: 890
+Received packets: 884
+PRR: 0.993258426966
+Received acks: 1.0
+Strobes: 1.07918552036
+Phases lost: 0
+Duty Cycle Total 1.01213378324
+Duty Cycle TX 0.228241408283
+Duty Cycle RX 0.783892374953
+DC TX1 0.0
+DC RX1 0.889572165305
+DC 1 0.889572165305
+DC TX2 0.456482816565
+DC RX2 0.678212584601
+DC 2 1.13469540117

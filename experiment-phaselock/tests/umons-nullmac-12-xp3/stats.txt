@@ -1,0 +1,90 @@
+Analyzing the log tests/umons-nullmac-12-xp3/merged-log.txt ...
+Packet 1 was lost!
+Packet 22 was lost!
+Packet 33 was lost!
+Packet 56 was lost!
+Packet 64 was lost!
+Packet 67 was lost!
+Packet 70 was lost!
+Packet 75 was lost!
+Packet 82 was lost!
+Packet 85 was lost!
+Packet 90 was lost!
+Packet 92 was lost!
+Packet 109 was lost!
+Packet 135 was lost!
+Packet 138 was lost!
+Packet 146 was lost!
+Packet 151 was lost!
+Packet 165 was lost!
+Packet 197 was lost!
+Packet 200 was lost!
+Packet 219 was lost!
+Packet 235 was lost!
+Packet 238 was lost!
+Packet 247 was lost!
+Packet 271 was lost!
+Packet 278 was lost!
+Packet 332 was lost!
+Packet 360 was lost!
+Packet 385 was lost!
+Packet 389 was lost!
+Packet 398 was lost!
+Packet 410 was lost!
+Packet 423 was lost!
+Packet 426 was lost!
+Packet 430 was lost!
+Packet 467 was lost!
+Packet 470 was lost!
+Packet 475 was lost!
+Packet 476 was lost!
+Packet 479 was lost!
+Packet 493 was lost!
+Packet 497 was lost!
+Packet 516 was lost!
+Packet 519 was lost!
+Packet 547 was lost!
+Packet 555 was lost!
+Packet 572 was lost!
+Packet 585 was lost!
+Packet 599 was lost!
+Packet 616 was lost!
+Packet 619 was lost!
+Packet 630 was lost!
+Packet 653 was lost!
+Packet 682 was lost!
+Packet 689 was lost!
+Packet 722 was lost!
+Packet 727 was lost!
+Packet 730 was lost!
+Packet 737 was lost!
+Packet 740 was lost!
+Packet 746 was lost!
+Packet 749 was lost!
+Packet 756 was lost!
+Packet 785 was lost!
+Packet 792 was lost!
+Packet 795 was lost!
+Packet 801 was lost!
+Packet 813 was lost!
+Packet 827 was lost!
+Packet 846 was lost!
+Packet 881 was lost!
+Packet 885 was lost!
+Mean latency: 89.3203410475 ms
+St.dev of latencies: 42.0901351461
+Sent packets: 893
+Received packets: 821
+PRR: 0.919372900336
+Received acks: 1.0012180268
+Strobes: 1.02068126521
+Phases lost: 0
+Duty Cycle Total 5.70220209803
+Duty Cycle TX 0.194014492888
+Duty Cycle RX 5.50818760514
+DC TX1 0.0
+DC RX1 5.58756328253
+DC 1 5.58756328253
+DC TX2 0.388028985777
+DC RX2 5.42881192775
+DC 2 5.81684091353

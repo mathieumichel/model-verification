@@ -1,0 +1,93 @@
+Analyzing the log tests/umons-nullmac-12-xp4/merged-log.txt ...
+Packet 1 was lost!
+Packet 15 was lost!
+Packet 24 was lost!
+Packet 42 was lost!
+Packet 49 was lost!
+Packet 75 was lost!
+Packet 79 was lost!
+Packet 92 was lost!
+Packet 96 was lost!
+Packet 115 was lost!
+Packet 142 was lost!
+Packet 154 was lost!
+Packet 186 was lost!
+Packet 190 was lost!
+Packet 196 was lost!
+Packet 199 was lost!
+Packet 221 was lost!
+Packet 231 was lost!
+Packet 247 was lost!
+Packet 277 was lost!
+Packet 281 was lost!
+Packet 284 was lost!
+Packet 292 was lost!
+Packet 302 was lost!
+Packet 317 was lost!
+Packet 321 was lost!
+Packet 340 was lost!
+Packet 371 was lost!
+Packet 374 was lost!
+Packet 390 was lost!
+Packet 418 was lost!
+Packet 428 was lost!
+Packet 448 was lost!
+Packet 471 was lost!
+Packet 475 was lost!
+Packet 479 was lost!
+Packet 506 was lost!
+Packet 524 was lost!
+Packet 532 was lost!
+Packet 539 was lost!
+Packet 562 was lost!
+Packet 566 was lost!
+Packet 571 was lost!
+Packet 578 was lost!
+Packet 601 was lost!
+Packet 612 was lost!
+Packet 616 was lost!
+Packet 619 was lost!
+Packet 638 was lost!
+Packet 642 was lost!
+Packet 661 was lost!
+Packet 674 was lost!
+Packet 682 was lost!
+Packet 688 was lost!
+Packet 695 was lost!
+Packet 704 was lost!
+Packet 723 was lost!
+Packet 729 was lost!
+Packet 733 was lost!
+Packet 744 was lost!
+Packet 747 was lost!
+Packet 751 was lost!
+Packet 763 was lost!
+Packet 773 was lost!
+Packet 779 was lost!
+Packet 785 was lost!
+Packet 798 was lost!
+Packet 807 was lost!
+Packet 822 was lost!
+Packet 828 was lost!
+Packet 839 was lost!
+Packet 844 was lost!
+Packet 864 was lost!
+Packet 872 was lost!
+Packet 883 was lost!
+Mean latency: 93.4146341463 ms
+St.dev of latencies: 43.902650406
+Sent packets: 895
+Received packets: 820
+PRR: 0.916201117318
+Received acks: 1.0012195122
+Strobes: 1.01827040195
+Phases lost: 0
+Duty Cycle Total 5.61796283464
+Duty Cycle TX 0.193825837809
+Duty Cycle RX 5.42413699684
+DC TX1 0.0
+DC RX1 5.51358394872
+DC 1 5.51358394872
+DC TX2 0.387651675617
+DC RX2 5.33469004495
+DC 2 5.72234172057

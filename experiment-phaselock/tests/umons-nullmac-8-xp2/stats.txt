@@ -1,0 +1,134 @@
+Analyzing the log tests/umons-nullmac-8-xp2/merged-log.txt ...
+Packet 13 was lost!
+Packet 16 was lost!
+Packet 34 was lost!
+Packet 37 was lost!
+Packet 40 was lost!
+Packet 42 was lost!
+Packet 46 was lost!
+Packet 57 was lost!
+Packet 72 was lost!
+Packet 74 was lost!
+Packet 91 was lost!
+Packet 98 was lost!
+Packet 101 was lost!
+Packet 104 was lost!
+Packet 106 was lost!
+Packet 147 was lost!
+Packet 156 was lost!
+Packet 158 was lost!
+Packet 177 was lost!
+Packet 193 was lost!
+Packet 197 was lost!
+Packet 207 was lost!
+Packet 209 was lost!
+Packet 213 was lost!
+Packet 215 was lost!
+Packet 224 was lost!
+Packet 226 was lost!
+Packet 232 was lost!
+Packet 236 was lost!
+Packet 240 was lost!
+Packet 255 was lost!
+Packet 257 was lost!
+Packet 261 was lost!
+Packet 268 was lost!
+Packet 272 was lost!
+Packet 275 was lost!
+Packet 279 was lost!
+Packet 281 was lost!
+Packet 283 was lost!
+Packet 288 was lost!
+Packet 302 was lost!
+Packet 308 was lost!
+Packet 327 was lost!
+Packet 330 was lost!
+Packet 334 was lost!
+Packet 346 was lost!
+Packet 349 was lost!
+Packet 358 was lost!
+Packet 366 was lost!
+Packet 376 was lost!
+Packet 378 was lost!
+Packet 384 was lost!
+Packet 390 was lost!
+Packet 395 was lost!
+Packet 398 was lost!
+Packet 402 was lost!
+Packet 416 was lost!
+Packet 429 was lost!
+Packet 436 was lost!
+Packet 442 was lost!
+Packet 447 was lost!
+Packet 466 was lost!
+Packet 489 was lost!
+Packet 498 was lost!
+Packet 499 was lost!
+Packet 502 was lost!
+Packet 506 was lost!
+Packet 519 was lost!
+Packet 530 was lost!
+Packet 553 was lost!
+Packet 562 was lost!
+Packet 564 was lost!
+Packet 571 was lost!
+Packet 578 was lost!
+Packet 583 was lost!
+Packet 591 was lost!
+Packet 593 was lost!
+Packet 610 was lost!
+Packet 616 was lost!
+Packet 619 was lost!
+Packet 627 was lost!
+Packet 643 was lost!
+Packet 645 was lost!
+Packet 664 was lost!
+Packet 669 was lost!
+Packet 676 was lost!
+Packet 679 was lost!
+Packet 687 was lost!
+Packet 692 was lost!
+Packet 699 was lost!
+Packet 706 was lost!
+Packet 730 was lost!
+Packet 737 was lost!
+Packet 739 was lost!
+Packet 745 was lost!
+Packet 749 was lost!
+Packet 756 was lost!
+Packet 758 was lost!
+Packet 767 was lost!
+Packet 773 was lost!
+Packet 781 was lost!
+Packet 790 was lost!
+Packet 792 was lost!
+Packet 807 was lost!
+Packet 812 was lost!
+Packet 817 was lost!
+Packet 824 was lost!
+Packet 826 was lost!
+Packet 831 was lost!
+Packet 837 was lost!
+Packet 847 was lost!
+Packet 863 was lost!
+Packet 866 was lost!
+Packet 873 was lost!
+Packet 875 was lost!
+Packet 885 was lost!
+Mean latency: 91.8155844156 ms
+St.dev of latencies: 38.3172643092
+Sent packets: 886
+Received packets: 770
+PRR: 0.869074492099
+Received acks: 1.0012987013
+Strobes: 1.01556420233
+Phases lost: 0
+Duty Cycle Total 7.7069116556
+Duty Cycle TX 0.184319095715
+Duty Cycle RX 7.52259255989
+DC TX1 0.0
+DC RX1 7.61764583442
+DC 1 7.61764583442
+DC TX2 0.36863819143
+DC RX2 7.42753928535
+DC 2 7.79617747678

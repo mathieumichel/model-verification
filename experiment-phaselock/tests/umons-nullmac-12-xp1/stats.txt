@@ -1,0 +1,98 @@
+Analyzing the log tests/umons-nullmac-12-xp1/merged-log.txt ...
+Packet 1 was lost!
+Packet 10 was lost!
+Packet 22 was lost!
+Packet 35 was lost!
+Packet 50 was lost!
+Packet 53 was lost!
+Packet 57 was lost!
+Packet 60 was lost!
+Packet 85 was lost!
+Packet 98 was lost!
+Packet 136 was lost!
+Packet 139 was lost!
+Packet 141 was lost!
+Packet 144 was lost!
+Packet 153 was lost!
+Packet 167 was lost!
+Packet 198 was lost!
+Packet 204 was lost!
+Packet 220 was lost!
+Packet 233 was lost!
+Packet 236 was lost!
+Packet 239 was lost!
+Packet 247 was lost!
+Packet 262 was lost!
+Packet 280 was lost!
+Packet 305 was lost!
+Packet 321 was lost!
+Packet 333 was lost!
+Packet 336 was lost!
+Packet 347 was lost!
+Packet 350 was lost!
+Packet 356 was lost!
+Packet 364 was lost!
+Packet 380 was lost!
+Packet 395 was lost!
+Packet 420 was lost!
+Packet 423 was lost!
+Packet 466 was lost!
+Packet 469 was lost!
+Packet 472 was lost!
+Packet 475 was lost!
+Packet 489 was lost!
+Packet 496 was lost!
+Packet 507 was lost!
+Packet 525 was lost!
+Packet 540 was lost!
+Packet 560 was lost!
+Packet 579 was lost!
+Packet 588 was lost!
+Packet 602 was lost!
+Packet 605 was lost!
+Packet 609 was lost!
+Packet 616 was lost!
+Packet 619 was lost!
+Packet 647 was lost!
+Packet 668 was lost!
+Packet 676 was lost!
+Packet 684 was lost!
+Packet 694 was lost!
+Packet 700 was lost!
+Packet 702 was lost!
+Packet 704 was lost!
+Packet 710 was lost!
+Packet 713 was lost!
+Packet 725 was lost!
+Packet 729 was lost!
+Packet 738 was lost!
+Packet 744 was lost!
+Packet 747 was lost!
+Packet 758 was lost!
+Packet 785 was lost!
+Packet 791 was lost!
+Packet 795 was lost!
+Packet 798 was lost!
+Packet 823 was lost!
+Packet 827 was lost!
+Packet 830 was lost!
+Packet 841 was lost!
+Packet 860 was lost!
+Packet 877 was lost!
+Mean latency: 90.2906832298 ms
+St.dev of latencies: 37.1363775066
+Sent packets: 885
+Received packets: 805
+PRR: 0.909604519774
+Received acks: 1.0
+Strobes: 1.01739130435
+Phases lost: 0
+Duty Cycle Total 5.64933190201
+Duty Cycle TX 0.188106960803
+Duty Cycle RX 5.46122494121
+DC TX1 0.0
+DC RX1 5.56026999293
+DC 1 5.56026999293
+DC TX2 0.376213921606
+DC RX2 5.3621798895
+DC 2 5.7383938111

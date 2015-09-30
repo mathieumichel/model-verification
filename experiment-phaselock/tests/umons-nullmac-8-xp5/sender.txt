@@ -1,0 +1,3608 @@
+02:11:27.973 /home/macfly/Git/contiki/tools/sky/serialdump-linux -b115200 /dev/ttyUSB1
+
+02:11:28.486 Rime started with address 2.0
+
+02:11:28.497 MAC 02:00:00:00:00:00:00:00 Ref ID: 3643
+
+02:11:28.497 Contiki-2.6-2121-gdf2cdbb started. Node id is set to 2.
+
+02:11:28.506 nullmac ContikiMAC, channel check rate 8 Hz, radio channel 26
+
+02:11:28.506 Starting 'Net test'
+
+02:11:35.896 TX MSG 0 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:36.015 contikimac: send (strobes=18, len=62, ack, no collision, phase=3, seqno=223), done
+
+02:11:37.365 TX MSG 1 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:37.518 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=224), done
+
+02:11:40.279 TX MSG 2 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:40.393 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=225), done
+
+02:11:41.951 TX MSG 3 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:42.018 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=226), done
+
+02:11:44.631 TX MSG 4 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:44.768 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=227), done
+
+02:11:46.006 TX MSG 5 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:46.143 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=228), done
+
+02:11:48.326 TX MSG 6 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:48.393 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=229), done
+
+02:11:49.779 TX MSG 7 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:49.893 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=230), done
+
+02:11:52.615 TX MSG 8 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:52.768 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=231), done
+
+02:11:55.521 TX MSG 9 12345678901234567890123456789012345678901 (len  = 47) 
+
+02:11:55.643 contikimac: send (strobes=1, len=62, ack, no collision, phase=6, seqno=232), done
+
+02:11:56.748 TX MSG 10 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:11:56.893 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=233), done
+
+02:11:59.490 TX MSG 11 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:11:59.643 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=234), done
+
+02:12:01.982 TX MSG 12 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:02.018 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=235), done
+
+02:12:03.959 TX MSG 13 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:04.018 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=236), done
+
+02:12:05.592 TX MSG 14 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:05.643 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=237), done
+
+02:12:07.107 TX MSG 15 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:07.143 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=238), done
+
+02:12:08.795 TX MSG 16 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:08.893 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=239), done
+
+02:12:10.920 TX MSG 17 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:11.018 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=240), done
+
+02:12:12.459 TX MSG 18 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:12.518 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=241), done
+
+02:12:14.662 TX MSG 19 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:14.768 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=242), done
+
+02:12:17.248 TX MSG 20 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:17.393 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=243), done
+
+02:12:18.912 TX MSG 21 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:19.018 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=244), done
+
+02:12:21.889 TX MSG 22 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:22.018 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=245), done
+
+02:12:23.373 TX MSG 23 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:23.518 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=246), done
+
+02:12:25.624 TX MSG 24 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:25.768 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=247), done
+
+02:12:28.319 TX MSG 25 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:28.366 contikimac: collisions before sending
+
+02:12:29.701 TX MSG 26 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:29.768 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=249), done
+
+02:12:31.967 TX MSG 27 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:32.018 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=250), done
+
+02:12:33.366 TX MSG 28 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:33.518 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=251), done
+
+02:12:34.655 TX MSG 29 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:34.768 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=252), done
+
+02:12:37.608 TX MSG 30 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:37.643 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=253), done
+
+02:12:39.983 TX MSG 31 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:40.018 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=254), done
+
+02:12:42.428 TX MSG 32 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:42.518 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=255), done
+
+02:12:45.155 TX MSG 33 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:45.267 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=1), done
+
+02:12:47.389 TX MSG 34 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:47.517 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=2), done
+
+02:12:49.382 TX MSG 35 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:49.517 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=3), done
+
+02:12:50.827 TX MSG 36 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:50.892 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=4), done
+
+02:12:51.960 TX MSG 37 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:52.017 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=5), done
+
+02:12:53.882 TX MSG 38 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:54.017 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=6), done
+
+02:12:55.038 TX MSG 39 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:55.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=7), done
+
+02:12:56.663 TX MSG 40 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:56.767 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=8), done
+
+02:12:58.233 TX MSG 41 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:12:58.267 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=9), done
+
+02:12:59.975 TX MSG 42 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:00.018 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=10), done
+
+02:13:02.108 TX MSG 43 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:02.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=11), done
+
+02:13:03.303 TX MSG 44 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:03.392 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=12), done
+
+02:13:05.780 TX MSG 45 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:05.893 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=13), done
+
+02:13:08.171 TX MSG 46 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:08.268 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=14), done
+
+02:13:09.913 TX MSG 47 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:09.991 contikimac: collisions before sending
+
+02:13:11.827 TX MSG 48 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:11.892 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=16), done
+
+02:13:14.710 TX MSG 49 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:14.768 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=17), done
+
+02:13:17.382 TX MSG 50 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:17.518 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=18), done
+
+02:13:20.288 TX MSG 51 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:20.392 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=19), done
+
+02:13:23.007 TX MSG 52 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:23.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=20), done
+
+02:13:25.804 TX MSG 53 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:25.892 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=21), done
+
+02:13:27.851 TX MSG 54 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:27.893 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=22), done
+
+02:13:30.671 TX MSG 55 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:30.768 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=23), done
+
+02:13:33.421 TX MSG 56 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:33.518 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=24), done
+
+02:13:34.508 Duty Cycle: [2 0]    17054 +  302708 / 4128594 (7 %)
+
+02:13:35.085 TX MSG 57 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:35.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=25), done
+
+02:13:36.913 TX MSG 58 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:36.991 contikimac: collisions before sending
+
+02:13:39.851 TX MSG 59 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:39.892 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=27), done
+
+02:13:42.179 TX MSG 60 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:42.240 contikimac: collisions before sending
+
+02:13:44.694 TX MSG 61 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:44.767 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=29), done
+
+02:13:45.804 TX MSG 62 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:45.865 contikimac: collisions before sending
+
+02:13:48.343 TX MSG 63 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:48.392 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=31), done
+
+02:13:49.655 TX MSG 64 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:49.767 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=32), done
+
+02:13:51.163 TX MSG 65 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:51.267 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=33), done
+
+02:13:53.054 TX MSG 66 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:53.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=34), done
+
+02:13:55.577 TX MSG 67 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:55.642 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=35), done
+
+02:13:57.077 TX MSG 68 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:57.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=36), done
+
+02:13:58.492 TX MSG 69 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:13:58.642 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=37), done
+
+02:14:01.070 TX MSG 70 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:01.143 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=38), done
+
+02:14:02.250 TX MSG 71 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:02.392 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=39), done
+
+02:14:03.289 TX MSG 72 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:03.392 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=40), done
+
+02:14:06.140 TX MSG 73 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:06.267 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=41), done
+
+02:14:08.000 TX MSG 74 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:08.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=42), done
+
+02:14:09.124 TX MSG 75 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:09.267 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=43), done
+
+02:14:11.187 TX MSG 76 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:11.267 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=44), done
+
+02:14:12.445 TX MSG 77 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:12.517 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=45), done
+
+02:14:13.992 TX MSG 78 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:14.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=46), done
+
+02:14:16.265 TX MSG 79 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:16.392 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=47), done
+
+02:14:18.515 TX MSG 80 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:18.642 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=48), done
+
+02:14:19.679 TX MSG 81 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:19.767 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=49), done
+
+02:14:21.008 TX MSG 82 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:21.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=50), done
+
+02:14:22.226 TX MSG 83 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:22.240 contikimac: collisions before sending
+
+02:14:25.172 TX MSG 84 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:25.267 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=52), done
+
+02:14:27.773 TX MSG 85 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:27.892 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=53), done
+
+02:14:30.383 TX MSG 86 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:30.517 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=54), done
+
+02:14:33.258 TX MSG 87 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:33.392 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=55), done
+
+02:14:36.078 TX MSG 88 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:36.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=56), done
+
+02:14:37.086 TX MSG 89 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:37.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=57), done
+
+02:14:38.476 TX MSG 90 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:38.517 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=58), done
+
+02:14:40.547 TX MSG 91 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:40.642 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=59), done
+
+02:14:41.547 TX MSG 92 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:41.642 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=60), done
+
+02:14:42.992 TX MSG 93 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:43.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=61), done
+
+02:14:45.070 TX MSG 94 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:45.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=62), done
+
+02:14:48.031 TX MSG 95 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:48.142 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=63), done
+
+02:14:50.562 TX MSG 96 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:50.642 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=64), done
+
+02:14:52.914 TX MSG 97 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:53.017 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=65), done
+
+02:14:54.273 TX MSG 98 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:54.392 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=66), done
+
+02:14:56.891 TX MSG 99 12345678901234567890123456789012345678901 (len  = 48) 
+
+02:14:57.017 contikimac: send (strobes=1, len=63, ack, no collision, phase=6, seqno=67), done
+
+02:14:58.453 TX MSG 100 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:14:58.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=68), done
+
+02:15:01.211 TX MSG 101 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:01.262 contikimac: send (strobes=0, len=64, ack, no collision, phase=1, seqno=69), done
+
+02:15:02.985 TX MSG 102 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:03.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=70), done
+
+02:15:04.774 TX MSG 103 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:04.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=71), done
+
+02:15:05.969 TX MSG 104 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:05.990 contikimac: collisions before sending
+
+02:15:08.634 TX MSG 105 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:08.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=73), done
+
+02:15:11.352 TX MSG 106 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:11.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=74), done
+
+02:15:12.680 TX MSG 107 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:12.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=75), done
+
+02:15:14.782 TX MSG 108 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:14.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=76), done
+
+02:15:16.891 TX MSG 109 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:17.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=77), done
+
+02:15:19.259 TX MSG 110 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:19.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=78), done
+
+02:15:21.579 TX MSG 111 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:21.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=79), done
+
+02:15:24.086 TX MSG 112 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:24.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=80), done
+
+02:15:26.977 TX MSG 113 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:26.990 contikimac: collisions before sending
+
+02:15:29.938 TX MSG 114 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:30.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=82), done
+
+02:15:32.782 TX MSG 115 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:32.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=83), done
+
+02:15:34.165 TX MSG 116 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:34.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=84), done
+
+02:15:34.509 Duty Cycle: [2 1]    14379 +  262356 / 3932134 (7 %)
+
+02:15:35.336 TX MSG 117 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:35.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=85), done
+
+02:15:37.516 TX MSG 118 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:37.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=86), done
+
+02:15:40.391 TX MSG 119 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:40.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=87), done
+
+02:15:42.212 TX MSG 120 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:42.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=88), done
+
+02:15:45.165 TX MSG 121 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:45.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=89), done
+
+02:15:47.501 TX MSG 122 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:47.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=90), done
+
+02:15:49.915 TX MSG 123 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:49.991 contikimac: collision receiving 1, pending 0
+
+02:15:51.556 TX MSG 124 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:51.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=92), done
+
+02:15:53.790 TX MSG 125 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:53.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=93), done
+
+02:15:55.782 TX MSG 126 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:55.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=94), done
+
+02:15:57.219 TX MSG 127 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:57.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=95), done
+
+02:15:58.352 TX MSG 128 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:15:58.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=96), done
+
+02:16:00.313 TX MSG 129 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:00.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=97), done
+
+02:16:01.462 TX MSG 130 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:01.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=98), done
+
+02:16:03.087 TX MSG 131 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:03.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=99), done
+
+02:16:04.657 TX MSG 132 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:04.740 contikimac: collisions before sending
+
+02:16:06.626 TX MSG 133 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:06.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=101), done
+
+02:16:08.720 TX MSG 134 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:08.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=102), done
+
+02:16:10.532 TX MSG 135 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:10.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=103), done
+
+02:16:13.009 TX MSG 136 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:13.268 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=104), done
+
+02:16:15.407 TX MSG 137 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:15.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=105), done
+
+02:16:17.149 TX MSG 138 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:17.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=106), done
+
+02:16:19.493 TX MSG 139 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:19.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=107), done
+
+02:16:22.376 TX MSG 140 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:22.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=108), done
+
+02:16:25.056 TX MSG 141 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:25.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=109), done
+
+02:16:27.954 TX MSG 142 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:28.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=110), done
+
+02:16:30.329 TX MSG 143 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:30.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=111), done
+
+02:16:33.118 TX MSG 144 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:33.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=112), done
+
+02:16:35.572 TX MSG 145 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:35.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=113), done
+
+02:16:37.126 TX MSG 146 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:37.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=114), done
+
+02:16:39.040 TX MSG 147 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:39.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=115), done
+
+02:16:41.236 TX MSG 148 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:41.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=116), done
+
+02:16:43.001 TX MSG 149 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:43.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=117), done
+
+02:16:44.712 TX MSG 150 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:44.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=118), done
+
+02:16:47.650 TX MSG 151 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:47.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=119), done
+
+02:16:50.283 TX MSG 152 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:50.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=120), done
+
+02:16:52.798 TX MSG 153 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:52.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=121), done
+
+02:16:54.165 TX MSG 154 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:54.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=122), done
+
+02:16:55.635 TX MSG 155 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:55.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=123), done
+
+02:16:58.181 TX MSG 156 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:16:58.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=124), done
+
+02:17:00.978 TX MSG 157 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:01.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=125), done
+
+02:17:02.322 TX MSG 158 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:02.365 contikimac: collisions before sending
+
+02:17:04.212 TX MSG 159 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:04.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=127), done
+
+02:17:06.158 TX MSG 160 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:06.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=128), done
+
+02:17:08.642 TX MSG 161 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:08.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=129), done
+
+02:17:10.103 TX MSG 162 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:10.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=130), done
+
+02:17:11.830 TX MSG 163 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:11.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=131), done
+
+02:17:14.681 TX MSG 164 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:14.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=132), done
+
+02:17:15.947 TX MSG 165 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:16.019 contikimac: collisions while sending 0
+
+02:17:16.021 contikimac: send (strobes=2, len=64, no ack, collision, phase=0, seqno=133), done
+
+02:17:18.345 TX MSG 166 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:18.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=134), done
+
+02:17:20.611 TX MSG 167 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:20.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=135), done
+
+02:17:22.900 TX MSG 168 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:23.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=136), done
+
+02:17:24.447 TX MSG 169 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:24.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=137), done
+
+02:17:25.502 TX MSG 170 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:25.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=138), done
+
+02:17:27.760 TX MSG 171 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:27.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=139), done
+
+02:17:29.463 TX MSG 172 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:29.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=140), done
+
+02:17:30.674 TX MSG 173 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:30.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=141), done
+
+02:17:33.111 TX MSG 174 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:33.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=142), done
+
+02:17:34.511 Duty Cycle: [2 2]    14789 +  295475 / 3932126 (7 %)
+
+02:17:35.244 TX MSG 175 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:35.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=143), done
+
+02:17:37.260 TX MSG 176 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:37.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=144), done
+
+02:17:39.416 TX MSG 177 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:39.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=145), done
+
+02:17:42.385 TX MSG 178 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:42.490 contikimac: collisions before sending
+
+02:17:45.088 TX MSG 179 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:45.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=147), done
+
+02:17:47.385 TX MSG 180 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:47.490 contikimac: collisions before sending
+
+02:17:48.776 TX MSG 181 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:48.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=149), done
+
+02:17:49.776 TX MSG 182 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:49.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=150), done
+
+02:17:51.221 TX MSG 183 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:51.240 contikimac: collisions before sending
+
+02:17:52.588 TX MSG 184 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:52.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=152), done
+
+02:17:55.549 TX MSG 185 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:55.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=153), done
+
+02:17:57.432 TX MSG 186 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:17:57.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=154), done
+
+02:18:00.197 TX MSG 187 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:00.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=155), done
+
+02:18:02.096 TX MSG 188 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:02.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=156), done
+
+02:18:03.862 TX MSG 189 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:04.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=157), done
+
+02:18:05.651 TX MSG 190 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:05.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=158), done
+
+02:18:07.104 TX MSG 191 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:07.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=159), done
+
+02:18:09.698 TX MSG 192 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:09.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=160), done
+
+02:18:12.604 TX MSG 193 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:12.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=161), done
+
+02:18:13.838 TX MSG 194 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:13.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=162), done
+
+02:18:16.573 TX MSG 195 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:16.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=163), done
+
+02:18:19.284 TX MSG 196 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:19.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=164), done
+
+02:18:20.565 TX MSG 197 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:20.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=165), done
+
+02:18:22.666 TX MSG 198 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:22.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=166), done
+
+02:18:24.182 TX MSG 199 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:24.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=167), done
+
+02:18:26.549 TX MSG 200 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:26.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=168), done
+
+02:18:29.018 TX MSG 201 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:29.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=169), done
+
+02:18:31.526 TX MSG 202 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:31.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=170), done
+
+02:18:33.323 TX MSG 203 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:33.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=171), done
+
+02:18:34.846 TX MSG 204 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:34.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=172), done
+
+02:18:37.393 TX MSG 205 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:37.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=173), done
+
+02:18:39.807 TX MSG 206 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:39.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=174), done
+
+02:18:41.386 TX MSG 207 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:41.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=175), done
+
+02:18:43.854 TX MSG 208 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:43.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=176), done
+
+02:18:45.925 TX MSG 209 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:46.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=177), done
+
+02:18:47.776 TX MSG 210 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:47.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=178), done
+
+02:18:50.636 TX MSG 211 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:50.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=179), done
+
+02:18:52.761 TX MSG 212 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:52.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=180), done
+
+02:18:53.831 TX MSG 213 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:53.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=181), done
+
+02:18:56.089 TX MSG 214 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:56.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=182), done
+
+02:18:58.636 TX MSG 215 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:18:58.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=183), done
+
+02:18:59.917 TX MSG 216 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:00.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=184), done
+
+02:19:01.167 TX MSG 217 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:01.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=185), done
+
+02:19:03.331 TX MSG 218 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:03.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=186), done
+
+02:19:05.659 TX MSG 219 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:05.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=187), done
+
+02:19:07.589 TX MSG 220 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:07.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=188), done
+
+02:19:10.370 TX MSG 221 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:10.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=189), done
+
+02:19:11.940 TX MSG 222 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:12.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=190), done
+
+02:19:13.550 TX MSG 223 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:13.615 contikimac: collisions before sending
+
+02:19:14.589 TX MSG 224 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:14.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=192), done
+
+02:19:16.401 TX MSG 225 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:16.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=193), done
+
+02:19:18.409 TX MSG 226 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:18.490 contikimac: collisions before sending
+
+02:19:20.886 TX MSG 227 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:21.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=195), done
+
+02:19:21.917 TX MSG 228 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:22.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=196), done
+
+02:19:23.917 TX MSG 229 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:24.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=197), done
+
+02:19:25.831 TX MSG 230 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:25.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=198), done
+
+02:19:26.909 TX MSG 231 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:26.990 contikimac: collisions before sending
+
+02:19:29.792 TX MSG 232 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:29.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=200), done
+
+02:19:31.324 TX MSG 233 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:31.365 contikimac: collisions before sending
+
+02:19:32.675 TX MSG 234 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:32.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=202), done
+
+02:19:34.512 Duty Cycle: [2 3]    14245 +  286255 / 3932129 (7 %)
+
+02:19:35.035 TX MSG 235 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:35.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=203), done
+
+02:19:36.652 TX MSG 236 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:36.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=204), done
+
+02:19:39.214 TX MSG 237 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:39.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=205), done
+
+02:19:40.972 TX MSG 238 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:40.990 contikimac: collisions before sending
+
+02:19:43.042 TX MSG 239 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:43.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=207), done
+
+02:19:45.816 TX MSG 240 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:45.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=208), done
+
+02:19:46.910 TX MSG 241 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:47.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=209), done
+
+02:19:48.574 TX MSG 242 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:48.615 contikimac: collisions before sending
+
+02:19:50.285 TX MSG 243 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:50.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=211), done
+
+02:19:51.714 TX MSG 244 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:51.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=212), done
+
+02:19:53.996 TX MSG 245 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:54.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=213), done
+
+02:19:55.105 TX MSG 246 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:55.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=214), done
+
+02:19:56.512 TX MSG 247 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:56.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=215), done
+
+02:19:57.988 TX MSG 248 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:58.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=216), done
+
+02:19:59.496 TX MSG 249 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:19:59.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=217), done
+
+02:20:02.293 TX MSG 250 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:02.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=218), done
+
+02:20:03.597 TX MSG 251 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:03.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=219), done
+
+02:20:05.144 TX MSG 252 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:05.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=220), done
+
+02:20:07.090 TX MSG 253 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:07.115 contikimac: collisions before sending
+
+02:20:08.504 TX MSG 254 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:08.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=222), done
+
+02:20:09.972 TX MSG 255 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:10.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=223), done
+
+02:20:11.707 TX MSG 256 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:11.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=224), done
+
+02:20:14.558 TX MSG 257 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:14.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=225), done
+
+02:20:16.418 TX MSG 258 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:16.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=226), done
+
+02:20:17.535 TX MSG 259 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:17.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=227), done
+
+02:20:19.754 TX MSG 260 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:19.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=228), done
+
+02:20:21.019 TX MSG 261 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:21.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=229), done
+
+02:20:22.566 TX MSG 262 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:22.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=230), done
+
+02:20:24.840 TX MSG 263 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:24.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=231), done
+
+02:20:27.090 TX MSG 264 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:27.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=232), done
+
+02:20:28.254 TX MSG 265 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:28.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=233), done
+
+02:20:29.590 TX MSG 266 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:29.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=234), done
+
+02:20:30.801 TX MSG 267 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:30.865 contikimac: collisions before sending
+
+02:20:33.723 TX MSG 268 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:33.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=236), done
+
+02:20:36.371 TX MSG 269 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:36.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=237), done
+
+02:20:38.981 TX MSG 270 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:38.990 contikimac: collisions before sending
+
+02:20:41.699 TX MSG 271 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:41.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=239), done
+
+02:20:44.512 TX MSG 272 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:44.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=240), done
+
+02:20:45.996 TX MSG 273 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:46.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=241), done
+
+02:20:47.387 TX MSG 274 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:47.490 contikimac: collisions before sending
+
+02:20:48.387 TX MSG 275 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:48.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=243), done
+
+02:20:49.738 TX MSG 276 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:49.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=244), done
+
+02:20:52.652 TX MSG 277 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:52.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=245), done
+
+02:20:54.324 TX MSG 278 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:54.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=246), done
+
+02:20:57.004 TX MSG 279 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:57.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=247), done
+
+02:20:58.387 TX MSG 280 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:20:58.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=248), done
+
+02:21:00.715 TX MSG 281 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:00.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=249), done
+
+02:21:02.168 TX MSG 282 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:02.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=250), done
+
+02:21:05.004 TX MSG 283 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:05.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=251), done
+
+02:21:07.918 TX MSG 284 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:07.990 contikimac: collisions before sending
+
+02:21:09.145 TX MSG 285 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:09.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=253), done
+
+02:21:11.879 TX MSG 286 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:12.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=254), done
+
+02:21:14.379 TX MSG 287 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:14.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=255), done
+
+02:21:16.325 TX MSG 288 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:16.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=1), done
+
+02:21:17.958 TX MSG 289 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:17.990 contikimac: collisions before sending
+
+02:21:20.388 TX MSG 290 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:20.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=3), done
+
+02:21:22.044 TX MSG 291 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:22.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=4), done
+
+02:21:24.513 TX MSG 292 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:24.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=5), done
+
+02:21:26.059 TX MSG 293 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:26.115 contikimac: collisions before sending
+
+02:21:28.372 TX MSG 294 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:28.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=7), done
+
+02:21:30.677 TX MSG 295 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:30.740 contikimac: collisions before sending
+
+02:21:32.333 TX MSG 296 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:32.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=9), done
+
+02:21:34.513 Duty Cycle: [2 4]    13984 +  316073 / 3932122 (8 %)
+
+02:21:35.278 TX MSG 297 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:35.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=10), done
+
+02:21:37.520 TX MSG 298 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:37.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=11), done
+
+02:21:40.208 TX MSG 299 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:40.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=12), done
+
+02:21:41.591 TX MSG 300 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:41.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=13), done
+
+02:21:43.856 TX MSG 301 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:43.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=14), done
+
+02:21:45.294 TX MSG 302 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:45.365 contikimac: collisions before sending
+
+02:21:48.169 TX MSG 303 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:48.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=16), done
+
+02:21:49.458 TX MSG 304 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:49.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=17), done
+
+02:21:52.411 TX MSG 305 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:52.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=18), done
+
+02:21:54.466 TX MSG 306 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:54.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=19), done
+
+02:21:55.716 TX MSG 307 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:55.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=20), done
+
+02:21:58.411 TX MSG 308 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:21:58.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=21), done
+
+02:22:00.739 TX MSG 309 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:00.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=22), done
+
+02:22:02.950 TX MSG 310 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:03.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=23), done
+
+02:22:05.732 TX MSG 311 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:05.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=24), done
+
+02:22:07.372 TX MSG 312 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:07.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=25), done
+
+02:22:08.388 TX MSG 313 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:08.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=26), done
+
+02:22:10.263 TX MSG 314 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:10.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=27), done
+
+02:22:12.239 TX MSG 315 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:12.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=28), done
+
+02:22:13.278 TX MSG 316 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:13.365 contikimac: collisions before sending
+
+02:22:15.286 TX MSG 317 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:15.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=30), done
+
+02:22:16.443 TX MSG 318 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:16.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=31), done
+
+02:22:18.919 TX MSG 319 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:19.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=32), done
+
+02:22:21.904 TX MSG 320 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:22.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=33), done
+
+02:22:23.865 TX MSG 321 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:24.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=34), done
+
+02:22:26.052 TX MSG 322 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:26.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=35), done
+
+02:22:27.404 TX MSG 323 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:27.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=36), done
+
+02:22:29.169 TX MSG 324 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:29.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=37), done
+
+02:22:32.068 TX MSG 325 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:32.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=38), done
+
+02:22:34.787 TX MSG 326 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:34.865 contikimac: collisions before sending
+
+02:22:37.240 TX MSG 327 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:37.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=40), done
+
+02:22:39.287 TX MSG 328 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:39.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=41), done
+
+02:22:40.841 TX MSG 329 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:40.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=42), done
+
+02:22:43.591 TX MSG 330 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:43.615 contikimac: collisions before sending
+
+02:22:45.326 TX MSG 331 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:45.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=44), done
+
+02:22:47.154 TX MSG 332 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:47.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=45), done
+
+02:22:48.865 TX MSG 333 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:49.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=46), done
+
+02:22:51.146 TX MSG 334 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:51.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=47), done
+
+02:22:52.248 TX MSG 335 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:52.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=48), done
+
+02:22:54.764 TX MSG 336 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:54.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=49), done
+
+02:22:56.139 TX MSG 337 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:56.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=50), done
+
+02:22:57.615 TX MSG 338 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:22:57.740 contikimac: collisions before sending
+
+02:23:00.154 TX MSG 339 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:00.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=52), done
+
+02:23:02.951 TX MSG 340 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:02.990 contikimac: collisions before sending
+
+02:23:04.256 TX MSG 341 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:04.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=54), done
+
+02:23:05.764 TX MSG 342 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:05.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=55), done
+
+02:23:07.716 TX MSG 343 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:07.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=56), done
+
+02:23:10.201 TX MSG 344 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:10.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=57), done
+
+02:23:11.662 TX MSG 345 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:11.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=58), done
+
+02:23:13.349 TX MSG 346 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:13.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=59), done
+
+02:23:16.248 TX MSG 347 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:16.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=60), done
+
+02:23:17.513 TX MSG 348 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:17.615 contikimac: collisions before sending
+
+02:23:20.334 TX MSG 349 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:20.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=62), done
+
+02:23:22.553 TX MSG 350 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:22.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=63), done
+
+02:23:23.810 TX MSG 351 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:23.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=64), done
+
+02:23:25.357 TX MSG 352 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:25.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=65), done
+
+02:23:26.451 TX MSG 353 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:26.490 contikimac: collisions before sending
+
+02:23:28.725 TX MSG 354 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:28.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=67), done
+
+02:23:30.467 TX MSG 355 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:30.490 contikimac: collisions before sending
+
+02:23:31.631 TX MSG 356 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:31.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=69), done
+
+02:23:32.850 TX MSG 357 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:32.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=70), done
+
+02:23:34.515 Duty Cycle: [2 5]    13977 +  267954 / 3932140 (7 %)
+
+02:23:35.334 TX MSG 358 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:35.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=71), done
+
+02:23:37.936 TX MSG 359 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:38.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=72), done
+
+02:23:39.951 TX MSG 360 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:40.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=73), done
+
+02:23:42.819 TX MSG 361 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:42.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=74), done
+
+02:23:45.787 TX MSG 362 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:45.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=75), done
+
+02:23:46.795 TX MSG 363 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:46.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=76), done
+
+02:23:49.092 TX MSG 364 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:49.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=77), done
+
+02:23:51.116 TX MSG 365 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:51.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=78), done
+
+02:23:52.116 TX MSG 366 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:52.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=79), done
+
+02:23:53.561 TX MSG 367 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:53.615 contikimac: collisions before sending
+
+02:23:56.303 TX MSG 368 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:56.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=81), done
+
+02:23:59.264 TX MSG 369 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:23:59.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=82), done
+
+02:24:01.803 TX MSG 370 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:01.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=83), done
+
+02:24:04.155 TX MSG 371 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:04.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=84), done
+
+02:24:05.515 TX MSG 372 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:05.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=85), done
+
+02:24:08.140 TX MSG 373 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:08.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=86), done
+
+02:24:09.709 TX MSG 374 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:09.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=87), done
+
+02:24:12.467 TX MSG 375 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:12.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=88), done
+
+02:24:14.608 TX MSG 376 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:14.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=89), done
+
+02:24:17.140 TX MSG 377 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:17.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=90), done
+
+02:24:19.241 TX MSG 378 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:19.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=91), done
+
+02:24:20.874 TX MSG 379 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:21.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=92), done
+
+02:24:23.296 TX MSG 380 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:23.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=93), done
+
+02:24:24.944 TX MSG 381 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:25.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=94), done
+
+02:24:27.069 TX MSG 382 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:27.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=95), done
+
+02:24:29.140 TX MSG 383 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:29.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=96), done
+
+02:24:31.350 TX MSG 384 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:31.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=97), done
+
+02:24:33.983 TX MSG 385 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:34.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=98), done
+
+02:24:35.678 TX MSG 386 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:35.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=99), done
+
+02:24:38.655 TX MSG 387 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:38.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=100), done
+
+02:24:40.897 TX MSG 388 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:41.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=101), done
+
+02:24:43.741 TX MSG 389 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:43.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=102), done
+
+02:24:45.124 TX MSG 390 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:45.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=103), done
+
+02:24:46.296 TX MSG 391 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:46.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=104), done
+
+02:24:47.694 TX MSG 392 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:47.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=105), done
+
+02:24:50.569 TX MSG 393 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:50.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=106), done
+
+02:24:51.858 TX MSG 394 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:51.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=107), done
+
+02:24:54.850 TX MSG 395 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:54.865 contikimac: collisions before sending
+
+02:24:57.413 TX MSG 396 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:57.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=109), done
+
+02:24:59.820 TX MSG 397 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:24:59.865 contikimac: collisions before sending
+
+02:25:01.093 TX MSG 398 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:01.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=111), done
+
+02:25:03.327 TX MSG 399 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:03.365 contikimac: collisions before sending
+
+02:25:04.921 TX MSG 400 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:05.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=113), done
+
+02:25:06.358 TX MSG 401 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:06.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=114), done
+
+02:25:07.530 TX MSG 402 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:07.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=115), done
+
+02:25:08.546 TX MSG 403 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:08.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=116), done
+
+02:25:09.694 TX MSG 404 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:09.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=117), done
+
+02:25:11.320 TX MSG 405 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:11.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=118), done
+
+02:25:12.359 TX MSG 406 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:12.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=119), done
+
+02:25:14.101 TX MSG 407 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:14.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=120), done
+
+02:25:16.233 TX MSG 408 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:16.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=121), done
+
+02:25:17.429 TX MSG 409 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:17.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=122), done
+
+02:25:19.905 TX MSG 410 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:20.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=123), done
+
+02:25:21.648 TX MSG 411 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:21.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=124), done
+
+02:25:23.991 TX MSG 412 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:24.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=125), done
+
+02:25:26.874 TX MSG 413 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:26.992 contikimac: collisions before sending
+
+02:25:29.546 TX MSG 414 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:29.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=127), done
+
+02:25:32.445 TX MSG 415 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:32.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=128), done
+
+02:25:34.516 Duty Cycle: [2 6]    14253 +  306757 / 3932125 (8 %)
+
+02:25:35.163 TX MSG 416 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:35.240 contikimac: collisions before sending
+
+02:25:36.999 TX MSG 417 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:37.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=130), done
+
+02:25:39.046 TX MSG 418 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:39.115 contikimac: collisions before sending
+
+02:25:40.953 TX MSG 419 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:41.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=132), done
+
+02:25:43.703 TX MSG 420 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:43.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=133), done
+
+02:25:45.898 TX MSG 421 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:46.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=134), done
+
+02:25:47.726 TX MSG 422 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:47.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=135), done
+
+02:25:49.484 TX MSG 423 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:49.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=136), done
+
+02:25:51.804 TX MSG 424 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:51.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=137), done
+
+02:25:52.906 TX MSG 425 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:53.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=138), done
+
+02:25:55.422 TX MSG 426 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:55.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=139), done
+
+02:25:56.789 TX MSG 427 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:56.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=140), done
+
+02:25:58.258 TX MSG 428 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:58.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=141), done
+
+02:25:59.773 TX MSG 429 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:25:59.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=142), done
+
+02:26:02.570 TX MSG 430 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:02.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=143), done
+
+02:26:05.094 TX MSG 431 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:05.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=144), done
+
+02:26:06.594 TX MSG 432 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:06.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=145), done
+
+02:26:08.539 TX MSG 433 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:08.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=146), done
+
+02:26:11.117 TX MSG 434 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:11.240 contikimac: collisions before sending
+
+02:26:12.578 TX MSG 435 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:12.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=148), done
+
+02:26:13.609 TX MSG 436 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:13.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=149), done
+
+02:26:16.500 TX MSG 437 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:16.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=150), done
+
+02:26:18.359 TX MSG 438 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:18.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=151), done
+
+02:26:19.516 TX MSG 439 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:19.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=152), done
+
+02:26:21.742 TX MSG 440 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:21.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=153), done
+
+02:26:23.001 TX MSG 441 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:23.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=154), done
+
+02:26:24.547 TX MSG 442 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:24.615 contikimac: collisions before sending
+
+02:26:27.188 TX MSG 443 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:27.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=156), done
+
+02:26:29.438 TX MSG 444 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:29.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=157), done
+
+02:26:30.602 TX MSG 445 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:30.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=158), done
+
+02:26:31.977 TX MSG 446 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:32.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=159), done
+
+02:26:33.235 TX MSG 447 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:33.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=160), done
+
+02:26:35.047 TX MSG 448 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:35.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=161), done
+
+02:26:37.649 TX MSG 449 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:37.740 contikimac: collisions before sending
+
+02:26:39.797 TX MSG 450 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:39.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=163), done
+
+02:26:42.664 TX MSG 451 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:42.767 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=164), done
+
+02:26:45.477 TX MSG 452 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:45.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=165), done
+
+02:26:46.524 TX MSG 453 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:46.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=166), done
+
+02:26:47.914 TX MSG 454 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:48.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=167), done
+
+02:26:49.938 TX MSG 455 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:50.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=168), done
+
+02:26:50.938 TX MSG 456 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:50.990 contikimac: collisions before sending
+
+02:26:52.282 TX MSG 457 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:52.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=170), done
+
+02:26:54.360 TX MSG 458 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:54.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=171), done
+
+02:26:57.352 TX MSG 459 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:26:57.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=172), done
+
+02:26:59.922 TX MSG 460 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:00.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=173), done
+
+02:27:02.243 TX MSG 461 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:02.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=174), done
+
+02:27:03.602 TX MSG 462 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:03.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=175), done
+
+02:27:06.477 TX MSG 463 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:06.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=176), done
+
+02:27:08.079 TX MSG 464 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:08.115 contikimac: collisions before sending
+
+02:27:10.633 TX MSG 465 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:10.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=178), done
+
+02:27:12.782 TX MSG 466 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:12.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=179), done
+
+02:27:15.274 TX MSG 467 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:15.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=180), done
+
+02:27:17.368 TX MSG 468 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:17.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=181), done
+
+02:27:19.001 TX MSG 469 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:19.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=182), done
+
+02:27:21.423 TX MSG 470 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:21.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=183), done
+
+02:27:23.071 TX MSG 471 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:23.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=184), done
+
+02:27:25.196 TX MSG 472 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:25.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=185), done
+
+02:27:27.267 TX MSG 473 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:27.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=186), done
+
+02:27:29.477 TX MSG 474 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:29.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=187), done
+
+02:27:32.102 TX MSG 475 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:32.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=188), done
+
+02:27:33.798 TX MSG 476 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:33.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=189), done
+
+02:27:34.517 Duty Cycle: [2 7]    14527 +  298124 / 3932111 (7 %)
+
+02:27:36.774 TX MSG 477 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:36.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=190), done
+
+02:27:38.259 TX MSG 478 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:38.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=191), done
+
+02:27:40.509 TX MSG 479 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:40.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=192), done
+
+02:27:43.204 TX MSG 480 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:43.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=193), done
+
+02:27:44.587 TX MSG 481 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:44.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=194), done
+
+02:27:46.852 TX MSG 482 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:46.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=195), done
+
+02:27:48.290 TX MSG 483 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:48.365 contikimac: collisions before sending
+
+02:27:51.149 TX MSG 484 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:51.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=197), done
+
+02:27:52.438 TX MSG 485 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:52.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=198), done
+
+02:27:54.985 TX MSG 486 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:55.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=199), done
+
+02:27:57.040 TX MSG 487 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:57.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=200), done
+
+02:27:58.290 TX MSG 488 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:27:58.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=201), done
+
+02:28:00.985 TX MSG 489 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:01.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=202), done
+
+02:28:03.313 TX MSG 490 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:03.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=203), done
+
+02:28:05.524 TX MSG 491 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:05.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=204), done
+
+02:28:08.306 TX MSG 492 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:08.364 contikimac: collisions before sending
+
+02:28:09.876 TX MSG 493 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:10.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=206), done
+
+02:28:11.485 TX MSG 494 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:11.642 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=207), done
+
+02:28:13.353 TX MSG 495 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:13.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=208), done
+
+02:28:15.204 TX MSG 496 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:15.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=209), done
+
+02:28:17.212 TX MSG 497 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:17.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=210), done
+
+02:28:19.603 TX MSG 498 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:19.764 contikimac: send (strobes=26, len=64, no ack, no collision, phase=0, seqno=211), done
+
+02:28:20.790 TX MSG 499 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:20.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=212), done
+
+02:28:22.790 TX MSG 500 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:22.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=213), done
+
+02:28:24.704 TX MSG 501 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:24.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=214), done
+
+02:28:25.783 TX MSG 502 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:25.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=215), done
+
+02:28:27.744 TX MSG 503 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:27.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=216), done
+
+02:28:29.275 TX MSG 504 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:29.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=217), done
+
+02:28:30.626 TX MSG 505 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:30.740 contikimac: collisions before sending
+
+02:28:32.392 TX MSG 506 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:32.517 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=219), done
+
+02:28:34.018 TX MSG 507 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:34.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=220), done
+
+02:28:36.744 TX MSG 508 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:36.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=221), done
+
+02:28:38.501 TX MSG 509 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:38.614 contikimac: collisions before sending
+
+02:28:40.548 TX MSG 510 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:40.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=223), done
+
+02:28:43.322 TX MSG 511 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:43.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=224), done
+
+02:28:46.072 TX MSG 512 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:46.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=225), done
+
+02:28:47.736 TX MSG 513 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:47.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=226), done
+
+02:28:49.564 TX MSG 514 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:49.614 contikimac: collisions before sending
+
+02:28:50.986 TX MSG 515 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:51.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=228), done
+
+02:28:53.267 TX MSG 516 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:53.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=229), done
+
+02:28:54.338 TX MSG 517 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:54.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=230), done
+
+02:28:55.447 TX MSG 518 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:55.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=231), done
+
+02:28:56.814 TX MSG 519 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:56.864 contikimac: collisions before sending
+
+02:28:59.353 TX MSG 520 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:28:59.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=233), done
+
+02:29:00.900 TX MSG 521 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:01.011 contikimac: send (strobes=0, len=64, ack, no collision, phase=1, seqno=234), done
+
+02:29:02.791 TX MSG 522 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:02.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=235), done
+
+02:29:05.314 TX MSG 523 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:05.364 contikimac: collisions before sending
+
+02:29:06.814 TX MSG 524 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:06.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=237), done
+
+02:29:08.228 TX MSG 525 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:08.267 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=238), done
+
+02:29:10.846 TX MSG 526 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:10.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=239), done
+
+02:29:12.072 TX MSG 527 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:12.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=240), done
+
+02:29:13.103 TX MSG 528 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:13.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=241), done
+
+02:29:15.994 TX MSG 529 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:16.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=242), done
+
+02:29:17.853 TX MSG 530 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:17.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=243), done
+
+02:29:19.010 TX MSG 531 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:19.142 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=244), done
+
+02:29:21.236 TX MSG 532 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:21.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=245), done
+
+02:29:23.299 TX MSG 533 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:23.392 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=246), done
+
+02:29:24.846 TX MSG 534 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:24.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=247), done
+
+02:29:25.947 TX MSG 535 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:26.017 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=248), done
+
+02:29:28.197 TX MSG 536 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:28.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=249), done
+
+02:29:29.893 TX MSG 537 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:30.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=250), done
+
+02:29:31.135 TX MSG 538 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:31.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=251), done
+
+02:29:32.354 TX MSG 539 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:32.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=252), done
+
+02:29:34.519 Duty Cycle: [2 8]    18135 +  292132 / 3932144 (7 %)
+
+02:29:34.830 TX MSG 540 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:34.864 contikimac: collisions before sending
+
+02:29:37.752 TX MSG 541 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:37.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=254), done
+
+02:29:39.768 TX MSG 542 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:39.892 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=255), done
+
+02:29:42.635 TX MSG 543 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:42.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=1), done
+
+02:29:45.612 TX MSG 544 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:45.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=2), done
+
+02:29:46.619 TX MSG 545 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:46.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=3), done
+
+02:29:48.916 TX MSG 546 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:49.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=4), done
+
+02:29:51.721 TX MSG 547 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:51.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=5), done
+
+02:29:52.768 TX MSG 548 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:52.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=6), done
+
+02:29:54.221 TX MSG 549 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:54.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=7), done
+
+02:29:56.252 TX MSG 550 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:56.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=8), done
+
+02:29:59.213 TX MSG 551 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:29:59.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=9), done
+
+02:30:00.401 TX MSG 552 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:00.489 contikimac: collisions before sending
+
+02:30:02.932 TX MSG 553 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:03.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=11), done
+
+02:30:05.698 TX MSG 554 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:05.739 contikimac: collisions before sending
+
+02:30:08.018 TX MSG 555 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:08.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=13), done
+
+02:30:09.745 TX MSG 556 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:09.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=14), done
+
+02:30:11.534 TX MSG 557 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:11.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=15), done
+
+02:30:12.581 TX MSG 558 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:12.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=16), done
+
+02:30:15.136 TX MSG 559 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:15.243 contikimac: collisions before sending
+
+02:30:18.049 TX MSG 560 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:18.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=18), done
+
+02:30:19.245 TX MSG 561 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:19.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=19), done
+
+02:30:21.909 TX MSG 562 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:22.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=20), done
+
+02:30:24.620 TX MSG 563 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:24.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=21), done
+
+02:30:27.049 TX MSG 564 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:27.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=22), done
+
+02:30:29.151 TX MSG 565 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:29.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=23), done
+
+02:30:31.261 TX MSG 566 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:31.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=24), done
+
+02:30:33.636 TX MSG 567 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:33.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=25), done
+
+02:30:35.956 TX MSG 568 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:36.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=26), done
+
+02:30:38.464 TX MSG 569 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:38.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=27), done
+
+02:30:41.354 TX MSG 570 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:41.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=28), done
+
+02:30:42.917 TX MSG 571 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:43.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=29), done
+
+02:30:45.761 TX MSG 572 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:45.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=30), done
+
+02:30:47.347 TX MSG 573 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:47.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=31), done
+
+02:30:49.573 TX MSG 574 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:49.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=32), done
+
+02:30:51.605 TX MSG 575 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:51.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=33), done
+
+02:30:53.464 TX MSG 576 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:53.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=34), done
+
+02:30:56.323 TX MSG 577 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:56.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=35), done
+
+02:30:58.659 TX MSG 578 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:30:58.739 contikimac: collisions before sending
+
+02:31:00.714 TX MSG 579 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:00.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=37), done
+
+02:31:03.441 TX MSG 580 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:03.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=38), done
+
+02:31:05.675 TX MSG 581 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:05.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=39), done
+
+02:31:07.667 TX MSG 582 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:07.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=40), done
+
+02:31:09.105 TX MSG 583 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:09.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=41), done
+
+02:31:10.277 TX MSG 584 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:10.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=42), done
+
+02:31:12.199 TX MSG 585 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:12.239 contikimac: collisions before sending
+
+02:31:13.800 TX MSG 586 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:13.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=44), done
+
+02:31:15.425 TX MSG 587 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:15.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=45), done
+
+02:31:16.995 TX MSG 588 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:17.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=46), done
+
+02:31:18.699 TX MSG 589 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:18.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=47), done
+
+02:31:20.785 TX MSG 590 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:20.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=48), done
+
+02:31:22.597 TX MSG 591 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:22.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=49), done
+
+02:31:25.121 TX MSG 592 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:25.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=50), done
+
+02:31:27.511 TX MSG 593 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:27.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=51), done
+
+02:31:29.261 TX MSG 594 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:29.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=52), done
+
+02:31:31.613 TX MSG 595 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:31.739 contikimac: collisions before sending
+
+02:31:33.574 TX MSG 596 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:33.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=54), done
+
+02:31:34.520 Duty Cycle: [2 9]    13441 +  283079 / 3932132 (7 %)
+
+02:31:36.246 TX MSG 597 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:36.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=55), done
+
+02:31:39.145 TX MSG 598 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:39.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=56), done
+
+02:31:41.527 TX MSG 599 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:41.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=57), done
+
+02:31:44.316 TX MSG 600 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:44.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=58), done
+
+02:31:46.363 TX MSG 601 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:46.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=59), done
+
+02:31:47.918 TX MSG 602 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:48.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=60), done
+
+02:31:49.824 TX MSG 603 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:49.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=61), done
+
+02:31:52.020 TX MSG 604 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:52.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=62), done
+
+02:31:53.762 TX MSG 605 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:53.864 contikimac: collisions before sending
+
+02:31:54.863 TX MSG 606 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:55.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=64), done
+
+02:31:57.801 TX MSG 607 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:31:57.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=65), done
+
+02:32:00.434 TX MSG 608 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:00.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=66), done
+
+02:32:02.949 TX MSG 609 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:03.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=67), done
+
+02:32:05.598 TX MSG 610 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:05.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=68), done
+
+02:32:07.113 TX MSG 611 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:07.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=69), done
+
+02:32:09.652 TX MSG 612 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:09.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=70), done
+
+02:32:12.449 TX MSG 613 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:12.489 contikimac: collisions before sending
+
+02:32:14.340 TX MSG 614 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:14.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=72), done
+
+02:32:15.840 TX MSG 615 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:15.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=73), done
+
+02:32:17.785 TX MSG 616 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:17.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=74), done
+
+02:32:20.363 TX MSG 617 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:20.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=75), done
+
+02:32:21.824 TX MSG 618 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:21.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=76), done
+
+02:32:22.856 TX MSG 619 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:22.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=77), done
+
+02:32:25.746 TX MSG 620 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:25.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=78), done
+
+02:32:27.012 TX MSG 621 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:27.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=79), done
+
+02:32:28.137 TX MSG 622 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:28.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=80), done
+
+02:32:30.363 TX MSG 623 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:30.489 contikimac: collisions before sending
+
+02:32:31.699 TX MSG 624 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:31.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=82), done
+
+02:32:33.246 TX MSG 625 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:33.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=83), done
+
+02:32:34.301 TX MSG 626 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:34.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=84), done
+
+02:32:35.707 TX MSG 627 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:35.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=85), done
+
+02:32:37.402 TX MSG 628 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:37.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=86), done
+
+02:32:38.637 TX MSG 629 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:38.739 contikimac: collisions before sending
+
+02:32:39.973 TX MSG 630 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:40.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=88), done
+
+02:32:42.457 TX MSG 631 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:42.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=89), done
+
+02:32:44.590 TX MSG 632 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:44.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=90), done
+
+02:32:46.606 TX MSG 633 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:46.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=91), done
+
+02:32:48.793 TX MSG 634 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:48.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=92), done
+
+02:32:51.762 TX MSG 635 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:51.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=93), done
+
+02:32:53.809 TX MSG 636 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:53.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=94), done
+
+02:32:56.106 TX MSG 637 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:56.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=95), done
+
+02:32:58.950 TX MSG 638 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:32:59.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=96), done
+
+02:32:59.950 TX MSG 639 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:00.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=97), done
+
+02:33:01.395 TX MSG 640 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:01.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=98), done
+
+02:33:03.388 TX MSG 641 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:03.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=99), done
+
+02:33:06.356 TX MSG 642 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:06.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=100), done
+
+02:33:07.583 TX MSG 643 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:07.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=101), done
+
+02:33:09.934 TX MSG 644 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:10.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=102), done
+
+02:33:12.700 TX MSG 645 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:12.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=103), done
+
+02:33:15.317 TX MSG 646 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:15.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=104), done
+
+02:33:17.036 TX MSG 647 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:17.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=105), done
+
+02:33:19.794 TX MSG 648 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:19.864 contikimac: collisions before sending
+
+02:33:22.349 TX MSG 649 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:22.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=107), done
+
+02:33:24.169 TX MSG 650 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:24.239 contikimac: collisions before sending
+
+02:33:26.903 TX MSG 651 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:27.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=109), done
+
+02:33:29.567 TX MSG 652 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:29.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=110), done
+
+02:33:31.989 TX MSG 653 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:32.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=111), done
+
+02:33:34.419 TX MSG 654 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:34.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=112), done
+
+02:33:34.524 Duty Cycle: [2 10]    13973 +  293706 / 3932203 (7 %)
+
+02:33:36.544 TX MSG 655 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:36.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=113), done
+
+02:33:38.614 TX MSG 656 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:38.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=114), done
+
+02:33:40.817 TX MSG 657 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:40.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=115), done
+
+02:33:43.403 TX MSG 658 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:43.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=116), done
+
+02:33:45.060 TX MSG 659 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:45.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=117), done
+
+02:33:48.036 TX MSG 660 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:48.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=118), done
+
+02:33:49.521 TX MSG 661 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:49.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=119), done
+
+02:33:51.771 TX MSG 662 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:51.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=120), done
+
+02:33:54.622 TX MSG 663 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:54.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=121), done
+
+02:33:56.005 TX MSG 664 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:56.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=122), done
+
+02:33:57.177 TX MSG 665 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:57.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=123), done
+
+02:33:59.357 TX MSG 666 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:33:59.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=124), done
+
+02:34:02.271 TX MSG 667 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:02.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=125), done
+
+02:34:04.099 TX MSG 668 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:04.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=126), done
+
+02:34:07.099 TX MSG 669 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:07.114 contikimac: collisions before sending
+
+02:34:09.661 TX MSG 670 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:09.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=128), done
+
+02:34:12.068 TX MSG 671 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:12.114 contikimac: collisions before sending
+
+02:34:14.763 TX MSG 672 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:14.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=130), done
+
+02:34:17.005 TX MSG 673 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:17.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=131), done
+
+02:34:19.333 TX MSG 674 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:19.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=132), done
+
+02:34:20.771 TX MSG 675 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:20.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=133), done
+
+02:34:22.373 TX MSG 676 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:22.639 contikimac: send (strobes=26, len=64, no ack, no collision, phase=0, seqno=134), done
+
+02:34:23.388 TX MSG 677 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:23.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=135), done
+
+02:34:24.545 TX MSG 678 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:24.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=136), done
+
+02:34:26.170 TX MSG 679 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:26.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=137), done
+
+02:34:27.209 TX MSG 680 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:27.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=138), done
+
+02:34:28.912 TX MSG 681 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:28.989 contikimac: collisions before sending
+
+02:34:30.998 TX MSG 682 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:31.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=140), done
+
+02:34:32.154 TX MSG 683 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:32.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=141), done
+
+02:34:34.631 TX MSG 684 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:34.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=142), done
+
+02:34:37.615 TX MSG 685 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:37.739 contikimac: collisions before sending
+
+02:34:39.357 TX MSG 686 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:39.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=144), done
+
+02:34:41.584 TX MSG 687 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:41.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=145), done
+
+02:34:44.467 TX MSG 688 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:44.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=146), done
+
+02:34:46.232 TX MSG 689 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:46.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=147), done
+
+02:34:49.170 TX MSG 690 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:49.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=148), done
+
+02:34:51.889 TX MSG 691 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:51.989 contikimac: collisions before sending
+
+02:34:54.350 TX MSG 692 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:54.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=150), done
+
+02:34:56.443 TX MSG 693 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:56.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=151), done
+
+02:34:57.998 TX MSG 694 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:34:58.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=152), done
+
+02:35:00.748 TX MSG 695 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:00.864 contikimac: collisions before sending
+
+02:35:02.943 TX MSG 696 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:03.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=154), done
+
+02:35:04.772 TX MSG 697 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:04.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=155), done
+
+02:35:06.490 TX MSG 698 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:06.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=156), done
+
+02:35:08.772 TX MSG 699 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:08.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=157), done
+
+02:35:09.881 TX MSG 700 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:10.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=158), done
+
+02:35:12.397 TX MSG 701 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:12.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=159), done
+
+02:35:13.772 TX MSG 702 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:13.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=160), done
+
+02:35:15.248 TX MSG 703 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:15.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=161), done
+
+02:35:17.787 TX MSG 704 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:17.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=162), done
+
+02:35:20.584 TX MSG 705 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:20.614 contikimac: collisions before sending
+
+02:35:23.240 TX MSG 706 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:23.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=164), done
+
+02:35:24.740 TX MSG 707 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:24.864 contikimac: collisions before sending
+
+02:35:27.225 TX MSG 708 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:27.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=166), done
+
+02:35:28.733 TX MSG 709 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:28.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=167), done
+
+02:35:30.459 TX MSG 710 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:30.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=168), done
+
+02:35:33.311 TX MSG 711 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:33.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=169), done
+
+02:35:34.523 Duty Cycle: [2 11]    16391 +  292971 / 3932061 (7 %)
+
+02:35:34.576 TX MSG 712 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:34.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=170), done
+
+02:35:35.694 TX MSG 713 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:35.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=171), done
+
+02:35:37.912 TX MSG 714 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:38.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=172), done
+
+02:35:40.202 TX MSG 715 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:40.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=173), done
+
+02:35:41.748 TX MSG 716 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:41.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=174), done
+
+02:35:42.803 TX MSG 717 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:42.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=175), done
+
+02:35:44.209 TX MSG 718 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:44.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=176), done
+
+02:35:45.936 TX MSG 719 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:46.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=177), done
+
+02:35:47.170 TX MSG 720 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:47.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=178), done
+
+02:35:50.163 TX MSG 721 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:50.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=179), done
+
+02:35:52.600 TX MSG 722 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:52.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=180), done
+
+02:35:54.780 TX MSG 723 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:54.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=181), done
+
+02:35:56.795 TX MSG 724 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:56.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=182), done
+
+02:35:58.944 TX MSG 725 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:35:58.997 contikimac: collisions before sending
+
+02:36:01.569 TX MSG 726 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:01.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=184), done
+
+02:36:03.608 TX MSG 727 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:03.765 contikimac: send (strobes=25, len=64, ack, no collision, phase=5, seqno=185), done
+
+02:36:06.069 TX MSG 728 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:06.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=186), done
+
+02:36:08.874 TX MSG 729 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:09.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=187), done
+
+02:36:09.874 TX MSG 730 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:10.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=188), done
+
+02:36:11.319 TX MSG 731 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:11.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=189), done
+
+02:36:13.303 TX MSG 732 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:13.364 contikimac: collisions before sending
+
+02:36:15.382 TX MSG 733 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:15.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=191), done
+
+02:36:17.265 TX MSG 734 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:17.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=192), done
+
+02:36:18.944 TX MSG 735 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:19.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=193), done
+
+02:36:20.843 TX MSG 736 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:20.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=194), done
+
+02:36:22.218 TX MSG 737 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:22.239 contikimac: collisions before sending
+
+02:36:23.577 TX MSG 738 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:23.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=196), done
+
+02:36:25.030 TX MSG 739 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:25.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=197), done
+
+02:36:27.866 TX MSG 740 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:28.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=198), done
+
+02:36:30.773 TX MSG 741 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:30.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=199), done
+
+02:36:32.007 TX MSG 742 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:32.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=200), done
+
+02:36:34.148 TX MSG 743 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:34.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=201), done
+
+02:36:36.648 TX MSG 744 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:36.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=202), done
+
+02:36:38.593 TX MSG 745 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:38.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=203), done
+
+02:36:40.226 TX MSG 746 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:40.239 contikimac: collisions before sending
+
+02:36:41.757 TX MSG 747 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:41.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=205), done
+
+02:36:43.405 TX MSG 748 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:43.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=206), done
+
+02:36:45.530 TX MSG 749 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:45.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=207), done
+
+02:36:47.070 TX MSG 750 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:47.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=208), done
+
+02:36:49.273 TX MSG 751 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:49.364 contikimac: collisions before sending
+
+02:36:51.070 TX MSG 752 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:51.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=210), done
+
+02:36:52.726 TX MSG 753 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:52.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=211), done
+
+02:36:55.749 TX MSG 754 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:55.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=212), done
+
+02:36:57.234 TX MSG 755 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:57.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=213), done
+
+02:36:59.515 TX MSG 756 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:36:59.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=214), done
+
+02:37:02.210 TX MSG 757 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:02.239 contikimac: collisions before sending
+
+02:37:04.390 TX MSG 758 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:04.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=216), done
+
+02:37:06.663 TX MSG 759 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:06.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=217), done
+
+02:37:08.062 TX MSG 760 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:08.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=218), done
+
+02:37:09.281 TX MSG 761 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:09.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=219), done
+
+02:37:10.570 TX MSG 762 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:10.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=220), done
+
+02:37:13.523 TX MSG 763 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:13.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=221), done
+
+02:37:15.585 TX MSG 764 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:15.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=222), done
+
+02:37:17.992 TX MSG 765 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:18.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=223), done
+
+02:37:20.687 TX MSG 766 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:20.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=224), done
+
+02:37:22.921 TX MSG 767 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:23.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=225), done
+
+02:37:25.132 TX MSG 768 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:25.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=226), done
+
+02:37:26.570 TX MSG 769 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:26.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=227), done
+
+02:37:28.171 TX MSG 770 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:28.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=228), done
+
+02:37:29.187 TX MSG 771 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:29.239 contikimac: collisions before sending
+
+02:37:30.336 TX MSG 772 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:30.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=230), done
+
+02:37:32.304 TX MSG 773 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:32.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=231), done
+
+02:37:33.343 TX MSG 774 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:33.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=232), done
+
+02:37:34.524 Duty Cycle: [2 12]    18275 +  291432 / 3932128 (7 %)
+
+02:37:35.047 TX MSG 775 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:35.114 contikimac: collisions before sending
+
+02:37:36.851 TX MSG 776 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:36.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=234), done
+
+02:37:38.046 TX MSG 777 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:38.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=235), done
+
+02:37:40.524 TX MSG 778 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:40.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=236), done
+
+02:37:43.516 TX MSG 779 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:43.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=237), done
+
+02:37:45.484 TX MSG 780 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:45.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=238), done
+
+02:37:47.703 TX MSG 781 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:47.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=239), done
+
+02:37:50.586 TX MSG 782 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:50.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=240), done
+
+02:37:52.351 TX MSG 783 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:52.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=241), done
+
+02:37:55.289 TX MSG 784 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:55.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=242), done
+
+02:37:58.008 TX MSG 785 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:58.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=243), done
+
+02:37:59.766 TX MSG 786 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:37:59.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=244), done
+
+02:38:01.820 TX MSG 787 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:01.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=245), done
+
+02:38:03.375 TX MSG 788 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:03.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=246), done
+
+02:38:06.125 TX MSG 789 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:06.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=247), done
+
+02:38:08.320 TX MSG 790 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:08.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=248), done
+
+02:38:10.149 TX MSG 791 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:10.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=249), done
+
+02:38:11.867 TX MSG 792 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:11.989 contikimac: collisions before sending
+
+02:38:14.500 TX MSG 793 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:14.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=251), done
+
+02:38:15.602 TX MSG 794 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:15.614 contikimac: collisions before sending
+
+02:38:18.266 TX MSG 795 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:18.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=253), done
+
+02:38:19.641 TX MSG 796 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:19.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=254), done
+
+02:38:20.953 TX MSG 797 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:21.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=255), done
+
+02:38:22.461 TX MSG 798 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:22.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=1), done
+
+02:38:25.258 TX MSG 799 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:25.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=2), done
+
+02:38:27.781 TX MSG 800 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:27.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=3), done
+
+02:38:29.282 TX MSG 801 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:29.364 contikimac: collisions before sending
+
+02:38:30.524 TX MSG 802 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:30.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=5), done
+
+02:38:33.110 TX MSG 803 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:33.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=6), done
+
+02:38:34.571 TX MSG 804 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:34.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=7), done
+
+02:38:35.602 TX MSG 805 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:35.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=8), done
+
+02:38:38.493 TX MSG 806 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:38.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=9), done
+
+02:38:40.352 TX MSG 807 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:40.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=10), done
+
+02:38:41.508 TX MSG 808 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:41.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=11), done
+
+02:38:43.727 TX MSG 809 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:43.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=12), done
+
+02:38:45.024 TX MSG 810 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:45.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=13), done
+
+02:38:46.579 TX MSG 811 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:46.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=14), done
+
+02:38:47.633 TX MSG 812 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:47.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=15), done
+
+02:38:49.907 TX MSG 813 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:50.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=16), done
+
+02:38:51.602 TX MSG 814 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:51.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=17), done
+
+02:38:52.876 TX MSG 815 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:53.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=18), done
+
+02:38:55.313 TX MSG 816 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:55.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=19), done
+
+02:38:57.446 TX MSG 817 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:57.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=20), done
+
+02:38:59.461 TX MSG 818 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:38:59.489 contikimac: collisions before sending
+
+02:39:01.610 TX MSG 819 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:01.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=22), done
+
+02:39:04.579 TX MSG 820 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:04.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=23), done
+
+02:39:05.587 TX MSG 821 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:05.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=24), done
+
+02:39:07.884 TX MSG 822 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:08.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=25), done
+
+02:39:10.688 TX MSG 823 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:10.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=26), done
+
+02:39:11.688 TX MSG 824 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:11.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=27), done
+
+02:39:13.134 TX MSG 825 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:13.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=28), done
+
+02:39:15.118 TX MSG 826 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:15.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=29), done
+
+02:39:18.079 TX MSG 827 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:18.114 contikimac: collisions before sending
+
+02:39:20.759 TX MSG 828 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:20.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=31), done
+
+02:39:23.110 TX MSG 829 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:23.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=32), done
+
+02:39:24.470 TX MSG 830 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:24.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=33), done
+
+02:39:27.134 TX MSG 831 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:27.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=34), done
+
+02:39:28.696 TX MSG 832 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:28.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=35), done
+
+02:39:31.454 TX MSG 833 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:31.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=36), done
+
+02:39:33.595 TX MSG 834 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:33.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=37), done
+
+02:39:34.526 Duty Cycle: [2 13]    14524 +  300692 / 3932133 (8 %)
+
+02:39:36.134 TX MSG 835 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:36.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=38), done
+
+02:39:38.227 TX MSG 836 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:38.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=39), done
+
+02:39:39.900 TX MSG 837 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:40.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=40), done
+
+02:39:42.329 TX MSG 838 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:42.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=41), done
+
+02:39:43.978 TX MSG 839 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:44.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=42), done
+
+02:39:46.142 TX MSG 840 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:46.239 contikimac: collisions before sending
+
+02:39:48.509 TX MSG 841 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:48.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=44), done
+
+02:39:50.712 TX MSG 842 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:50.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=45), done
+
+02:39:53.017 TX MSG 843 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:53.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=46), done
+
+02:39:54.681 TX MSG 844 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:54.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=47), done
+
+02:39:57.626 TX MSG 845 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:57.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=48), done
+
+02:39:59.111 TX MSG 846 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:39:59.265 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=49), done
+
+02:40:01.572 TX MSG 847 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:01.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=50), done
+
+02:40:04.259 TX MSG 848 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:04.391 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=51), done
+
+02:40:06.525 TX MSG 849 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:06.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=52), done
+
+02:40:07.931 TX MSG 850 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:08.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=53), done
+
+02:40:09.150 TX MSG 851 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:09.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=54), done
+
+02:40:10.447 TX MSG 852 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:10.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=55), done
+
+02:40:13.400 TX MSG 853 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:13.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=56), done
+
+02:40:15.462 TX MSG 854 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:15.489 contikimac: collisions before sending
+
+02:40:17.103 TX MSG 855 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:17.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=58), done
+
+02:40:19.837 TX MSG 856 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:19.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=59), done
+
+02:40:22.166 TX MSG 857 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:22.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=60), done
+
+02:40:24.377 TX MSG 858 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:24.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=61), done
+
+02:40:27.158 TX MSG 859 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:27.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=62), done
+
+02:40:28.759 TX MSG 860 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:28.864 contikimac: collisions before sending
+
+02:40:29.775 TX MSG 861 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:29.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=64), done
+
+02:40:31.650 TX MSG 862 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:31.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=65), done
+
+02:40:33.627 TX MSG 863 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:33.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=66), done
+
+02:40:35.635 TX MSG 864 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:35.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=67), done
+
+02:40:36.931 TX MSG 865 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:36.989 contikimac: collisions before sending
+
+02:40:38.088 TX MSG 866 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:38.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=69), done
+
+02:40:40.088 TX MSG 867 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:40.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=70), done
+
+02:40:42.533 TX MSG 868 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:42.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=71), done
+
+02:40:43.611 TX MSG 869 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:43.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=72), done
+
+02:40:45.572 TX MSG 870 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:45.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=73), done
+
+02:40:47.760 TX MSG 871 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:47.890 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=74), done
+
+02:40:49.111 TX MSG 872 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:49.265 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=75), done
+
+02:40:50.877 TX MSG 873 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:51.015 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=76), done
+
+02:40:53.776 TX MSG 874 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:53.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=77), done
+
+02:40:56.502 TX MSG 875 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:56.614 contikimac: collisions before sending
+
+02:40:58.955 TX MSG 876 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:40:59.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=79), done
+
+02:41:01.002 TX MSG 877 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:01.114 contikimac: collisions before sending
+
+02:41:03.229 TX MSG 878 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:03.266 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=81), done
+
+02:41:06.018 TX MSG 879 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:06.141 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=82), done
+
+02:41:07.690 TX MSG 880 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:07.766 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=83), done
+
+02:41:09.518 TX MSG 881 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:09.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=84), done
+
+02:41:11.807 TX MSG 882 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:11.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=85), done
+
+02:41:12.909 TX MSG 883 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:13.016 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=86), done
+
+02:41:15.424 TX MSG 884 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:15.516 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=87), done
+
+02:41:16.791 TX MSG 885 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:16.891 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=88), done
+
+02:41:18.260 TX MSG 886 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:18.390 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=89), done
+
+02:41:20.799 TX MSG 887 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:20.890 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=90), done
+
+02:41:23.596 TX MSG 888 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:23.641 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=91), done
+
+02:41:24.948 TX MSG 889 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:25.015 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=92), done
+
+02:41:26.448 TX MSG 890 12345678901234567890123456789012345678901 (len  = 49) 
+
+02:41:26.515 contikimac: send (strobes=1, len=64, ack, no collision, phase=6, seqno=93), done
+
+02:41:27.797 /home/macfly/Git/contiki/platform/z1/Makefile.common:168: recipe for target 'login' failed
+

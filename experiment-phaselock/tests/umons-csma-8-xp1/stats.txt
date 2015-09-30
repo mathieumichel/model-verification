@@ -1,0 +1,22 @@
+Analyzing the log tests/umons-csma-8-xp1/merged-log.txt ...
+Packet 74 was lost!
+Packet 296 was lost!
+Packet 404 was lost!
+Packet 678 was lost!
+Mean latency: 145.451287794 ms
+St.dev of latencies: 138.868193935
+Sent packets: 897
+Received packets: 893
+PRR: 0.995540691193
+Received acks: 1.00111982083
+Strobes: 1.02125279642
+Phases lost: 0
+Duty Cycle Total 7.7046608004
+Duty Cycle TX 0.243857748486
+Duty Cycle RX 7.46080305192
+DC TX1 0.0
+DC RX1 7.6353601153
+DC 1 7.6353601153
+DC TX2 0.487715496971
+DC RX2 7.28624598853
+DC 2 7.7739614855
